@@ -22,7 +22,7 @@ Remove envelope: sudo apt-get remove indicator-messages
 
 Install Programs first so they are on HDD
 Install from ubuntu software centre: audacity, RecordMyDesktop, VLC, Geogebra, Stellarium, Idle (python), wine, gummi, GIMP,
-liferea RSS reader, Kolourpaint, openshot, pdf-shuffler, adobe flash plugin (for mozilla), chromium, vim, git, anki, synaptic package manager, vnstat
+liferea RSS reader, Kolourpaint, openshot, pdf-shuffler, adobe flash plugin (for mozilla), chromium, vim, git, anki, synaptic package manager, vnstat, pdflatex
 Install from internet: mathematica
 
 Install Java: http://ubuntuhandbook.org/index.php/2014/02/install-oracle-java-6-7-or-8-ubuntu-14-04/
@@ -98,7 +98,7 @@ OpenCV - save the code they provide:
 lankhttps://help.ubuntu.com/community/OpenCV
 
 Latex packages  
--software centre: texlive, texlive-latex-extra and apt-file
+-software centre: texlive-full, texlive-latex-extra and apt-file
 -run in terminal: apt-file update
 -to find if you have the package: ~$ apt-file -x search '/gensymb.sty$' gensymb.sty is the file to find
 
@@ -109,6 +109,10 @@ delete contents of downloads folder.
 
 
 
+
+
+chromebook:
+fix font on terminal ubuntu - ttf-ubuntu-font-family
 
 
 Reminders:
