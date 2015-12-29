@@ -114,6 +114,10 @@ delete contents of downloads folder.
 chromebook:
 fix font on terminal ubuntu - ttf-ubuntu-font-family
 
+mousepad: 
+search for cros-haswell-modules.sh,
+sudo bash that file
+to see if it is working, in terminal - xinput list
 
 Reminders:
 Timelapse: http://www.livingunderimagination.com/geekmadness/2012/01/25/using-openshot-to-create-timelapse-videos/

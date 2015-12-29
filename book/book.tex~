@@ -1,0 +1,65 @@
+\documentclass[12pt, a4paper]{book}
+\title{\textbf{Book Title}}
+\author{Author}
+\date{\today \\ Change this line to "$\backslash$date\{\}" to remove the date from the titlepage.$\date{}$}
+\begin{document}
+\maketitle
+
+
+
+\section*{Ideas}
+amature, profesional, consumer\\
+neighbours for characters\\
+choice\\
+freedom of software - piracy\\
+tv shows for adults, suitable for children\\
+charity - money to family or poor people\\
+Starts with someone winning the lottery. Do you buy presents for everyone? how much do you keep? do you give it away now, or keep it for a little bit?\\
+what to do with money\\\\
+rich neighbours, forced to live in a rich world, 'poorer' friends, who are no better off than you\\
+remembering names\\
+euthenasia - climbing a hill\\
+research\\
+Trusting science - getting drinking water from surage, climate change (no), double slit, evolution.
+
+
+\section*{\LaTeX\ Hints}
+Start book here\\Double slash makes you start a new line. 
+You \textbf{cannot} just write on a new line.
+\\If you don't include a * after section, chapter, etc., then it will automatically include a number which can go in contents (if you want a contents page).
+
+\chapter*{Plan}
+What would you do if you won a the lottery?
+Crazy party to celebrate?
+Wouldn't gamble, but bought a raffle ticket and won. Prefer to keep money, as that's 4 cups of coffee. Do you tell your family about your big win? What to do with the money? do you give some money to them? surely not, because poverty stricken people need that money much more then they do, yet you feel obliged to give some to them, yet they don't need it as much as you do.
+A friend gets sick, and needs money, which you supply in confidence. Would it be better to give them money, or give it to poverty stricken people. 
+Grandparents get money, but how much?
+choosing a charity to give the money to.
+
+Later in book, family finds out about the money, and that they didn't get told. Causes issues in the household. 
+
+war - donate money, but where will that go. Refugees - should countries take more. Solving problems with money  is a problem. World overpopulation - should we live in a small world. Honours/epaulettes. 
+
+Unless I lost it under the light, I'll never find it.
+
+people fighting over nothing (sounds vicious, but is pretend)
+
+conversations with clair
+
+\chapter{}
+Describe work. 
+What would you do if you won the lottery?
+\\Ask a few people - Clair.
+
+
+\chapter{}
+Describe more characters (insiration from neighbours). Rich neighbours, poorer neighbours, being forced to live in a rich area - prejudice from friends.
+\\\\
+
+\chapter{}
+
+
+\chapter{}
+\chapter{}
+\chapter{}
+\end{document}
