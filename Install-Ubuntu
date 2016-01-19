@@ -107,6 +107,14 @@ sudo apt-get upgrade
 
 delete contents of downloads folder.
 
+ 
+
+
+.ssh:
+sudo apt-get install openssh-client openssh-server
+on chromebook - add Secure Shell
+get ip address from desired computer (Connection Information -> Wired connection -> IP Address)
+username is your usual user name, IP address is this. you will be asked to enter your password.
 
 
 
