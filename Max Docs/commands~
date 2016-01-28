@@ -1,0 +1,5 @@
+ssh -Y mwp109@scucomp4.anu.edu.au
+scp -r subfolder/ eme@150.203.178.51:/home/eme/subfolder
+-r is for recursive, so you copy all contents
+gnome-system-monitor
+
