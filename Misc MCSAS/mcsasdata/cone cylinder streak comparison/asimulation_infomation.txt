@@ -1,0 +1,352 @@
+
+
+
+DATE: 21Jan16    TIME: 10:49:20
+Monte Carlo Sequence
+advanced : 1
+altitude : 45
+analytic : 2
+ave_dist : 10000000
+azimuth : 45
+background : 2e-05
+border : 0
+bound : 1
+center : (0, 0)
+circ_delta : 5
+d_lambda : 0.0002
+degrees : 1
+energy_wavelength : 11
+energy_wavelength_box : 0
+fit_background : 1
+fit_file : fit_file
+fit_length_2 : 0
+fit_num : 0
+fit_radius_1 : 1
+fit_radius_2 : 0
+fit_rho_1 : 1
+fit_rho_2 : 0
+fit_x_theta : 1
+fit_y_theta : 1
+fit_z_dim : 1
+fit_z_theta : 1
+gauss : 0
+grid_compression : 0
+length_2 : 0
+log_scale : 1
+mask_threshold : 10
+max_iter : 1000
+maximum : 0.01
+minimum : 1e-08
+num : 1
+num_plots : 1
+numinter : 10
+pixels : 100 100
+plot_fit_tick : 1
+plot_residuals_tick : 1
+proportional_radius : 0.5
+QSize : 12
+Qz : 0
+radius_1 : 10
+radius_2 : 2.5
+rho_1 : 1
+rho_2 : -0.5
+s_start : 0
+s_step : 2
+s_stop : 1
+s_var : x_theta
+save_img : 1
+save_name : a
+save_points : 1
+scale : 1
+SD : 1
+seq_hide : 1
+shape : 5
+subfolder : subfolder
+symmetric : 0
+theta_delta : 20
+ThreeD : 0
+title : a
+update_freq : 0
+x_theta : 10
+xinter : 100
+y_theta : 0
+yinter : 100
+z_dim : 500
+z_scale : 1
+z_theta : 0
+
+Frame 1 of 2
+Start Time: 10:49:20
+Average Plot, plot 1 out of 1
+886739 points were used for the calculation.
+End Time: 10:50:05
+Frame 2 of 2
+Start Time: 10:50:09
+Average Plot, plot 1 out of 1
+887134 points were used for the calculation.
+End Time: 10:50:56
+Frame 3 of 2
+Start Time: 10:51:00
+Average Plot, plot 1 out of 1
+1178369 points were used for the calculation.
+End Time: 10:51:56
+Frame 4 of 2
+Start Time: 10:52:00
+Average Plot, plot 1 out of 1
+1178457 points were used for the calculation.
+
+
+DATE: 21Jan16    TIME: 10:53:02
+Monte Carlo Sequence
+advanced : 1
+altitude : 45
+analytic : 2
+ave_dist : 10000000
+azimuth : 45
+background : 2e-05
+border : 0
+bound : 1
+center : (0, 0)
+circ_delta : 5
+d_lambda : 0.0002
+degrees : 1
+energy_wavelength : 11
+energy_wavelength_box : 0
+fit_background : 1
+fit_file : fit_file
+fit_length_2 : 0
+fit_num : 0
+fit_radius_1 : 1
+fit_radius_2 : 0
+fit_rho_1 : 1
+fit_rho_2 : 0
+fit_x_theta : 1
+fit_y_theta : 1
+fit_z_dim : 1
+fit_z_theta : 1
+gauss : 0
+grid_compression : 0
+length_2 : 0
+log_scale : 1
+mask_threshold : 10
+max_iter : 1000
+maximum : 0.01
+minimum : 1e-08
+num : 1
+num_plots : 1
+numinter : 10
+pixels : 100 100
+plot_fit_tick : 1
+plot_residuals_tick : 1
+proportional_radius : 0.5
+QSize : 12
+Qz : 0
+radius_1 : 10
+radius_2 : 2.5
+rho_1 : 1
+rho_2 : -0.5
+s_start : 0
+s_step : 2
+s_stop : 1
+s_var : x_theta
+save_img : 1
+save_name : a
+save_points : 0
+scale : 1
+SD : 1
+seq_hide : 1
+shape : 5
+subfolder : subfolder
+symmetric : 0
+theta_delta : 20
+ThreeD : 0
+title : a
+update_freq : 0
+x_theta : 10
+xinter : 100
+y_theta : 0
+yinter : 100
+z_dim : 500
+z_scale : 1
+z_theta : 0
+
+Frame 1 of 2
+Start Time: 10:53:02
+Average Plot, plot 1 out of 1
+886735 points were used for the calculation.
+End Time: 10:53:40
+Frame 2 of 2
+Start Time: 10:53:44
+Average Plot, plot 1 out of 1
+886785 points were used for the calculation.
+End Time: 10:54:23
+Frame 3 of 2
+Start Time: 10:54:27
+Average Plot, plot 1 out of 1
+1178439 points were used for the calculation.
+End Time: 10:55:13
+Frame 4 of 2
+Start Time: 10:55:16
+Average Plot, plot 1 out of 1
+1177954 points were used for the calculation.
+End Time: 10:56:01
+Frame 5 of 2
+Start Time: 10:56:04
+Average Plot, plot 1 out of 1
+2006207 points were used for the calculation.
+End Time: 10:57:07
+Frame 6 of 2
+Start Time: 10:57:11
+Average Plot, plot 1 out of 1
+2006098 points were used for the calculation.
+End Time: 10:58:13
+Frame 7 of 2
+Start Time: 10:58:16
+Average Plot, plot 1 out of 1
+3014190 points were used for the calculation.
+End Time: 11:00:40
+Frame 8 of 2
+Start Time: 11:00:44
+Average Plot, plot 1 out of 1
+3014432 points were used for the calculation.
+End Time: 11:03:17
+Frame 9 of 2
+Start Time: 11:03:21
+Average Plot, plot 1 out of 1
+3467153 points were used for the calculation.
+End Time: 11:06:01
+Frame 10 of 2
+Start Time: 11:06:04
+Average Plot, plot 1 out of 1
+3466968 points were used for the calculation.
+End Time: 11:08:47
+Frame 11 of 2
+Start Time: 11:08:51
+Average Plot, plot 1 out of 1
+4618204 points were used for the calculation.
+End Time: 11:11:58
+Frame 12 of 2
+Start Time: 11:12:02
+Average Plot, plot 1 out of 1
+4617809 points were used for the calculation.
+End Time: 11:15:07
+Frame 13 of 2
+Start Time: 11:15:11
+Average Plot, plot 1 out of 1
+2213542 points were used for the calculation.
+End Time: 11:16:48
+Frame 14 of 2
+Start Time: 11:16:51
+Average Plot, plot 1 out of 1
+2213533 points were used for the calculation.
+End Time: 11:18:31
+Frame 15 of 2
+Start Time: 11:18:35
+Average Plot, plot 1 out of 1
+2941407 points were used for the calculation.
+End Time: 11:20:29
+Frame 16 of 2
+Start Time: 11:20:33
+Average Plot, plot 1 out of 1
+2941681 points were used for the calculation.
+End Time: 11:22:34
+Frame 17 of 2
+Start Time: 11:22:38
+Average Plot, plot 1 out of 1
+5007650 points were used for the calculation.
+End Time: 11:25:14
+Frame 18 of 2
+Start Time: 11:25:18
+Average Plot, plot 1 out of 1
+5007599 points were used for the calculation.
+End Time: 11:28:01
+Frame 19 of 2
+Start Time: 11:28:05
+Average Plot, plot 1 out of 1
+7526336 points were used for the calculation.
+End Time: 11:34:09
+Frame 20 of 2
+Start Time: 11:34:13
+Average Plot, plot 1 out of 1
+7525723 points were used for the calculation.
+End Time: 11:40:17
+Frame 21 of 2
+Start Time: 11:40:21
+Average Plot, plot 1 out of 1
+8656611 points were used for the calculation.
+End Time: 11:47:10
+Frame 22 of 2
+Start Time: 11:47:14
+Average Plot, plot 1 out of 1
+8656123 points were used for the calculation.
+End Time: 11:53:58
+Frame 23 of 2
+Start Time: 11:54:02
+Average Plot, plot 1 out of 1
+11528688 points were used for the calculation.
+End Time: 12:01:57
+Frame 24 of 2
+Start Time: 12:02:01
+Average Plot, plot 1 out of 1
+11528109 points were used for the calculation.
+End Time: 12:10:15
+Frame 25 of 2
+Start Time: 12:10:19
+Average Plot, plot 1 out of 1
+4425507 points were used for the calculation.
+End Time: 12:13:37
+Frame 26 of 2
+Start Time: 12:13:41
+Average Plot, plot 1 out of 1
+4425632 points were used for the calculation.
+End Time: 12:17:09
+Frame 27 of 2
+Start Time: 12:17:13
+Average Plot, plot 1 out of 1
+5879224 points were used for the calculation.
+End Time: 12:21:16
+Frame 28 of 2
+Start Time: 12:21:19
+Average Plot, plot 1 out of 1
+5879366 points were used for the calculation.
+End Time: 12:25:12
+Frame 29 of 2
+Start Time: 12:25:16
+Average Plot, plot 1 out of 1
+10010839 points were used for the calculation.
+End Time: 12:30:53
+Frame 30 of 2
+Start Time: 12:30:56
+Average Plot, plot 1 out of 1
+10010190 points were used for the calculation.
+End Time: 12:36:33
+Frame 31 of 2
+Start Time: 12:36:37
+Average Plot, plot 1 out of 1
+15044990 points were used for the calculation.
+End Time: 12:49:09
+Frame 32 of 2
+Start Time: 12:49:13
+Average Plot, plot 1 out of 1
+15045767 points were used for the calculation.
+End Time: 13:02:00
+Frame 33 of 2
+Start Time: 13:02:04
+Average Plot, plot 1 out of 1
+17304550 points were used for the calculation.
+End Time: 13:15:43
+Frame 34 of 2
+Start Time: 13:15:48
+Average Plot, plot 1 out of 1
+17305452 points were used for the calculation.
+End Time: 13:29:15
+Frame 35 of 2
+Start Time: 13:29:19
+Average Plot, plot 1 out of 1
+23044080 points were used for the calculation.
+End Time: 13:45:04
+Frame 36 of 2
+Start Time: 13:45:09
+Average Plot, plot 1 out of 1
+23046239 points were used for the calculation.
+End Time: 14:00:56
