@@ -1,0 +1,604 @@
+nid	mid	fields
+1405680160170	1405599708170	element&nbsp;	individual objects of a set [$]{x}\in{A}[/$]
+1405681072984	1405599708170	<b>Theorem 1.1.1:</b> There is no _____ number whose square is 2.	There is no <i>rational</i> number whose square is 2.
+1405681139160	1405599708170	<b>N</b>	<i>natural numbers</i>&nbsp;= {1,2,3,4,5, ... }
+1405681202646	1405599708170	<b>Z</b>	<i>integers&nbsp;{ ... ,-3,-2,-1,0,1,2,3, ... }</i>
+1405681233017	1405599708170	<b>Q</b>	<i>rational numbers&nbsp;</i><img src="paste-19288698126339.jpg" />
+1405681259292	1405599708170	field	<div>a field &nbsp;is &nbsp;any set where addition and multiplication are well-defined operations&nbsp;</div><div>that are commutative, &nbsp;associative, &nbsp;and obey the familiar &nbsp;distributive property&nbsp;</div><div>a(b + c) &nbsp;= ab + ac. &nbsp;There must be an additive identity, and every element must&nbsp;</div><div>have &nbsp;an additive inverse. &nbsp;Finally, &nbsp;there must be a &nbsp;multiplicative identity, &nbsp;and&nbsp;</div><div>multiplicative inverses must exist for &nbsp;all nonzero elements of the field. &nbsp;Neither&nbsp;</div><div><b>Z</b> &nbsp;nor &nbsp;<b>N</b> &nbsp;is &nbsp;a &nbsp;field. &nbsp;The &nbsp;finite &nbsp;set &nbsp;{0, 1,2,3,4} &nbsp;is &nbsp;a &nbsp;field &nbsp;when &nbsp;addition &nbsp;and&nbsp;</div><div>multiplication &nbsp;are &nbsp;computed &nbsp;modulo &nbsp;5</div>
+1405681304610	1405599708170	What is meant by "the set <b>Q</b>&nbsp;also has a natural <i>order </i>defined on it"?	<div>Given &nbsp;any &nbsp;two &nbsp;rational&nbsp;</div><div>numbers r and s, &nbsp;exactly one of the following &nbsp;is &nbsp;true:&nbsp;</div><div>r &nbsp;&lt; s, &nbsp;r = &nbsp;s, &nbsp;or &nbsp;r &nbsp;&gt; s.&nbsp;</div><div>This ordering is &nbsp;transitive in the sense that if r &nbsp;&lt; &nbsp;sand s &nbsp;&lt; t, &nbsp;then r &nbsp;&lt; t, &nbsp;so&nbsp;</div><div>we &nbsp;are &nbsp;conveniently &nbsp;led &nbsp;to a &nbsp;mental picture &nbsp;of the &nbsp;rational &nbsp;numbers &nbsp;as &nbsp;being&nbsp;</div><div>laid out from left to right along a number line.&nbsp;</div>
+1405681377961	1405599708170	set	any collection of objects
+1405681675533	1405599708170	[$]{x}\notin{A}[/$]	<i>x</i> is <u>not</u>&nbsp;an element of <i>A</i>
+1405681948010	1405599708170	[$]{A}\cup{B}[/$]	<i>union</i>&nbsp;[$]{x}\in{A}\cup{B}[/$] provided [$]{x}\in{A}[/$] or&nbsp;[$]{x}\in{B}[/$]
+1405682170965	1405599708170	[$]{A}\cap{B}[/$]	<i>intersection&nbsp;</i>[$]{x}\in{A}\cap{B}[/$] provided&nbsp;[$]{x}\in{A}[/$] <u>and</u>&nbsp;[$]{x}\in{B}[/$]
+1405682393297	1405599708170	Read the following aloud: [$]{S}=\{{r}\in{Q} : {r}^{2} &lt; {2}\}[/$]	<div>"Let S &nbsp;be the set of all rational numbers&nbsp;</div><div>whose &nbsp;squares &nbsp;are &nbsp;less &nbsp;than 2."</div>
+1405726399033	1405599708170	[$]\emptyset[/$]	empty set
+1405726485756	1405599708170	<img src="paste-6725918785539.jpg" />	<i>E </i>and <i>S</i>&nbsp;are <i>disjoint</i>
+1405726596169	1405599708170	<img src="paste-7185480286211.jpg" />	<i>inclusion</i>&nbsp;every element of <i>A</i>&nbsp;is also an element of <i>B. A </i>is a <u>subset</u>&nbsp;of <i>B</i>, or <i>B</i>&nbsp;<u>contains</u>&nbsp;A.&nbsp;
+1405726713320	1405599708170	[$]{A}\subseteq{B}[/$] and&nbsp;[$]{B}\subseteq{A}[/$]	<i>A = B</i>
+1405726810964	1405599708170	<img src="paste-8044473745411.jpg" />	The set whose elements consist of any element that appears in <u>at least one</u>&nbsp;particular&nbsp;[$$]{A}_n[/$$]
+1405726899397	1405599708170	<img src="paste-8375186227203.jpg" />	<img src="paste-8388071129091.jpg" />
+1405726976131	1405599708170	De Morgan's Laws:&nbsp;<img src="paste-8976481648643.jpg" />&nbsp;and&nbsp;<img src="paste-8997956485123.jpg" />	<img src="paste-9010841387011.jpg" />
+1405727189972	1405599708170	<i>function</i>	<img src="paste-9534827397123.jpg" />
+1405727262380	1405599708170	<i>Triangle Inequality</i>	<img src="paste-9921374453763.jpg" /><div><img src="paste-9947144257539.jpg" /></div>
+1405727399565	1405599708170	<i>absolute value function</i>	<img src="paste-10355166150659.jpg" />
+1405727431924	1405599708170	<i>direct proof</i>	<div>A &nbsp;direct &nbsp;proof begins &nbsp;from&nbsp;some &nbsp;valid &nbsp;statement, &nbsp;most &nbsp;often &nbsp;taken &nbsp;from &nbsp;the &nbsp;theorem's &nbsp;hypothesis, &nbsp;and then proceeds through rigorously logical deductions to a &nbsp;demonstration of the&nbsp;theorem's &nbsp;conclusion.&nbsp;</div>
+1405727747746	1405599708170	<i>proof by contradiction / indirect proof</i>	<div>an indirect &nbsp;proof always&nbsp;</div><div>begins by negating what it is we would like to prove. &nbsp;This is not always as easy&nbsp;</div><div>to do as it may sound. &nbsp;The argument then proceeds until (hopefully) &nbsp;a logical&nbsp;</div><div>contradiction &nbsp;with &nbsp;some &nbsp;other &nbsp;accepted &nbsp;fact &nbsp;is &nbsp;uncovered. &nbsp;Many &nbsp;times, &nbsp;this&nbsp;</div><div>accepted fact is part of the hypothesis of the theorem.&nbsp;</div>
+1405727791075	1405599708170	<i>contrapositive proof</i>	<div>&nbsp;When the contradiction is&nbsp;</div><div>with the theorem's hypothesis, we technically have what is called a contmpositive&nbsp;</div><div>proof.&nbsp;</div>
+1405727861001	1405599708170	Theorem 1.2.6: Two &nbsp;real &nbsp;numbers <i>a</i> &nbsp;and <i>b</i> are &nbsp;equal &nbsp;if and only if for &nbsp;every real number&nbsp;[$$]\epsilon&gt;{0}[/$$] it follows that <i>|a - b|</i>...&nbsp;	[$]|a - b| &lt; \epsilon[/$]
+1405728093295	1405599708170	<i>induction</i>	<img src="paste-14723147890691.jpg" /><br>Mathematical induction is a method of mathematical proof typically used to establish a given statement for all natural numbers. It is a form of direct proof, and it is done in two steps. The first step, known as the base case, is to prove the given statement for the first natural number. The second step, known as the inductive step, is to prove that the given statement for any one natural number implies the given statement for the next natural number. From these two steps, mathematical induction is the rule from which we infer that the given statement is established for all natural numbers.
+1405728164672	1405599708170	<i>Axiom of Completeness</i>	<img src="paste-15187004358659.jpg" />
+1405728304074	1405599708170	<i>bounded above / upper bound</i>	<img src="paste-15702400434179.jpg" />
+1405728940496	1405599708170	<i>bounded below / lower bound</i>	<img src="paste-16106127360003.jpg" />
+1405728953351	1405599708170	<i>least upper bound</i>	<img src="paste-16350940495875.jpg" />
+1405729019242	1405599708170	<i>greatest lower bound</i>	<img src="paste-16600048599043.jpg" />
+1405729042273	1405599708170	<i>maximum</i>	<img src="paste-16862041604099.jpg" />
+1405729144978	1405599708170	<i>minimum</i>	<div>Similarly, a number [$$]{a}_{1}[/$$] is a minimum of&nbsp;</div><img src="paste-17218523889667.jpg" />
+1405729222645	1405599708170	<i>axiom</i>	An <i>axiom</i>&nbsp;in mathematics is an accepted assumption, to be used without proof.
+1405729328456	1405599708170	<img src="paste-17987323035651.jpg" /><br>then s = Sup A, if and only if,	<img src="paste-18000207937539.jpg" />
+1405729444861	1405599708170	<i>Nested Interval Property</i>	<img src="paste-18794776887299.jpg" />
+1405783808383	1405599708170	<i>Archimedean Property</i>	<img src="paste-21354577395715.jpg" />
+1405784003461	1405599708170	<i>Density of Q in R</i>	<img src="paste-22011707392003.jpg" />
+1405784055298	1405599708170	<img src="paste-22329534971907.jpg" /><div><img src="paste-22342419873795.jpg" /></div>	<img src="paste-22355304775683.jpg" />
+1405784117497	1405599708170	There exists a _____ number&nbsp;[$$]\alpha\in\mathbf{R}[/$$] satisfying&nbsp;[$$]\alpha^2=2[/$$]	There exists a <u>real</u> number&nbsp;[$$]\alpha\in\mathbf{R}[/$$] satisfying&nbsp;[$$]\alpha^2=2[/$$]
+1405784301986	1405599708170	[$]\mathbf{I}[/$]	<i>set of irrational numbers</i> <i>&nbsp;</i>any real number that cannot be expressed as a ratio of integers
+1405784581650	1405599708170	<i>cardinality</i>	size of a set.&nbsp;
+1405784745009	1405599708170	<i>one-to-one</i>	<img src="paste-29381871271939.jpg" /><div><img src="paste-29394756173827.jpg" />.</div>
+1405784782733	1405599708170	<i>onto</i>	<img src="paste-29635274342403.jpg" /><div><img src="paste-29648159244291.jpg" /></div>
+1405784806128	1405599708170	<i>1-1 Correspondence Between Two Sets</i>	<img src="paste-30000346562563.jpg" />
+1405784840138	1405599708170	<i>A ~ B</i>	<img src="paste-30288109371395.jpg" />
+1405784924385	1405599708170	<i>countable / uncountable</i>	<img src="paste-30691836297219.jpg" />
+1405784965253	1405599708170	<img src="paste-30949534334979.jpg" />&nbsp;_____.&nbsp;<img src="paste-30962419236867.jpg" />&nbsp;_____.	<img src="paste-30975304138755.jpg" />
+1405785033985	1405599708170	<img src="paste-31344671326211.jpg" />	<img src="paste-31357556228099.jpg" />
+1405785071128	1405599708170	<img src="paste-31641024069635.jpg" />	<img src="paste-31653908971523.jpg" />
+1405785090443	1405599708170	<img src="paste-31894427140099.jpg" />	<img src="paste-31907312041987.jpg" />
+1405785115214	1405599708170	<img src="paste-34063385624579.jpg" />	<img src="paste-34076270526467.jpg" />
+1405785817241	1405599708170	power set	<img src="paste-34467112550403.jpg" />
+1405785882309	1405599708170	<img src="paste-34836479737859.jpg" /><div><img src="paste-34849364639747.jpg" />&nbsp;____.</div>	<img src="paste-34862249541635.jpg" />
+1405785927998	1405599708170	sequence	<img src="paste-35257386532867.jpg" />
+1405786872594	1405599708170	Convergence of a Sequence	<img src="paste-35673998360579.jpg" />
+1405786914581	1405599708170	[$$]\epsilon[/$$]-neighborhood of a	<img src="paste-35923106463747.jpg" />
+1405786946403	1405599708170	Convergence of a Sequence: Topological Version	<img src="paste-36189394436099.jpg" />
+1405787453239	1405599708170	Diverge	<img src="paste-36679020707843.jpg" />
+1405787459024	1405599708170	bounded	<img src="paste-36932423778307.jpg" />
+1405787482705	1405599708170	<img src="paste-37177236914179.jpg" />	<img src="paste-37190121816067.jpg" />
+1405787495903	1405599708170	Algebraic Limit Theorem	<img src="paste-37443524886531.jpg" />
+1405787522221	1405599708170	Order Limit Theorem<div><img src="paste-18464064405507.jpg" /></div>	<img src="paste-37701222924291.jpg" />
+1405787546587	1405599708170	increasing sequence	<img src="paste-38139309588483.jpg" />
+1405787783660	1405599708170	decreasing	<img src="paste-38530151612419.jpg" />
+1405787962751	1405599708170	monotone	<img src="paste-39032662786051.jpg" /><img src="paste-39045547687939.jpg" />
+1405787984229	1405599708170	Monotone Convergence Theorem	<img src="paste-39303245725699.jpg" />
+1405788025324	1405599708170	infinite series	<img src="paste-39548058861571.jpg" />
+1405788065056	1405599708170	sequence of partial sums	<img src="paste-39814346833923.jpg" />
+1405788127012	1405599708170	<img src="paste-40166534152195.jpg" />	<img src="paste-40179419054083.jpg" />to B.
+1405788169155	1405599708170	Harmonic Series	<img src="paste-40488656699395.jpg" />
+1405788192451	1405599708170	Cauchy Condensation Test	<img src="paste-40729174867971.jpg" />
+1405788216785	1405599708170	<img src="paste-41077067218947.jpg" />	<img src="paste-41089952120835.jpg" />
+1405788249531	1405599708170	subsequence	<img src="paste-41330470289411.jpg" />
+1405788275002	1405599708170	<img src="paste-41832981463043.jpg" />	<img src="paste-41845866364931.jpg" />
+1405788392206	1405599708170	Bolzano-Weierstrass Theorem	<img src="paste-42249593290755.jpg" />
+1405788440240	1405599708170	Cauchy Sequence	<img src="paste-42533061132291.jpg" />
+1405788468427	1405599708170	<img src="paste-42863773614083.jpg" />	<img src="paste-42876658515971.jpg" />
+1405788502060	1405599708170	<img src="paste-43203076030467.jpg" />	<img src="paste-43215960932355.jpg" />
+1405788518065	1405599708170	Cauchy Criterion	<img src="paste-43456479100931.jpg" />
+1405788534216	1405599708170	Sequence of Terms	<img src="paste-43714177138691.jpg" />
+1405788602291	1405599708170	Sequence of Partial Sums	<img src="paste-44096429228035.jpg" />
+1405788626330	1405599708170	Algebraic Limit Theorem for Series	<img src="paste-44336947396611.jpg" /><div><img src="paste-44349832298499.jpg" /></div>
+1405788657750	1405599708170	Cauchy Criterion for Series	<img src="paste-44697724649475.jpg" />
+1405788683897	1405599708170	<img src="paste-44938242818051.jpg" />	<img src="paste-44951127719939.jpg" />
+1405788708153	1405599708170	Comparison Test	<img src="paste-45299020070915.jpg" /><div><img src="paste-45311904972803.jpg" /></div>
+1405788733836	1405599708170	Absolute Convergence Test	<img src="paste-45642617454595.jpg" />
+1405788779366	1405599708170	Alternating Series Test	<img src="paste-45960445034499.jpg" />
+1405788797999	1405599708170	Absolute Convergence	<img src="paste-46200963203075.jpg" /><div><img src="paste-46213848104963.jpg" /></div>
+1405788848760	1405599708170	Conditional Convergence	<img src="paste-46604690128899.jpg" /><div><img src="paste-46617575030787.jpg" /></div>
+1405788870474	1405599708170	rearrangement	<img src="paste-46858093199363.jpg" />
+1405788897741	1405599708170	<img src="paste-47231755354115.jpg" />	<img src="paste-47218870452227.jpg" />
+1405788921828	1405599708170	Iterated Summation	<img src="paste-47472273522691.jpg" /><div><img src="paste-47536698032131.jpg" /></div>
+1405788983058	1405599708170	<img src="paste-47931835023363.jpg" /><div><u>converges</u></div>	<img src="paste-47957604827139.jpg" /><div><img src="paste-47970489729027.jpg" /></div>
+1405789032389	1405599708170	Cantor Set	<img src="paste-48236777701379.jpg" /><div><img src="paste-48322677047299.jpg" /></div>
+1405789298290	1405599708170	The Cantor Set is countable / uncountable?	uncountable
+1405789338319	1405599708170	The cardinality of the Cantor Set is equal to&nbsp;	The cardinality of the Cantor Set is equal to the cardinality of&nbsp;[$$]\mathbf{R}[/$$]
+1405789378212	1405599708170	What is the length of the Cantor Set?	The Cantor Set measures the same size as a single point.
+1405789445091	1405599708170	open set	<img src="paste-49447958478851.jpg" />
+1405789524765	1405599708170	<img src="paste-49606872268803.jpg" />	<img src="paste-49619757170691.jpg" />
+1405789537053	1405599708170	<img src="paste-49671296778243.jpg" />	<img src="paste-49684181680131.jpg" />
+1405789556459	1405599708170	limit point	<img src="paste-49740016254979.jpg" />
+1405789582777	1405599708170	<img src="paste-49795850829827.jpg" />	<img src="paste-49808735731715.jpg" />
+1405789611791	1405599708170	isolated point	<img src="paste-49864570306563.jpg" /><div><img src="paste-51780125720577.jpg" /></div><div><img src="paste-52548924866561.jpg" /></div>
+1405789774863	1405599708170	closed set	<img src="paste-52931176955907.jpg" />
+1405789798447	1405599708170	<img src="paste-53270479372291.jpg" />	<img src="paste-53283364274179.jpg" />
+1405789848803	1405599708170	Density of [$]\mathbf{Q}[/$] in [$]\mathbf{R}[/$] (Sequential Version)	<img src="paste-53639846559747.jpg" /><div><i>rational, real, density</i></div>
+1405789928321	1405599708170	Closure of a Set	<img src="paste-54069343289347.jpg" />
+1405789948491	1405599708170	<img src="paste-54314156425219.jpg" />	<img src="paste-54327041327107.jpg" /><div><i>closure</i></div>
+1405789992540	1405599708170	Complement of a Set	<img src="paste-55151675047939.jpg" />
+1405795621970	1405599708170	<img src="paste-55632711385091.jpg" />	<img src="paste-55658481188867.jpg" />
+1405795690556	1405599708170	<img src="paste-56006373539843.jpg" />	<img src="paste-56019258441731.jpg" />
+1405795704609	1405599708170	<img src="paste-56259776610307.jpg" />	<img src="paste-56272661512195.jpg" />
+1405795751613	1405599708170	<img src="paste-56663503536131.jpg" />	<img src="paste-56676388438019.jpg" />
+1405795773845	1405599708170	Compact Set	<img src="paste-57002805952515.jpg" />
+1405795849565	1405599708170	bounded set	<img src="paste-57402237911043.jpg" />
+1405795863953	1405599708170	<img src="paste-16423954939907.jpg" />	Heine-Borel Theorem<div><img src="paste-57642756079619.jpg" /></div><div><i>compact, closed, bounded</i></div>
+1405795879303	1405599708170	<img src="paste-57887569215491.jpg" /><div><img src="paste-57900454117379.jpg" /></div>	<img src="paste-57913339019267.jpg" />
+1405795918569	1405599708170	open cover	<img src="paste-58158152155139.jpg" /><div><img src="paste-58171037057027.jpg" /></div>
+1405795955734	1405599708170	finite subcover	<img src="paste-58415850192899.jpg" /><div><img src="paste-58428735094787.jpg" /></div>
+1405795978786	1405599708170	<div>Equivalence to Compactness</div><img src="paste-15655155793923.jpg" />	<img src="paste-58793807314947.jpg" />
+1405796288141	1405599708170	perfect set	<img src="paste-59274843652099.jpg" />
+1405796338272	1405599708170	The Cantor set is _____.	<img src="paste-59523951755267.jpg" />
+1405796362123	1405599708170	<img src="paste-59764469923843.jpg" />	<img src="paste-59777354825731.jpg" />
+1405796379533	1405599708170	separated sets	<img src="paste-60022167961603.jpg" /><div><img src="paste-60035052863491.jpg" /></div>
+1405796412452	1405599708170	disconnected	<img src="paste-60279865999363.jpg" /><div><img src="paste-60292750901251.jpg" /></div>
+1405796443043	1405599708170	connected set	<img src="paste-60537564037123.jpg" />
+1405796455772	1405599708170	<img src="paste-60778082205699.jpg" />	<img src="paste-60790967107587.jpg" />
+1405796492619	1405599708170	<img src="paste-61040075210755.jpg" /><div><img src="paste-61052960112643.jpg" /></div>	<img src="paste-61065845014531.jpg" />
+1405796594204	1405599708170	[$]{G}_\delta[/$] set	<img src="paste-61654255534083.jpg" /><div><img src="paste-61667140435971.jpg" /></div><div><i>G, delta</i></div>
+1405796621224	1405599708170	<img src="paste-61997852917763.jpg" />sets, then...	<img src="paste-62010737819651.jpg" />
+1405796661690	1405599708170	nowhere-dense	<img src="paste-62281320759299.jpg" />
+1405796685670	1405599708170	Baire's Theorem	<img src="paste-62534723829763.jpg" />
+1405796703224	1405599708170	power series	<img src="paste-62839666507777.jpg" />
+1405796772796	1405599708170	trigonometric / Fourier series	In mathematics, a Fourier series (English pronunciation: /ˈfɔərieɪ/) is a way to represent a wave-like function as a combination of simple sine waves. More formally, it decomposes any periodic function or periodic signal into the sum of a (possibly infinite) set of simple oscillating functions, namely sines and cosines (or complex exponentials).
+1405796822191	1405599708170	Dirichlet Function	<img src="paste-63677185130499.jpg" /><div><img src="paste-64381559767043.jpg" /></div>
+1405796927619	1405599708170	Thomae Function	<img src="paste-65111704207363.jpg" /><div><img src="paste-65124589109251.jpg" /></div>
+1405797143079	1405599708170	<img src="paste-65515431133187.jpg" /><div><img src="paste-65528316035075.jpg" /></div>	<img src="paste-65541200936963.jpg" />
+1405881493728	1405599708170	functional limit (topological version)	<img src="paste-74066711019523.jpg" />
+1405881554313	1405599708170	Sequential Criterion for Functional Limits	<img src="paste-74320114089987.jpg" />
+1405881604424	1405599708170	Algebraic Limit Theorem for Functional Limits	<img src="paste-74637941669891.jpg" /><div><img src="paste-74650826571779.jpg" /></div>
+1405881652566	1405599708170	Divergence Criterion for Functional Limits	<img src="paste-74998718922755.jpg" />
+1405881676145	1405599708170	<img src="paste-75239237091331.jpg" />	<img src="paste-75252121993219.jpg" />
+1405881721577	1405599708170	<div>Characterizations of Continuity</div><div><img src="paste-14504104558595.jpg" /></div>	<img src="paste-75642964017155.jpg" />
+1405881745792	1405599708170	Criterion for Discontinuity	<img src="paste-75883482185731.jpg" />
+1405881768440	1405599708170	Algebraic Continuity Theorem	<img src="paste-76231374536707.jpg" />
+1405881793014	1405599708170	Composition of Continuous Functions	<img src="paste-76471892705283.jpg" />
+1405881829159	1405599708170	bounded function	<img src="paste-76862734729219.jpg" />
+1405881873494	1405599708170	Preservation of Compact Sets	<img src="paste-77210627080195.jpg" />
+1405881900467	1405599708170	Extreme Value Theorem	<img src="paste-77451145248771.jpg" />
+1405881922123	1405599708170	Uniform Continuity	<img src="paste-77747497992195.jpg" />
+1405881957743	1405599708170	Sequential Criterion for Nonuniform Continuity	<img src="paste-78065325572099.jpg" />
+1405881988169	1405599708170	<img src="paste-78619376353283.jpg" />	<img src="paste-78305843740675.jpg" />
+1405882031428	1405599708170	Intermediate Value Theorem	<img src="paste-79010218377219.jpg" />
+1405882075029	1405599708170	Preservation of Connectedness	<img src="paste-79370995630083.jpg" />
+1405882102565	1405599708170	Intermediate Value Property	<img src="paste-79611513798659.jpg" />
+1405882147820	1405599708170	Monotone Function	<img src="paste-80002355822595.jpg" />
+1405882177608	1405599708170	Right-Hand Limit	<img src="paste-80333068304387.jpg" />
+1405882201630	1405599708170	<img src="paste-80603651244035.jpg" />	<img src="paste-80616536145923.jpg" />
+1405882225790	1405599708170	[$]\alpha \textrm{-continuous at }{x}[/$]	<img src="paste-83103322210307.jpg" />
+1405882324455	1405599708170	If&nbsp;<img src="paste-83348135346179.jpg" /><div><img src="paste-83326660509699.jpg" /></div>	<img src="paste-83361020248067.jpg" />
+1405947610286	1405599708170	prime number	prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself. For example, 5 is prime because 1 and 5 are its only positive integer factors.
+1405947662756	1405599708170	composite number	A natural number greater than 1 that is not a prime number is called a composite number. For example,&nbsp;6 is composite because it has the divisors 2 and 3 in addition to 1 and 6.
+1405947698482	1405599708170	Fundamental Theorem of Arithmetic	<div>In number theory, the fundamental theorem of arithmetic, also called the unique factorization theorem or the unique-prime-factorization theorem, states that every integer greater than 1 either is prime itself or is the product of prime numbers, and that, although the order of the primes in the second case is arbitrary, the primes themselves are not. For example,</div><div><br /></div><div>1200 = 24 × 31 × 52 = 3 × 2× 2× 2× 2 × 5 × 5 = 5 × 2× 3× 2× 5 × 2 × 2 = etc.</div><div><br /></div><div>The theorem is stating two things: first, that 1200 can be represented as a product of primes, and second, no matter how this is done, there will always be four 2s, one 3, two 5s, and no other primes in the product.</div><div><br /></div><div>The requirement that the factors be prime is necessary: factorizations containing composite numbers may not be unique (e.g. 12 = 2 × 6 = 3 × 4).</div>
+1406283600478	1405599708170	[$]{g}({A}\cup{B})=[/$]	[$]{g}({A}\cup{B})={g}({A})\cup{g}({B})[/$]
+1406284503078	1405599708170	[$]{g}({A}\cap{B})[/$]	[$]{g}({A}\cap{B})\subseteq{g}({A})\cap{g}({B})[/$]
+1421235430123	1405599708170	Difference Quotient	<img src="paste-22200685953027.jpg" />
+1421236083727	1405599708170	<img src="paste-24361054502915.jpg" />	<img src="paste-24404004175875.jpg" /><div><i>derivative, definition</i></div>
+1421236136786	1405599708170	<img src="paste-24988119728131.jpg" />	<img src="paste-25091198943235.jpg" /><div><i>derivative</i></div>
+1421236753265	1405599708170	<img src="paste-25598005084163.jpg" /><div><img src="paste-25610889986051.jpg" /></div><div><img src="paste-25632364822531.jpg" /></div><div><img src="paste-25645249724419.jpg" /></div><div><img src="paste-25658134626307.jpg" /></div>	<img src="paste-25671019528195.jpg" />
+1421236834970	1405599708170	<img src="paste-26143465930755.jpg" /><div><img src="paste-26164940767235.jpg" /></div>	<img src="paste-26353919328259.jpg" />
+1421236931658	1405599708170	<img src="paste-26950919782403.jpg" /><div><img src="paste-27053998997507.jpg" /></div>	<img src="paste-27066883899395.jpg" />
+1421323265906	1405599708170	[$]{F}_{\sigma}[/$]	A set [$]A[/$] is called an [$]{F}_{\sigma}[/$] set if it can be written as the countable union of closed sets.
+1421324054065	1405599708170	<div>Darboux's Theorem</div><img src="paste-66743791779843.jpg" />	<img src="paste-66846870994947.jpg" />
+1421324324774	1405599708170	Exercise 5.2.6<div>If [$]g[/$] is differentiable on [$][a,b][/$] and satisfies [$]g'(a)&lt;0&lt;g'(b)[/$], then there exists a point [$]{x}\in{(a,b)}[/$] and a point [$]{y}\in{(a,b)}[/$]&nbsp;where</div>	If [$]g[/$] is differentiable on [$][a,b][/$] and satisfies [$]g'(a)&lt;0&lt;g'(b)[/$], then there exists a point [$]{x}\in{(a,b)}[/$] and a point [$]{y}\in{(a,b)}[/$]&nbsp;where [$]g(a)&gt;g(x)[/$] and&nbsp;[$]g(y)&gt;g(b)[/$].
+1421532664372	1405599708170	<img src="paste-93153545682947.jpg" /><div>(a,b) where&nbsp;</div>	<img src="paste-93166430584835.jpg" />
+1421532734445	1405599708170	<img src="paste-93638876987395.jpg" />	<img src="paste-93651761889283.jpg" />
+1421532764862	1405599708170	<b>Corollary 5.3.3. </b>If [$]g:A{\rightarrow}\mathbb{R}[/$] is differentiable on an interval [$]A[/$] and satisfies [$]g'(x)=0[/$] for all [$]x\in{A}[/$], then	<b>Corollary 5.3.3.&nbsp;</b>If [$]g:A{\rightarrow}\mathbb{R}[/$] is differentiable on an interval [$]A[/$] and satisfies [$]g'(x)=0[/$] for all [$]x\in{A}[/$], then [$]g(x)=k[/$] for some constant [$]k\in{\mathbb{R}}[/$]
+1421533010055	1405599708170	<img src="paste-120443767881731.jpg" />	<img src="paste-120456652783619.jpg" />
+1421533323639	1405599708170	<img src="paste-120941984088067.jpg" />	<img src="paste-120954868989955.jpg" />
+1421533360298	1405599708170	<img src="paste-121311351275523.jpg" />	<img src="paste-121324236177411.jpg" />
+1421533418695	1405599708170	<img src="paste-121809567481859.jpg" />	<img src="paste-121822452383747.jpg" />
+1421533460000	1405599708170	<img src="paste-122157459832835.jpg" />	<img src="paste-122170344734723.jpg" />
+1421533557125	1405599708170	<img src="paste-125228361449475.jpg" />	<img src="paste-125241246351363.jpg" />
+1421533600453	1405599708170	<img src="paste-125833951838211.jpg" />	<img src="paste-125846836740099.jpg" />
+1434202207972	1434200840257	[$]liminf_{n\to\infty}x_n[/$]	[$]lim_{n\to\infty}(inf_{m\geq n}x_m)[/$]
+1434241535300	1434200840257	Borel Sets	
+1434239241533	1434200840257	[$]\forall \epsilon &gt; 0 \;\;\; \exists subcube \tilde{Q}\subset Q[/$]	[$]Q=|\tilde{Q}|+\epsilon[/$]
+1434241959994	1434200840257	Completely Regular and Hausdorff	Tychonoff
+1434241959994	1434200840257	Completely Regular and Hausdorff	Tychonoff
+1434203247842	1434200840257	[$]E\Delta F[/$]	
+1434238213265	1434200840257	Uniform Convergence	
+1434237673296	1434200840257	Lebesgue Differentiation Theorem	[$]lim_{m(B)\to 0,\;\;x\in B}\frac{1}{m(B)}\int_B f(y) dy = f(x)[/$]
+1434239334867	1434200840257	Countability	
+1434236656022	1434200840257	Coset	
+1434236830823	1434200840257	Separated or Disjoint	[$]A\cap B =\emptyset[/$]
+1434241941276	1434200840257	Uniformly Continuous	
+1434203096109	1434200840257	[$]sin^2(x)[/$]	1-cos(2x)
+1434239425119	1434200840257	Dense Subset	
+1434239321259	1434200840257	Separation	
+1434236820631	1434200840257	Separability	
+1434241981533	1434200840257	Tychonoff	Completely regular and Hausdorff
+1434237789879	1434200840257	Lipschitz Condition and Continuity	
+1434201491874	1434200840257	[$$]\omega[/$$]	[$]\omega[/$]
+1438262371600	1434200840257	Atomic Physics	
+1438440075046	1434200840257	Numerov Method	
+1438439482641	1434200840257	Lande g-factor	
+1438439955126	1434200840257	Zeeman Effect	
+1438147157205	1434200840257	FASTA	Fancy algorithm that allows you to overlay two sequences to find similarities visually.
+1438438552237	1434200840257	BLT	
+1438437925476	1434200840257	Dirichlet Principle	
+1438438023053	1434200840257	Harmonic Functions	
+1438147530916	1434200840257	BLAST	Know what you're looking for, so assume that there will be correct overlap somewhere. Then only search near there.
+1438082972185	1434200840257	Cauchy Integral	
+1438082992321	1434200840257	Orthoginal Projection	
+1440253888840	1434200840257	time orientable	
+1439178365258	1434200840257	Parallel Transport	
+1438261642755	1434200840257	Symmetric Tensor	
+1440025666797	1434200840257	molecules rotating&nbsp;	causes splitting in the far infrared and microwave
+1440285130410	1434200840257	Independent particle model	every particle has its own potential, and is independent of the other particles
+1440283965215	1434200840257	Slater Determinant	make a matrix with every electron in every state. The determinant of this is the total wave function.<div>(for n electrons)</div>
+1439121287982	1434200840257	Strum-Liouville Operators	L(f(x))=-f''(x)+q(x)f(x), q(x) continuouts
+1440122166441	1434200840257	Jensen's inequalitys	<div>f convex, p_i positive numbers</div>[$]f\left( \Sigma p_ix_i \right)\leq\Sigma p_i f(x_i)[/$]
+1439123553116	1434200840257	dx' =&nbsp;	[$](n\dot e_n)d\sigma[/$]<div>where n is perpendicular to sigma, and |n|=1</div>
+1438082463051	1434200840257	holomorphic	
+1439123106028	1434200840257	[$]d\sigma&nbsp;[/$] acting on a surface S&nbsp;	is invariant under a Euclidean change of coordinates
+1438134837820	1434200840257	multiplier sequence	Diagonal matrix representation of a linear operator
+1439123177919	1434200840257	Integration by parts	[$]\int_\Sigma \left( f\frac{\partial g}{\partial x_i} + g \frac{\partial f}{\partial x_i} \right)dx = \int_{\partial \Sigma} fgn_i d\sigma[/$]<div>where [$]n_i=n\dot e_i[/$] is the ith component of the outward pointing normal vector, and [$]\sigma[/$] is the surface measure on [$]\partial \Sigma[/$].</div>
+1438156153913	1434200840257	Coordinate Basis	
+1440255352058	1434200840257	difference between&nbsp;[$]\bigtriangledown[/$] and&nbsp;[$]\partial[/$]	
+1439093071010	1434200840257	g(v1+v2,v3+v4)	=g(v1,v1)+g(v2,v2) (why????)
+1438156394751	1434200840257	Tangent Field	
+1440253878628	1434200840257	Space/time/null vectors	
+1442058748978	1434200840257	non-crossing rules	
+1434202791751	1434200840257	[$]\text{lim inf}_{n\to\infty}x_n[/$]	[$]\text{lim}_{n\to\infty}(\text{inf}_{m\geq n}x_m)[/$]
+1434202881209	1434200840257	f is lebesgue integrable iff	|f| is integrable
+1434202934728	1434200840257	[$]\chi_{B_\epsilon(0)}(x)[/$]	[$]\chi_{B_1(0)}\left(\frac{x}{\epsilon}\right)[/$]
+1434203262170	1434200840257	Consider all open subsets of X. How does this relate to a topology?	The union of any number of open sets is in this, and the intersection of a funite numebr is also in this. Don't forget the empty set.
+1434203348731	1434200840257	Homeomorphism	Bijection
+1434203373686	1434200840257	Measurable Function	finite valued, and the preimage of every open/closed set is measurable.
+1434203384443	1434200840257	[$]E_k\searrow E[/$]	[$]E=\cap_{k=1}^{\infty}E_k \text{ and } E_k \supset E_{k+1}[/$]
+1434203748655	1434200840257	Dense in L<sup>1</sup>	[$]\forall f\in L^1 \;\; \forall \epsilon&gt;0\;\exists g \text{ integrable s.t. } ||f-g||&lt;\epsilon[/$]
+1434204007187	1434200840257	[$]\int x^n[/$]	
+1434204023915	1434200840257	[$]E_k \nearrow E[/$]	[$]E=\cup_{k=1}^{\infty}E_k \text{ and }E_k\subset E_{k+1}[/$]
+1434204115587	1434200840257	[$]E_k\searrow E \text{ and } m(E_k)&lt;\infty[/$]	<div>[$]E_k\supset E_{k+1}[/$]</div><div>[$]E=\cap_{n=1}^\infty E_n[/$]</div>[$]m(E)=lim_{n\to\infty}m(E_n)[/$]
+1434204212964	1434200840257	[$]\int cos(t) dt[/$]	sin(t)
+1434204252179	1434200840257	[$]\frac{d}{dt}sin(t)[/$]	cos(t)
+1434235330000	1434200840257	f is supported on E	[$]x \notin E \iff f(x)=0[/$]
+1434235448378	1434200840257	A closed set can be written as the countable union of compact sets	[$]F=\cup_{i=1}^{\infty}F\cap B_i(0)[/$]
+1434235533533	1434200840257	Exterior Measure	[$]m_{*}(E)=inf\Sigma_{j=1}^{\infty}|Q_j|[/$]
+1434235626856	1434200840257	Lebegue measurable iff	[$]\exists O\text{ open, }E\subset O \text{ s.t. } m_{*}(O-E)\leq \epsilon[/$]
+1434235727785	1434200840257	[$]\int_E dx[/$]	=m(E)
+1434235953992	1434200840257	m(E)	[$]\int_E dx[/$]
+1434235980343	1434200840257	f integrable&nbsp;[$]\forall \epsilon&gt;0 \exists \delta&gt;0 m(E)&lt;\delta \implies[/$]	[$]\int_E|f|&lt;\epsilon[/$]
+1434236066738	1434200840257	Describe how you could create a topology (T) on a set X.	1. Get yourself some sets and the emptyset, and the whole set. (T<sub>0</sub>)<div>2.find the union of any number of these sets</div><div>3. find the intersection of finitely many of these sets.</div><div>4. Add these to T and repeat 2 and 3.</div>
+1434236197987	1434200840257	1st countable base	[$]\forall x \in X \exists {N_i}_{i=1}^\infty \text{ s.t. for any neighbourhood U of x } \exists N_i\subset U [/$]
+1434236268778	1434200840257	A is a dense set	Any neighbourhood of any point in the space contains a point in A.
+1434236277316	1434200840257	A, B, A+B measurable	[$]m(A+B)^{1/d}\geq m(A)^{1/d}+m(B)^{1/d}[/$]
+1434236368281	1434200840257	Urysohn's Lemma -&gt; function in a metric	[$]f(x)=\frac{d(x,A)}{d(x,A)+d(x,B)}[/$]
+1434236461906	1434200840257	Urysohn's Lemma	Normal iff<div>For any two closed sets A, B [$]\exists f cts:X\to\mathbb{R} \text{ s.t. }f(A)=0 f(B)=1[/$]</div>
+1434236663803	1434200840257	[$]\forall \epsilon&gt;0\;\; \exists \text{Cubic Covering of E}[/$]	[$]\Sigma_{j=1}^\infty m_{*}(Q_j)\leq m_{*}(E)+\epsilon[/$]
+1434236699316	1434200840257	A union of measurable sets	is measurable if there are countably many
+1434236780418	1434200840257	2nd Countable space	The topology has a countable base
+1434236789966	1434200840257	Sequentially Compact	Every sequence has a convergent subsequence
+1434236946582	1434200840257	Continutity (Topology)	1. Every open set has an open preimage<div>2. Every closed set has a closed preimage</div><div>3.&nbsp;[$]\forall A\subset X, f(\overline{A})=\overline{f(A)}[/$]</div><div>4.&nbsp;[$]\forall \epsilon &gt;0 \exists \delta&gt;0 d(x,y)&lt;\delta \implies &nbsp;d(f(x),f(y))&lt;\epsilon&nbsp;[/$]</div>
+1434236995526	1434200840257	Open Set - metric space	[$]\forall x \in A \;\; \exists r_x&gt;0\;\;B_{r_x}(x)\subset A[/$]
+1434237077758	1434200840257	f integrable	[$]\int f&lt;\infty[/$]
+1434237106066	1434200840257	supp(f)	[$]{x:f(x)\neq0}[/$]
+1434237141599	1434200840257	[$]\int f(x)=\int f(x-a) =[/$]	[$]|\delta|^d \int f(\delta x)[/$]
+1434237231183	1434200840257	[$]\int f(x) = |\delta|^d \int f(\delta x) = [/$]	[$]\int f(x-a)[/$]
+1434237266494	1434200840257	Examples of Dense Function	Cts functions, step functions, simple functions
+1434237300088	1434200840257	Simple Vs Step Functions	Step - R a rectangle, E_k has finite measure:<div>[$]\psi = \Sigma_{n=1}^N a_k \chi_{R_k}[/$]</div><div>Simple E any (open??) set:</div><div>[$]\psi = \Sigma_{n=1}^N a_k \chi_{E_k}[/$]</div>
+1434237450935	1434200840257	f(x-y) is measurable on R<sup>d</sup>xR<sup>d</sup> if	f(x) is measurable R<sup>d</sup>
+1434237509553	1434200840257	Tonelli's Theorem	non-negative functions
+1434237767145	1434200840257	Induced Topology	For some function, it is forced to be continuous over the whole space.<div>i.e. for any open set, the preimage is defined to be open.</div>
+1434237803703	1434200840257	L'Hopital's Rule	
+1434237824464	1434200840257	Metric Topology	Every open ball in the space
+1434237929967	1434200840257	[$]\int \frac{1}{\sqrt{x}}[/$]	
+1434237997527	1434200840257	f measurable (sequence of simple functions)	[$]\exists \{ \psi_k \}_{k=1}^\infty[/$], simple function.<div>[$]|\psi_k|\leq |\psi_{k+1}(x)|[/$]</div><div>[$]lim_{k\to\infty}\psi_k(x)=f(x)[/$]</div>
+1434238137409	1434200840257	Diameter of a set	[$]\delta(A)=sup_{x,y\in A} d(x,y)[/$]
+1434238226067	1434200840257	|f_n(x)|&lt;g(x), g integrable	[$]\int f_n \to \int f[/$]
+1434238274908	1434200840257	m(E) - lines	[$]\int m(E^y)dy[/$]
+1434238451226	1434200840257	What is the Lebesgue Integral of a Simple Function?	[$]\int \psi(x)dx=\Sigma_{k=1}^M a_k m(F_k)[/$]
+1434238542899	1434200840257	Connected	There are no two open, disjoint sets whose union is the space.
+1434238555965	1434200840257	Tietze Extension Theorem	A is a closed set in a normal topological space (S,[$]\tau[/$]).<div>f cts: A-&gt;R</div><div>Then there is a continuous extension to the function, g, which maps to the whole space such that:</div><div>[$]\forall s \in A: f(s)=g(s)[/$]</div>
+1434238572878	1434200840257	Continuous function (metric)	[$]\forall \epsilon&gt;0 \exists \delta &gt;0 \text{ s.t. } |x-y|&lt;\delta \implies |f(x)-f(y)|&lt;\epsilon[/$]
+1434238739055	1434200840257	Ball in a metric space	[$]B_r(x)=\{ y\in Y | d(x,y)\leq r \}[/$]
+1434238836028	1434200840257	Continuous image of a connected space	is connected
+1434238857108	1434200840257	Quotent Topology	Consider&nbsp;[$]f:X\to Y \;\; \forall U\subset Y,\;\;\; U \text{open} \iff f^{-1}(U) \text{open}[/$]
+1434238948633	1434200840257	Characteristic Function	[$]\chi_E(x)=\left\{&nbsp;\frac{1 \;\; x\in E}{0 \;\; x\notin E}&nbsp;\right.&nbsp;[/$]
+1434239059074	1434200840257	Monotone Convergence Theorem	[$]f_k\nearrow f[/$]<div>[$]f\geq 0[/$]</div><div>[$]\implies lim_{n\to\infty}\int f_n = \int f[/$]</div>
+1434239121481	1434200840257	<div>[$]A_k=\{ x:2^k&lt;|x|&lt;2^{k+1} \}[/$]</div>[$]\chi_{A_k} = [/$]	[$]\chi_{A_0}\left(\frac{x}{2^k}\right)[/$]
+1434239302345	1434200840257	Normal	2 closed sets - can draw disjoint neighbourhoods around them
+1434239311713	1434200840257	Closure of a set	take the union of all points which have a neighbourhood which intersects with the set.
+1434239347158	1434200840257	Compact Hausdorff	Normal
+1434239353754	1434200840257	[$]limsup_{n\to\infty}x_n[/$]	[$]lim_{n\to\infty} \left( sup_{m\geq n} x_m &nbsp;\right)[/$]
+1434240976920	1434200840257	The integral of the infinite sum	is the infinite sum of the integral
+1434241016662	1434200840257	[$]f_n&gt;o,\;\;\; lim f_n=f[/$]	[$]\int f \leq liminf_{n\to\infty}\int f_n[/$]
+1434241077648	1434200840257	Fubini's Theorem	Integrable
+1434241147339	1434200840257	x is a point of Lebesgue density of E	[$]x\in B,\;\;\;&nbsp;lim_{m(B)\to 0}\frac{m(B\cap E)}{m(B)}=1[/$]
+1434241241018	1434200840257	Compact (Topology)	Every cover has a finite subcover
+1434241261931	1434200840257	Continuous image of a compact space	Compact
+1434241317572	1434200840257	Interior Point	[$]x\in A,\;\;\; \exists \delta&gt;0 B_\delta(x_0)\subset A[/$]
+1434241392089	1434200840257	Base	Arbitrary unions span the entire topology
+1434241406223	1434200840257	Give a counter example:<div>[$]lim\int \neq \int lim [/$]</div>	
+1434241548167	1434200840257	Regular Space	Given a point and a closed set, there are disjoint neighbourhoods around each of them.
+1434241614124	1434200840257	[$]\forall \epsilon &gt; 0 \exists \delta&gt;0:\;\;m(E)&lt;\delta[/$]	[$]\int_E |f|&lt;\epsilon[/$]
+1434241735858	1434200840257	Separate	Not Connected<div>Two non-empty, open, disjoint sets. The union is the whole space/set.</div>
+1434241748329	1434200840257	[$]\frac{d}{dt} cos(t)[/$]	-sin(t)
+1434241778560	1434200840257	[$]\int sin(t) dt[/$]	-cos(t)
+1434241796651	1434200840257	Hausdorff Space	Two points have disjoint neighbourhoods
+1434241816981	1434200840257	[$]\int_E \psi(x)dx[/$]	[$]\int \psi(x)\chi_E(x)dx[/$]
+1434241891843	1434200840257	Open set and Closed Cubes	Countable union of almost disjoint cubes
+1434241949999	1434200840257	Tychonoff	For 2 disjoint points, you can draw a neighbourhood around one and it will miss the other
+1434242011782	1434200840257	[$]E\Delta F[/$]	[$](E-F)\cup (F-E)[/$]
+1434242083743	1434200840257	Fubini's Theorem vs Tonelli's Theorem	Fubini - integrable<div>Tonelli - non-negative</div>
+1434242132475	1434200840257	[$]E_k\nearrow E[/$]	<div>[$]E=\cup_{n=1}^\infty E_k[/$]</div><div>[$]E_k\subset E_{k+1}[/$]</div>[$]m(E) = lim_{n\to\infty}m(E_n)[/$]
+1434242185847	1434200840257	Discrete Topology	[$]2^{\{X\}}[/$]<div>Every possible set.</div>
+1434242286357	1434200840257	Bounded Set	The set has a finite diameter.
+1434242327881	1434200840257	m(E) finite, [$](E\Delta F)[/$]	<div>[$]\exists F=\cup_{j=1}^N Q_j[/$]</div>[$]m(E\Delta F)\leq\epsilon[/$]
+1434242474214	1434200840257	Separable	Countable dense subset
+1434242528247	1434200840257	Definition of a Topology	1. empty set, and space are elements<div>2. Arbitrary union is an element</div><div>3. Finite intersection is an element</div>
+1434242608262	1434200840257	m(E) finite	[$]\exists K \text{ compact, &nbsp;} K\subset E, \;\; m(E-K)\leq\epsilon[/$]
+1434242680210	1434200840257	Base of a Topology	Arbitrary unions span the entire topology
+1434247331265	1434200840257	Surjection	<div>f:X-&gt;Y</div>onto<div>[$]\forall y\in Y \exists x\in X : y=f(x)[/$]<br /><div><br /></div></div>
+1434247417800	1434200840257	Injection	<div>One-to-one</div><div>[$]\forall x,y \in X, f(x)=f(y)\implies x=y[/$]</div>
+1434247855558	1434200840257	[$]m(A\sqcup B)[/$]	[$]=m(A)+m(B)[/$]<div>(any countable union)</div>
+1434283578532	1434200840257	MCT vs DCT	MCT - 0&lt;f_n&lt;f_{n+1}<div><div>DCT - |f_n|&lt;g, g integrable</div></div>
+1434203227923	1434200840257	Dominated Convergence Theorem	<div>[$]|f_n(x)|\leq g(x) \implies \\<div>lim_{n\to\infty}\int |f_n-f|=0 \iff lim_{n\to\infty}\int f_n = \int f</div>[/$]<br /><div><br /></div></div>
+1437984991712	1434200840257	Definition of a Hilbert Space	A vector space over the complex plane.<div>f-&gt;(f,g) is linear for every fixed g.</div><div>[$](f,g)=\bar{((f,g)}[/$]</div><div>(f,f)&gt;0 (=0 iff f=0)</div><div>Cauchy Schwartz</div><div>Triangle Inequality</div><div>Complete in the induced Metric</div><div>Separable</div>
+1437985049065	1434200840257	Cauchy Schwartz Inequality	|(f,g)|&lt;=||f|| ||g||
+1437985200576	1434200840257	Separable	Countable dense subset
+1437985203125	1434200840257	Definition of Orthogonal	(f,g)=0
+1437985284426	1434200840257	Pythagoras's Theorem Conditions	All are orthoginal
+1437985314419	1434200840257	(f,g+h)	
+1437985322319	1434200840257	(f+g, h)	
+1437985328331	1434200840257	Orthonormal	[$]e_k, e_j are orthoginal,&nbsp;<div>(e_k,e_j)=\delta_{k,j}[/$]</div>
+1437985436140	1434200840257	Equivalent properties that an orthonormal set may have.	<div>(i) finite linear combinations of elements in {e_k} are dense.</div>(ii) if (f,e)=0 for all e, then f=0<div>(iii)&nbsp;[$]S_N(f)=\Sigma_{k=1}^N a_k e_k \;\; where \;\; a_k=(f,e_k), then S_N\to f as N\to \infty[/$]</div><div>(iv) [$]a_k=(f,e_k) \implies ||f||^2 = \Sigma_{n=1}^\infty |a_k|^2[/$]</div>
+1437985910220	1434200840257	Bessel's inequality	<div>[$]a_k = (f,e_k)[/$]</div>[$]\sigma_{n=1}^\infty|a_k|^2\leq ||f||^2[/$]
+1438081508969	1434200840257	Parseval's Identity	
+1438081558851	1434200840257	Linearly Independent	
+1438081582316	1434200840257	Unitary	U<sup>-1</sup>=U*
+1438081631315	1434200840257	Unitarily equivalent	
+1438081653398	1434200840257	Unitarily Isomorphic/equivalent	there is a unitary transformation between two hilbert spaces
+1438081662781	1434200840257	Any two infinite dimensional hilbert spaces are	unitarily equivalent
+1438081702591	1434200840257	Any two finite dimensional hilbert spaces are unitarily equivalent iff	they have the same dimension
+1438081749873	1434200840257	Parseval's Relation	
+1438082483764	1434200840257	radial limit	
+1438082522116	1434200840257	Hardy Space	
+1438082570303	1434200840257	L^2 vs l^2	
+1438082580828	1434200840257	parallelogram law	
+1438082909458	1434200840257	Orthogonal compliment of A	[$]\left\{ f | (f,a)=0 \;\;\forall a\in A \right\} [/$]
+1438082934107	1434200840257	Orthoginal Projection	[$]P^2=P[/$]<div>[$]P=P^*[/$]</div>
+1438082958457	1434200840257	Dirichlet Kernel	
+1438083012866	1434200840257	A linear opperator is bounded if&nbsp;	
+1438083089920	1434200840257	The norm of a linear transformation	
+1438083101917	1434200840257	Definition of continuous linear transformation	
+1438083172394	1434200840257	A linear operator is bounded iff	it is continuous
+1438083189744	1434200840257	A linear transformation is continuous iff	it is bounded
+1438133452268	1434200840257	Riesz representation theorem	every continuous linear functional is given by the inner product with a fixed vector.
+1438133732166	1434200840257	Linear functional	A continuous linear map:&nbsp;[$]H\to \mathbb{C}[/$]
+1438133743792	1434200840257	Adjoint	
+1438134406063	1434200840257	symmetric (linear transform)	T=T*
+1438134429296	1434200840257	A matrix is diagonalised WRT the basis if	
+1438134828365	1434200840257	eigen values/vectors	
+1438134844827	1434200840257	||T|| = &nbsp;(T a linear transformation)	[$]sup_k|\lambda_k|[/$]
+1438135038110	1434200840257	if [$]f=\sigma_{k=1}^\infty a_k \psi_k,\;\; Tf\[/$]	[$]Tf=\sigma_{k=1}^\infty a_k \lambda_k\psi_k[/$]
+1438135172243	1434200840257	T* multiplier sequence	[$]\{ \overline{\lambda_k} \}[/$]
+1438135214611	1434200840257	T is unitary iff	[$]|\lambda|=1 \forall k[/$]
+1438135298005	1434200840257	T is an orthogonal projection iff	[$]\lambda_k=0\;\;or\;\;1 \forall k[/$]
+1438135352968	1434200840257	Integral Operator	
+1438135567757	1434200840257	Kernal of an Integral Operator	The kernal is K(x,y) in:<div>[$]\int K(x,y) f(x) dx[/$]<br /><div><br /></div></div>
+1438135778684	1434200840257	Hilbert-Schmidt Operator	Integral operator whose kernal is in L<sup>2</sup>
+1438136043290	1434200840257	A property of the norm of a hilbert-schmidt operator	[$]||T||\leq||K||_{L^2}[/$]
+1438136130171	1434200840257	The adjoint of a hilbert schmidt operator	If T has a kernal&nbsp;&nbsp;K(x,y)<div>T* has a kernal [$]\overline{K(y,x)}[/$]&nbsp;<div>(notice x and y are swapped)</div></div>
+1438136298800	1434200840257	the unit ball is compact	iff dimension is finite
+1438137477313	1434200840257	Compact	every sequence has a convergent subsequence
+1438137514693	1434200840257	A linear operator is compact if&nbsp;	<div>The closure of the transformation acting on the unit ball is compact.</div>
+1438137641447	1434200840257	T bounded linear operator, S compact	TS and ST are compact
+1438137776547	1434200840257	T_n a family of compact linear operators, with ||T_n-T||-&gt;0	T compact
+1438137818138	1434200840257	If T is compact, there exists a sequence {T_n}	{T_n} have finite rank and ||T_n-T||-&gt;0
+1438137867924	1434200840257	T* is compact iff	T is compact
+1438137880787	1434200840257	T can be diagonalised, T is compact iff	[$]|\lambda_k|\to 0[/$]
+1438137988369	1434200840257	Every hilbert schmidt operator is&nbsp;	compact
+1438138004318	1434200840257	Spectral Theorem	T compact, self-adjoint operator<div>Then there is an orthonormal basis of H which are all eigenvalues, and the eigenvalues tend to 0.</div>
+1438138342760	1434200840257	Hermitian	
+1438138368377	1434200840257	The spectrum of T	
+1438138382818	1434200840257	two eigen vectors on a bounded symmetric linear operator	are orthogonal if they have distinct eigen values
+1438138881317	1434200840257	T !=0, is symmetric and compact. An eigen value for T is	either ||T|| or -||T||
+1438437474218	1434200840257	Adjoint Operator	(i) (Tf,g)=(f,T*g)<div>(ii) ||T||=||T*||</div><div>(iii) (T*)*=T</div>
+1438438028677	1434200840257	Mean Value Property	exists c such that:<div>[$]\frac{f(b)-f(a)}{b-a}=f'(c)[/$]</div>
+1438438046718	1434200840257	Maximum Principle	
+1438438067878	1434200840257	How to make an orthonormal basis	Gram Schmidt Process
+1438438346219	1434200840257	Linear Functional	
+1438438771432	1434200840257	Rank	
+1438438823814	1434200840257	Support of a function	
+1438438962090	1434200840257	Compactly supported	
+1438438980640	1434200840257	L^p Norm	
+1438439002897	1434200840257	Holder's Inequality	
+1438439027495	1434200840257	MCT, BCT, DCT	
+1438439047511	1434200840257	Fubini's and Tonelli's Theorem	
+1438439071526	1434200840257	Absolutely Continuous	
+1439121347936	1434200840257	support of&nbsp;[$]\psi (x)[/$]	the closure of the set where&nbsp;[$]\psi (x) \neq 0[/$]
+1439121461644	1434200840257	[$]L^p[/$] norm	[$]||f||_{L^p(E)}:=\left( \int_E |f(x)|^pdx \right)^{1/p}[/$]
+1439121552313	1434200840257	[$]\phi(x):R^n\to R[/$] is continuous and compactly supported	it is [$]L^p[/$] for&nbsp;[$]1\leq p\leq \infty[/$]
+1439121706398	1434200840257	Holder's Ineqality	if&nbsp;[$]p^{-1}+q^{-1}=1[/$]:<div>[$]|\int_Ef(x)g(x)dx \leq ||f||_{L^p(E)} ||g||_{L^p(E)}[/$]</div>
+1439121887621	1434200840257	Fubini-Tonelli Theorem	f is non negative and measurable<div>OR</div><div>[$]f\in L^1[/$]:</div><div>[$]\int\int f(x,y)dydx=\int\int f(x,y)dxdy[/$]</div>
+1439122131245	1434200840257	An absolutely convergent function	is differentiable a.e. x<div><br /></div><div>if the derivative is zero a.e, then the function is a constant.</div>
+1439122198009	1434200840257	the derivative of an absolutely convergent function	[$]F(x)-F(a)=\int_a^xF'(y)dy \\<div>\implies[/$]</div><div>for any&nbsp;[$]f(x), F(x):=\int_a^xf(y)dy[/$] is absolutely continuous and&nbsp;[$]F'(x)=f(x)[/$] a.e.</div><div><div><br /></div></div>
+1439122339250	1434200840257	Conditions for differentiating under the integral sign	(i) f(x,-) is a measurable function for every x<div>(ii) partial derivatives of x exist and are continuous for all (x,y) - (if x a vector, this applies to each component).</div><div>(iii) [$]|\partial_{x_i}f(x,y)|\leq g(y)[/$] for some [$]g\in L^1[/$]</div><div>Then:</div><div>[$]\frac{\partial}{\partial x_i}\int f(x,y)dy=\int \frac{\partial f}{\partial x_i} (x,y) dy[/$]</div>
+1439122645071	1434200840257	Change of Variable Formula	[$]R\in\mathbb{R}^n[/$] a rectangle, [$]F\in C^1:R\to \mathbb{R}^n[/$], and any continuous function [$]f[/$]:<div><br /></div><div>[$]\int_{F(R)} f(y)dy = \int_R (f\circ F)(x)|detDF(x)|dx[/$]</div>
+1439122840171	1434200840257	Jacobian Matrix	DF
+1439122868144	1434200840257	DF	Jacobian Matrix
+1439122889426	1434200840257	Surface Measure	[$]d\sigma = \sqrt{ 1+|\nabla u(x')|^2 }dx'[/$]<div>where</div><div>[$]x'=(x_1...x_{n-1})[/$]</div><div>and [$]x_n[/$] is a function of [$]{x_i}_{i=1}^{n-1}[/$]</div>
+1439123170538	1434200840257	Euclidian change of coordinates	
+1439176948279	1434200840257	BLT	bounded linear transformation
+1440027429526	1434200840257	[$]\oplus[/$]	[$]f\in S\oplus T[/$] can be uniquely written as&nbsp;[$]f=s+t[/$] with the norm given by&nbsp;[$](f1,f2)=(s1,s2)+(t1,t2)[/$]
+1440116863882	1434200840257	Range/rank of a BLT<div>Also kernal</div>	
+1440121333870	1434200840257	Integral operator finite rank	
+1440122175811	1434200840257	holders inequality	
+1440122979105	1434200840257	<div>[$]F[/$] = fourier transform</div>[$]F(D_jf)=[/$]	[$]\xi_j Ff[/$]
+1440123064202	1434200840257	[$]F[/$] = fourier transform<div>[$]F(x_jf) = [/$]</div>	[$]-D_j Ff[/$]
+1440123125990	1434200840257	[$]D_j[/$]	[$]-i\pd_j[/$]
+1440257540244	1434200840257	L^p norms	[$](\Sigma |x_n|^p)^{1/p}[/$]
+1440257546175	1434200840257	[$]F(D^af)[/$]	[$]=\xi^aFf[/$]
+1440257613147	1434200840257	[$]F(x^af)[/$]	[$](-1)^{|a|}D^aFf[/$]
+1440257643925	1434200840257	Schwartz Function	
+1440257653020	1434200840257	Fourier Transform (our definition)	[$](Ff)(\xi)=\int e^{-i x\cdot \xi}f(x)dx[/$]
+1440257680309	1434200840257	Inverse Fourier Transform (our definintion)	[$](G\circ f)(x)=\frac{1}{(2\pi)^n}\int e^{ix\cdot \xi}f(\xi)d\xi[/$]
+1440257692579	1434200840257	Convolution definition	
+1440257722441	1434200840257	Fourier transform of a convolution	is the product of the fourier transforms
+1440257762765	1434200840257	the fourier transform of the product	is the convolution of the fourier transforms, times [$](2\pi)^{-n}[/$]
+1440257808931	1434200840257	Bounded Linear Transformation Theorem	S a dense subspace of a hilbert space and T maps from S to another hilbert space. T is a BLT. and for all f in S:<div>[$]||Tf||_{H2}\leq M||f||_{H1}[/$]</div><div><br /></div><div>Then T extends uniquely to a bounded linear transformation between H1 and H2.</div><div><br /></div><div><br /></div>
+1440257833153	1434200840257	Parseval's Formula	A,B square integrable, with period of [$]2\pi[/$], and fourier series given by:<div>[$]A(x)=\Sigma_{n=-\infty}^\infty a_n e^{inx}[/$], and likewise for B(x)<div>Then:</div><div>[$]\Sigma_{n=-\infty}^\infty a_n \overline{b_n} = \frac{1}{2\pi}\int_{-\pi}^\pi A(x)\overline{B(x)}dx[/$]<br /><div><br /></div></div></div>
+1440257873761	1434200840257	Parallel Law	
+1440257885934	1434200840257	Polarization Identity	
+1440257894818	1434200840257	[$]D_i[/$]	[$]-i \partial_{x_i}[/$]
+1440258083265	1434200840257	Laplacian	
+1440296919393	1434200840257	Projection	[$]P^2=P[/$]
+1440306606688	1434200840257	Jensen's Inequality (useful example)	[$]b\leq \frac{1}{p}+\frac{b^q}{q}[/$]
+1440307326094	1434200840257	Fourier transform of a gaussian	[$]F(e^{-ax^2/2})=\sqrt{\frac{2\pi}{a}}e^{-\xi^2/2a}[/$]<div><br /></div><div>[$]F(e^{-a|x|^2/2})=\left(\frac{2\pi}{a}\right)^{n/2}e^{-|\xi|^2/2a}[/$]</div>
+1440370636579	1434200840257	unitary	[$]u^{-1}=u^*[/$]
+1440635097260	1434200840257	Holder Inequality, also when is it equality	
+1438262427486	1434200840257	Hydrogen energy levels	[$]E=-\frac{E_0}{n^2}[/$]
+1438262660690	1434200840257	Selection Rules	The transitions allow the following:<div>F = Total Angular Momentum of the entire atom.</div><div>The final angular momentum can be +-1(polarised light), or the same (light without polarisation)</div><div>[$]\Delta l=0,\pm 1\\</div><div>\Delta m = \pm1[/$]</div>
+1438439935984	1434200840257	Zeeman Shift	An emission line splits into a spectrum when in a static magnetic field.
+1438439985875	1434200840257	Stark Hamiltonian	eEz<div>e - charge of electron</div><div>E - electric field strength</div><div>z - electron displacement in the z direction</div><div><br /></div><div>This assumes that the electric field points in the z direction, and is uniform across the atom.</div>
+1438440005415	1434200840257	Central Field Approximation	Every electron sees the same potential, which is only dependent on the radius.
+1438440098345	1434200840257	n m l notation (when looking at the shells, spdf, etc) what are these? How do they relate to the selection rules?	[$]2s^1_{j????????????}[/$]<div>[$]n (l) ^{2*spin=number of electrons}[/$]</div>
+1438922898228	1434200840257	Lande g factor	<div>different for spin, total angular momentum, etc.</div><div><br /></div>For magnetic interactions in an atom.<div>[$]g_L=1+\frac{j(j+1)+s(s+1)-l(l+1)}{2j(j+1)}[/$]</div>
+1438922907334	1434200840257	stark effect	Emission line splits into a spectrum when in a static electric field
+1438922925431	1434200840257	Relationship between coupled and uncoupled state	Sum of clebsch-gordan coefficients with the basis states
+1438923410620	1434200840257	Zeeman vs Stark	Zeeman - splitting from magnetic fields<div>Stark - splitting from electric fields</div>
+1438928125088	1434200840257	Lande Interval Rule	For weak spin orbit interactions (i.e. independent), then the energy levels of each are split, and the split is proportional to J (total angular momentum of one energy level, and you choose the highest of the two levels)
+1440024990339	1434200840257	triplet state	ortho states<div>less energy than para states because less electron interaction<br /><div>aa</div><div>ab+ba/sqrt2</div><div>bb</div></div>
+1440025110805	1434200840257	ortho state	triplet state
+1440025239938	1434200840257	para state	singlet state<div>more energy than ortho because more electon interaction</div><div>ab-ba/sqrt2</div>
+1440025248292	1434200840257	[$]\Delta J[/$] selection rules	0 or&nbsp;[$]\pm1[/$],&nbsp;<div>[$]0\leftrightarrow 0[/$]</div>
+1440025392627	1434200840257	Number of microstates	[$]N= {t \choose e} = \frac{t!}{e!(t-e)!}[/$]<div>e = number of electrons</div><div>t = (2(2l+1)</div><div><br /></div>
+1440025654577	1434200840257	Hund's Rules	fill up all with spin up first, then go back and fill in with spin down.<div><br /></div><div>e.g. 2p can have 6 electrons, so fill up with 3 up electrons, then 3 down electrons.</div><div>Also, do this one shell at a time.</div>
+1440283923349	1434200840257	Aufbau Principle	electrons fill lower enegy levels first
+1440283933584	1434200840257	Energy for alkali metals	[$]\frac{-R}{(n-\delta_l)^2}[/$]
+1440283965215	1434200840257	Slater Determinant	make a matrix with every electron in every state. The determinant of this is the total wave function.<div>(for n electrons)</div>
+1440284072925	1434200840257	Pauli Exclusion Principle:	Total wave function of a system of N electrons must be antisymmetric wrt exchange of electrons (i.e. in both the spacial and spin, coupled variables)
+1440284173255	1434200840257	lamb shift, SO, Fine, hyper-fine	What are these, and how are the energy levels changed?
+1440284634099	1434200840257	central field hamiltonian	
+1440285161181	1434200840257	Central Potential	
+1440285168232	1434200840257	LS Coupling	Light atoms, treat spin orbit as a perturbation (as it is much smaller than the remaining hamiltonian)
+1440285213426	1434200840257	jj coupling	Heavy atoms, SO dominates over all other (including the standard hamiltonian)
+1440285252887	1434200840257	Molecular Assumptions	Motions of nuclei are much slower than electrons<div>Nuclei occupy almost fixed positions</div><div>inner shell electrons are localised to a nucleus</div><div>Valence shell electrons are distributed over entire molecule (this provides the binding force)</div>
+1442037159337	1434200840257	Fine, hyperfine, are there any others?	<div>What causes these?</div>What are the symmetries?<div>Are they always above/below?</div><div><br /></div>
+1442037275433	1434200840257	electron &nbsp;configuration	
+1442056634885	1434200840257	Born Oppenheimer approximation	
+1442057715508	1434200840257	Boltzman Factor	
+1442057727836	1434200840257	Franck Condon Factor	
+1442057958519	1434200840257	Term Symbol	[$].^{2S+1}\Lambda_\Omega[/$]<div>[$]\Lambda[/$] can take values&nbsp;[$]\Sigma,\Pi,\Delta[/$]</div><div>[$]\Lambda=|M_L|[/$]</div><div>[$]\lambda = |m_l|[/$] - lower case greek</div>
+1442058381628	1434200840257	Diabatic and Adiabatic	
+1442058430000	1434200840257	non-crossing rule	
+1442058440842	1434200840257	Bonding/antibonding orbitals	
+1442058521027	1434200840257	Hund-Mulliken or Molecular orbital method	
+1442058582699	1434200840257	Molecular selection rules	
+1442059774964	1434200840257	Rotational Constant	
+1442059900766	1434200840257	Raman Scattering	
+1442060005965	1434200840257	Transition Intensity	
+1442060663025	1434200840257	Fermi Wentzel golden rule	
+1438085333539	1434200840257	3 ways that DNA can change	deletion<div>substitution</div><div>insertion</div>
+1438085782721	1434200840257	Rough method to compare sequences	Add blank spaces into both sequences. Score the sequences by adding ?? for each blank, adding ?? for each that is the same, and ?? for each that is different.
+1438086011486	1434200840257	substitution matrix	s(a,b)<div>It tells you how likely&nbsp;[$]a[/$] is to have been substituted with&nbsp;[$]b[/$]. (some amino acids are more easily replaced with others).</div><div>It should be symmetric.</div>
+1438144468620	1434200840257	Linear Gap Model	Insertion/deletions all have a penalty of d.
+1438144489098	1434200840257	Best Score Matrix Elements: F(i,j)	F(i,j)=max\left{$\begin{array}{l}<div>F(i-1,j-1)+s(x_i,y_j)\\</div><div>F(i-1,j)-d\\</div><div>F(i,j-1)-d \right.&nbsp;</div><div>where d&gt;0 is the substitution penalty, s(a,b) is the gap penalty</div><div><br /></div>
+1438145368011	1434200840257	Needleman Wunch Algorithm	Make the best score matrix.&nbsp;<div>The best score is the score of F(m,n)</div><div>Starting at the last element (m,n), trace it back to the beginning (0,0) to get the sequence<div><br /></div></div>
+1438145687210	1434200840257	Smith Waterman Algorithm (Purpose)	Compare two subsequences (taken somewhere in the whole sequence)<div>Find the Best Local Allignment/best aligning &nbsp;subsets.</div>
+1438145844945	1434200840257	Smith-Waterman Algorithm	F(i,j) also has the option of 0<div>Search for maximum value of F(i.j) and search back until it stops (reaches a zero).</div>
+1438145959641	1434200840257	Affine Gap Model	Big penalty for starting a gap, smaller penalty for continuing the gap
+1438435298749	1434200840257	Transition Probability Matrix	[latex]<div><div><br /></div><div>$\Pi = \left(</div><div>\begin{array}{c|ccc|c}</div><div>0&amp;p_{01}&amp;...&amp;p_{0N}&amp;0\\</div><div>\hline</div><div>0&amp;p_{11}&amp;...&amp;p_{1N}&amp;p_{10}\\</div><div>...&amp;...&amp;...&amp;...&amp;...\\</div><div>0&amp;p_{N1}&amp;...&amp;p_{NN}&amp;p_{N0}\\</div><div>\hline</div><div>0&amp;0&amp;0&amp;0&amp;1</div><div>\end{array}</div><div>\right)$</div><div>\\\\</div><div>$</div><div>0\leq p_{ij} \leq 1 \\</div><div>\Sigma_{j=1}^N p_{0j}=1 \\</div><div>p_{i0}+\Sigma_{j=1}^N p_{ij}=1</div><div>$</div><div>\\\\</div><div>The probabillity of any path is given by:\\</div><div>$P(x)=p_{0x_1}p_{x_1x_2}p_{x_2x_3}...p_{x_{L-1}x_L}p_{x_L0}$</div><div><br /></div><div><br /></div><div>[/latex]</div></div><div><br /></div><div><br /></div><div><br /></div>
+1438436186524	1434200840257	Hidden Markov Model	Think of the Occasionally Dishonest Casino.&nbsp;<div>Two simlilar Markov models run parallel (different probabilities in each), and ocassionally you go between them. How do you know if you have changed?</div>
+1438436196037	1434200840257	CpG	C and G are base pairs. p refers to the phosphourous backbone.<div>Regions with lots of C and Gs are CpG islands</div><div><br /></div><div>C can more easily mutate into a T, so if a T is found in a CpG island, and in a CpG island, there is only a small chance of finding a T.</div><div><br /></div><div>This means that if we get a T, we can guess that it should be a C.</div>
+1438436201425	1434200840257	Fully Connected Markov Chain	All transition probabilities are non-zero
+1438436309538	1434200840257	Viterbi Algorithm	
+1438437185893	1434200840257	Forward Algorithm	
+1438437339397	1434200840257	Conditional Probability	[$]P(A|B)=\frac{P(A \text{ AND } B)}{P(B)}[/$]
+1438437465193	1434200840257	Backward Algorithm	[$]b_k(L)=p_{k0}[/$] for k=1...N<div><br /></div><div>For i=L-1...1:</div><div>[$]b_k(i)=\Sigma_{l=1}^Np_{kl}q_l*x_{i+1}b_l(i+1)[/$]</div><div><br /></div><div>Finally:</div><div>P(x)=\Sigma_{l=1}^Np_{0l}q_l(x_1)b_l(1)</div><div><br /></div><div><br /></div>
+1439191007724	1434200840257	FASTA	find all matches and put dots there.<div>If there are more than k dots in a diagonal, draw a line to the ends. Add parallel lines so that the number of parallel lines on either side is b (i.e. b above, and b below)</div>
+1440286581769	1434200840257	Viterbi Path	For a HMM, find the path of the greatest probability
+1440286640919	1434200840257	Connected HMM	all transition probabilities are non-zero
+1440286775450	1434200840257	Baum-Welch Algorithm	
+1440286830504	1434200840257	a priori	independent of experience
+1440286910232	1434200840257	silent state	
+1440286923493	1434200840257	Forward Connected	
+1440286943119	1434200840257	Sequence Family	
+1440286980047	1434200840257	match states	
+1440287033337	1434200840257	insert states	
+1440287038361	1434200840257	delete states	
+1440287044409	1434200840257	semiHMM	Each state emits a string of symbols (not just one) - useful for comparing entire chromosomes
+1440287146076	1434200840257	promoter of a gene	Where specialised proteins bind to initiate transcription.
+1440287256332	1434200840257	upstream region	DNA before the section of DNA that gets copied
+1440287295951	1434200840257	Exons and Introns	Exons - coding regions<div>Introns - non coding regions</div>
+1440298695766	1434200840257	Posterior probability	Probability of a state k at a time i, when the emitted sequence is known
+1441666051242	1434200840257	Posterior Decoding	
+1441666060447	1434200840257	Viterbi Decoding	
+1441666067609	1434200840257	Silent States - what are they	
+1441667828838	1434200840257	Silent States - how to include in an algorithm	
+1441667839964	1434200840257	Parameter Estimation for HMM	If you know where the islands are, count the transitions, and compare to the whole.<br />If you don't, Baum Wench Algorithm
+1441667910157	1434200840257	Baum Welch algorithm	
+1441667929589	1434200840257	[$]P_{ab}, \; \; Q_k(a), \;\; p_{ab},\;\;q_k,\;\;f_k(i),\;\;b_k(i)[/$]	
+1438156050986	1434200840257	Leibnitz Rule	
+1438156108912	1434200840257	Definition of a tangent vector	
+1438156308295	1434200840257	When will differentiation give a summation?	
+1438156359602	1434200840257	Vector Transformation Law	[$]v'^j=\sum v^i\frac{\partial x'^j}{\partial x^i}[/$]
+1438156609825	1434200840257	Duel Vector Space	
+1438156828449	1434200840257	Double Duel Vector Space	
+1438156870849	1434200840257	one-to-one	
+1438156936628	1434200840257	onto	
+1438156939206	1434200840257	isomorphism	
+1438156943853	1434200840257	Tensor Contraction	
+1438157136786	1434200840257	Outer Product	
+1438261256685	1434200840257	Integral Curve	
+1438261282824	1434200840257	Dual Vectors	
+1438261305252	1434200840257	Double Duel Vector	Isomorphic to original space
+1438261335191	1434200840257	Cotangent Space	[$]V^*[/$]
+1438261401153	1434200840257	Timelike and spacelike vectors	[$]g(v,v)&lt;0,\;\; g(v,v)&gt;0[/$]
+1438261938972	1434200840257	Covariant Derivative	
+1439092594237	1434200840257	Contraction	
+1439092665462	1434200840257	Basis	Linearly Independent<div>Spans the space</div>
+1439092697534	1434200840257	Metric, ds=	[$]\sqrt{\sum_{ij}g_{ij}dx^idx^j}[/$]
+1439092847913	1434200840257	[$]g(w,w)=0 \implies[/$]	w=0
+1439092948835	1434200840257	metric signature	
+1439092988970	1434200840257	g(v,v)&gt;&lt;=0	g(v,v)&lt;0 &nbsp; &nbsp;v is a timelike vector<div>g(v,v)=0 &nbsp; &nbsp;v is a null vector</div><div>g(v,v)&gt;0 &nbsp; &nbsp;v is a spacelike vector</div>
+1439093154668	1434200840257	g(a,b)	[$]=-(a_0b_0)+a_1b_1+a_2b_2+a_3b_3[/$]
+1439093258311	1434200840257	Null vectors form:	A double cone - speed of light line on a space time diagram.
+1439178242128	1434200840257	Covariant Derivative Properties	Linearity<div>Leibnitz Rule</div><div>Commutativity with contraction</div><div>Consistancy with directional derivatives:</div><div>[$]\forall f\in F\;\; \forall t^a\in V_p \;\; t(f)=t^a\bigtriangledown_af[/$]</div><div>Torsion Free [$]\nabla_a\nabla_bf=\nabla_b\nabla_af[/$]</div>
+1439178514295	1434200840257	Ther is a unique covariant derivative	[$]\nabla_ag_{bc}=0[/$]<div>where g is the metric on the manifold</div>
+1439178549597	1434200840257	Geodesic	[$]T^a\nabla_aT^b=0[/$]
+1439178643532	1434200840257	Equivalent geodesic equation	[$]T^a\nabla_aT^b=\alpha T^b[/$]
+1439178675389	1434200840257	christoffel symbols	
+1440253920274	1434200840257	[$]g_{ab}v^b[/$]	[$]v_a[/$]
+1440253981948	1434200840257	[$]v^a\frac{\partial}{\partial x^a} \rightarrow_\mu [/$]	[$]v_a dx^a[/$]
+1440254062765	1434200840257	symmetric tensor	[$]T_{ab}=T_{ba}[/$]
+1440254123460	1434200840257	Totally symmetric part	[$]T_{(ab)}=\frac{1}{2}\left( T_{ab} + T_{ba} \right)[/$]
+1440254179354	1434200840257	totally antisymmetric part<div>with example</div>	[$]T_{[ab]} = \frac{1}{2}\left( T_{ab}-T_{ba} \right)[/$]<div>[$]T_{[ab]}v^aw^b=-T_{[ab]}w^av^b[/$]</div>
+1440254276648	1434200840257	[$]T_{ (a_1 ... a_l) }[/$]	[$]\frac{1}{l!} \sum_{\pi} &nbsp;\T_{ &nbsp;a_{ \pi_1 } ... &nbsp;a_{ \pi_l } }[/$]
+1440254435936	1434200840257	[$]T_{[a_1...a_l]}[/$]	[$]\frac{1}{l!}\Sigma_\pi \delta_\pi T_{a_{\pi_{(1)}}...a_{\pi_{(l)}} }[/$]<div>\delta is 1 for even, and -1 for odd permutations.</div><div><br /></div>
+1440254505526	1434200840257	[$]T^{(ab)c}_{[de]}[/$]	[$]\frac{1}{4} \left( T^{abc}_{de} + T^{bac}_{de}-T^{abc}_{ed}-T^{bac}_{ed} \right)[/$]
+1440254638032	1434200840257	Covarient derivative properties	Linearity, Leibnitz, Commutativity with contraction,&nbsp;[$]\forall f\in F, \;\;\forall t^a\in V_p\;\;\; t(f)=t^a\bigtriangledown_a f[/$], torsion free ([$]\bigtriangledown_a\bigtriangledown_bf=\bigtriangledown_b\bigtriangledown_af[/$])<div><br /></div>
+1440254839350	1434200840257	Given two covariant derivatives, there exists a tensor	[$]C^c_{ab}=\tilde{\bigtriangledown}_a\omega_b-\bigtriangledown_a\omega_b[/$]
+1440255029358	1434200840257	Parallel transport	A vector&nbsp;[$]v=v^a\frac{\partial}{\partial x^a}[/$] is parallelly transported along a curve with tangent&nbsp;[$]t=t^a\frac{\partial}{\partial x^a}[/$] if it satisfies:<div>[$]t^a\bigtriangledown_av^b=0[/$]</div><div><br /></div><div>(Derivative of v along the curve is zero)</div>
+1440255075349	1434200840257	Tangent vector	[$]t=t^a\frac{\partial}{\partial x^a}[/$]
+1440255134819	1434200840257	A vector is parallelly transported if along a curve with tangent t	[$]t^a\bigtriangledown_av^b=0[/$]
+1440255182757	1434200840257	A tensor is parallelly transported	[$]t^a\bigtriangledown_aT^{b1...bn}_{c1...cn}=0[/$]
+1440255242409	1434200840257	[$]\bigtriangledown_at^b[/$]	[$]=\pd_at^b+\Gamma^b_{ac}t^c[/$]
+1440255303498	1434200840257	g(v,w) when parallelly transported	does not change
+1440255430588	1434200840257	Geodesic equation	[$]T^a\bigtriangledown_aT^b=0[/$]<div>[$]T^a\bigtriangledown_aT^b=\alpha T^b[/$]</div><div>[$]\frac{dT^b}{dt}+\Gamma^b_{ac}T^aT^c=0[/$]</div>
+1440255529060	1434200840257	[$]T^b[/$]	[$]=\frac{dx^b}{dt}[/$]
+1440255569274	1434200840257	Tieman curvature tensor	[$]\bigtriangledown_a\bigtriangledown_b \omega_c-\bigtriangledown_b\bigtriangledown_a \omega_c=-R^d_{cab} \omega_d[/$]
+1440255684728	1434200840257	Riemann Tensor Properties,&nbsp;[$]R^a_{bcd}[/$]	Prove:<div>Antisymmetry in dc</div><div>[$]R^a_{[bcd]}=0[/$]</div><div>[$]R_{abcd}=g_{ae}R^e_{bcd}=-R_{bacd}[/$]</div><div>Bianchi Identity:&nbsp;[$]\bigtriangledown_{[e}R^a_{|b|cd]}[/$]</div><div>[$]R^a_{acd}=0[/$]</div><div>[$]R^d_{abd}=0[/$]</div>
+1440256091881	1434200840257	Ricci Tensor	[$]R_{bd}=R^a_{bad}[/$]<div>contract over middle index</div>
+1440256142586	1434200840257	Curvature Scalar	[$]R=R^a_a[/$]<div>[$]R^a_a[/$] is different to the ricci tensor by the metric</div>
+1440256155733	1434200840257	A new metric can be defined for any smooth&nbsp;[$]\Omega[/$]	[$]\tilde{g} = \Omega^2 g[/$]<div>[$]\Omega&gt;0[/$]</div><div>conformal transformation</div>
+1440256310554	1434200840257	Einstein Tensor	[$]G_{ab}=R_{ab}-\frac{1}{2}Rg_{ab}[/$]
+1440256364485	1434200840257	[$]\bigtriangledown^aG_{ab}[/$]	0
+1440256398590	1434200840257	Energy-Momentum Tensor	
+1440256457477	1434200840257	Einstein Field Equation	[$]G_{ab}=8\pi T_{ab}[/$]<div>G is geometry of space time</div><div>T is matter</div>
+1440256491762	1434200840257	[$]\bigtriangledown_aT^{ab}[/$]	0
+1440256513776	1434200840257	Vacuum Condition	Empty Space<div>[$]T_{ab}=0\iff R_{ab}=0[/$]</div>
+1440256560566	1434200840257	Minkowski Space-Time	Empty space-time<div>[$]<div>\Gamma^a_{bc}=0\\</div><div>R^a_{bcd}=0\\</div><div>R_{ab}=0\\</div><div>R=0\\</div><div>C^a_{bcd}</div>[/$]</div>
+1440256650947	1434200840257	spherical coordinates	[$]z=r\;cos\theta\\<div>x=r\;sin\theta cos\phi\\</div><div>y=r\;sin\theta sin\phi</div>[/$]
+1440256780338	1434200840257	When is a coordinate system good?	Non degenerate (cannot have r=0 as d\theta becomes redundent)<div>Must be an open set,&nbsp;[$]0&lt;\phi&lt;2\pi[/$], and not degenerate.</div>
+1440256872185	1434200840257	Complete Geodesic	a geodesic, [$]\lambda(l)[/$]&nbsp;is define for all&nbsp;[$]l[/$]
+1440256954220	1434200840257	Normal coordinates (p84)	[$]r=exp(x^aE_a)[/$], basis&nbsp;[$]\{ E_a \}[/$] of the tangent vector&nbsp;[$]exp^{-1}(r)[/$]<div>[$]x^a=\alpha^al[/$]</div><div>all geodesics are stright lines going through the origin, and the christoffel symbol components are zero at the origin.</div>
+1440257023838	1434200840257	geodesics properties	Two points can not in general be joined<div>Geodesics through one point may converge to another point</div>
+1440257110811	1434200840257	spacelike	at every point, all tangent vecotrs are timelike
+1440257268781	1434200840257	Penrose Diagram	
+1440300122538	1434200840257	isomorphic	bijection
+1442033181899	1434200840257	Weyl Tensor	Trace free tensor<div>[$]C_{abcd}=R_{abcd} - \frac{2}{n-2}(g_{a[c}R_{d]b}-g_{b[c}R_{d]a}) +\frac{2}{(n-1)(n-2)}Rg_{a[c}g_{d]b} [/$]</div>
+1442033469899	1434200840257	Weyl Tensor Symmetry Properties	[$]C_{abcd}=-C_{abdc}[/$]<div>[$]C^a_{[bcd]}=0[/$]</div><div>if [$]\nabla_ag_{bc}=0[/$], then [$]C_{abcd}=-C_{bacd}[/$]</div>
+1442033733966	1434200840257	Trace Free	
+1442033742052	1434200840257	Weyl Tensor Trace	It is trace free
+1442033751606	1434200840257	For [$]\tilde{g}=\Sigma^2g[/$]<div>[$]\Sigma\in C^\infty,\;\; \Sigma&gt;0[/$]</div>	[$]\tilde{C}^a_{bcd}=C^a_{cbd}[/$]<div>i.e. conformally invariant</div>
+1442034256845	1434200840257	geodesically complete	
+1442034793546	1434200840257	Null Surface	
+1452338665365	1434200840257	E=3/2 kT	ideal gas molecule energy
+1452338172248	1434200840257	Linear thermal expansion coefficient	[$]\alpha := \frac{\delta L/L}{\delta T}[/$]
