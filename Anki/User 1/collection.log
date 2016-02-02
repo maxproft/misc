@@ -4994,3 +4994,17 @@
 [1454247377] sched.py:_updateCutoff(): 232, 1454263200
 [1454247377] sched.py:unburyCards(): []
 [1454247380] sched.py:unburyCards(): []
+[1454399226] collection.py:__init__(): /home/max/misc/Anki/User 1/collection.anki2, 2.0.20
+[1454399226] sched.py:_updateCutoff(): 234, 1454436000
+[1454399226] sched.py:unburyCards(): []
+[1454399226] sched.py:unburyCards(): []
+[1454399632] cards.py:flush(): {'crt': 1454399632, 'data': '', 'did': 1452335610857, 'due': 466, 'factor': 0, 'flags': 0, 'id': 1454399632782, 'ivl': 0, 'lapses': 0, 'left': 0, 'mod': 1454399632, 'nid': 1454399235334, 'odid': 0, 'odue': 0, 'ord': 0, 'queue': 0, 'reps': 0, 'type': 0, 'usn': -1}
+[1454399750] sched.py:unburyCards(): []
+[1454399753] collection.py:__init__(): /home/max/misc/Anki/User 1/collection.anki2, 2.0.20
+[1454399753] sched.py:_updateCutoff(): 234, 1454436000
+[1454399753] sched.py:unburyCards(): []
+[1454399945] sched.py:unburyCards(): []
+[1454400189] collection.py:__init__(): /home/max/misc/Anki/User 1/collection.anki2, 2.0.20
+[1454400189] sched.py:_updateCutoff(): 234, 1454436000
+[1454400189] sched.py:unburyCards(): []
+[1454400438] sched.py:unburyCards(): []

@@ -24,7 +24,7 @@ Envelope: sudo apt-get remove indicator-messages.
 
 Install from ubuntu software centre: audacity, RecordMyDesktop, VLC, Geogebra, Stellarium, Idle (python), 
 wine, gummi, GIMP,liferea RSS reader, Kolourpaint, openshot, pdf-shuffler, adobe flash plugin (for mozilla), 
-chromium, vim, git, anki, synaptic package manager, vnstat
+chromium, vim, git, anki, synaptic package manager, vnstat, arduino ide, 
 Install from internet: mathematica
 
 Install Java: http://ubuntuhandbook.org/index.php/2014/02/install-oracle-java-6-7-or-8-ubuntu-14-04/

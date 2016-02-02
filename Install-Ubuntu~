@@ -141,6 +141,7 @@ to see if it is working, in terminal - xinput list
 
 Reminders:
 Timelapse: http://www.livingunderimagination.com/geekmadness/2012/01/25/using-openshot-to-create-timelapse-videos/
+
 skype - change settings so it works with camera, choose microphone in ubuntu sound settings at top.
 
 make python automatically start in idle - it will depend on the version of idle
