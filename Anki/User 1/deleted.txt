@@ -602,3 +602,7 @@ nid	mid	fields
 1442034793546	1434200840257	Null Surface	
 1452338665365	1434200840257	E=3/2 kT	ideal gas molecule energy
 1452338172248	1434200840257	Linear thermal expansion coefficient	[$]\alpha := \frac{\delta L/L}{\delta T}[/$]
+1453200603729	1434200840257	Change in energy with no other types of energy	[$]\Delta H=Q+W_{other}[/$]<div>so we find the amount of heat entering the system from the Enthapy.</div>
+1453295487799	1434200840257	Maxwell Distribution	[$]D=\left( \frac{m}{2\pi kT} \right)^{3/2}4\pi v^2&nbsp;e^{-0.5mv^2/kT} [/$]
+1454399235334	1434200840257	[$]\partial_t\psi = A\psi+B \partial^2_x\psi + C |\psi|^2\psi+ D|\psi|^4\psi[/$]	
+1452337781644	1434200840257	Thermal expansion coefficient	[$]\beta := \frac{\delta V/V}{\delta T}[/$]

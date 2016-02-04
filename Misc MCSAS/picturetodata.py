@@ -2,7 +2,7 @@ import pylab, scipy, Image,PIL
 import numpy as np
 
 #filename: yes .png,  ;not .gif
-name = "sier.png"
+name = "elephant.jpg"
 #Lower => needs to be darker
 threshold = 80
 #number of points approx:
