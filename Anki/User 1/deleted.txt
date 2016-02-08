@@ -606,3 +606,5 @@ nid	mid	fields
 1453295487799	1434200840257	Maxwell Distribution	[$]D=\left( \frac{m}{2\pi kT} \right)^{3/2}4\pi v^2&nbsp;e^{-0.5mv^2/kT} [/$]
 1454399235334	1434200840257	[$]\partial_t\psi = A\psi+B \partial^2_x\psi + C |\psi|^2\psi+ D|\psi|^4\psi[/$]	
 1452337781644	1434200840257	Thermal expansion coefficient	[$]\beta := \frac{\delta V/V}{\delta T}[/$]
+1452338846130	1434200840257	[$]\sqrt{\overline{v^2}}[/$]	root square mean ~ v
+1453295157039	1434200840257	Distribution Function	[$]D \propto (prop.\; velocity\; is\; \vec{v})\times(number\; of \; \vec{v}\; with speed\; v)[/$]<div>[$]D\propto e^{-0.5mv^2/kT} *4\pi v^2[/$]</div><div>Integrate and set equal to 1 to make this a probability distribution.</div>
