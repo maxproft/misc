@@ -6376,3 +6376,12 @@
 [1455074893] sched.py:_updateCutoff(): 242, 1455127200
 [1455074893] sched.py:unburyCards(): []
 [1455074903] sched.py:unburyCards(): []
+[1455109815] collection.py:__init__(): /home/max/misc/Anki/User 1/collection.anki2, 2.0.20
+[1455109815] sched.py:_updateCutoff(): 242, 1455127200
+[1455109815] sched.py:unburyCards(): []
+[1455109827] sched.py:unburyCards(): []
+[1455142203] collection.py:__init__(): /home/max/misc/Anki/User 1/collection.anki2, 2.0.20
+[1455142203] sched.py:_updateCutoff(): 243, 1455213600
+[1455142203] sched.py:unburyCards(): []
+[1455142203] sched.py:unburyCards(): []
+[1455142207] sched.py:unburyCards(): []
