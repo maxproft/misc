@@ -120,6 +120,7 @@ sudo apt-get upgrade
 delete contents of downloads folder.
 
  
+To get rid of auto showing hidden files Edit-Preferences
 
 
 .ssh:
