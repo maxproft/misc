@@ -1,0 +1,2 @@
+buttonState = digitalRead(buttonPin);
+pulseIn
