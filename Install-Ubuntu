@@ -49,6 +49,12 @@ sudo dpkg --add-architecture i386
 and install synaptic -> edit -> fix broken packages.
 
 
+to stop mathematica from making it's "Wolfram Mathematica" folder, edit ~/.Mathematica/Kernel/init.m and add the line:
+With[{dir = $HomeDirectory <> "/Wolfram Mathematica"},
+  If[DirectoryQ[dir], DeleteDirectory[dir]]
+]
+
+
 remove keychain:
 Password and Encryption Keys, right click on 'Login' select change password to nothing.
 
