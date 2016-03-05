@@ -1,0 +1,166 @@
+﻿sudo ln -s /etc/opt/chrome /etc/chromium
+
+2 screens - go to displays, sticky edges, change to off.
+4 desktops - appearance -> behaviour -> Enable workspaces
+
+Hide "Public" folder: go to ~/.config/user-dirs.dirs and edit.
+Make them all look like this: XDG_TEMPLATES_DIR="$HOME"
+
+To move partition, follow instructions at: https://help.ubuntu.com/community/Partitioning/Home/Moving
+To get the UUID number:
+sudo blkid
+To edit the boot folder thingy:\\
+sudo gedit /etc/fstab
+Add in two lines with something like:
+UUID=690f1cf2-b5f6-4230-9cf2-58d99448624d	/home	ext4	defaults	0	2
+#You might want to do this in two parts, to check that Videos folder has been created. Also, check what the name of your user is.
+UUID=58fd507a-9a64-4c80-9c1a-0ffe680262c7	/home/max/Videos	ext3	defaults	0	2
+Add a # in front of the floppy disk line
+
+
+NOT:movie player (to watch lectures)
+remove: rhythmbox, amazon, 
+Envelope: sudo apt-get remove indicator-messages.
+
+Install from ubuntu software centre: audacity, RecordMyDesktop, VLC, Geogebra, Stellarium, Idle (python), 
+wine, gummi, GIMP,liferea RSS reader, Kolourpaint, openshot, pdf-shuffler, adobe flash plugin (for mozilla), 
+chromium, vim, git, anki, synaptic package manager, vnstat, arduino ide, 
+Install from internet: mathematica
+
+Install Java: http://ubuntuhandbook.org/index.php/2014/02/install-oracle-java-6-7-or-8-ubuntu-14-04/
+
+Install drawers (You should still have old drawers that you can use - Settings; Text; maths, programming, etc; fractal)
+sudo add-apt-repository ppa:ian-berke/ppa-drawers
+sudo apt-get update
+sudo apt-get install drawers
+
+install flash:
+sudo gedit /etc/apt/sources.list
+uncomment the following 2 lines:
+deb http://archive.canonical.com/ubuntu trusty partner
+deb-src http://archive.canonical.com/ubuntu trusty partner
+sudo apt-get update
+sudo apt-get install adobe-flashplugin
+
+for skype
+Download from website
+If it doesn't work straight away, try
+sudo dpkg --add-architecture i386
+and install synaptic -> edit -> fix broken packages.
+
+
+remove keychain:
+Password and Encryption Keys, right click on 'Login' select change password to nothing.
+
+
+install .deb
+sudo dpkg -i packagename.deb
+
+install .sh
+sudo chmod +x file.sh
+sudo ./file.sh
+
+install .tar.gz or .tar.bz2
+extract the file
+usually a .sh file - read install/readme files
+
+
+change default folder for anki - 
+cd /usr/share/anki/aqt
+sudo gedit profiles.py
+and change the following line:
+return os.path.expanduser("~/Anki")
+to
+return os.path.expanduser("~/misc/Anki")
+
+
+To move the chrome window closer/minimiser, go to chrome settings, tick "use system title bar and borders"
+And then, use in terminal:
+gconftool-2 --set /apps/metacity/general/button_layout --type string "close,minimize,maximize:"
+
+Add video card driver - Software and updates -> additional drivers
+Add add blocker
+
+settings -> language support
+Time and Date Settings, modify accordingly.
+To get week starting on monday:
+sudo gedit /etc/default/locale
+ADD: LC_TIME="en_GB.UTF-8"
+To change date format:
+gsettings set com.canonical.indicator.datetime time-format "'custom'"
+gsettings set com.canonical.indicator.datetime custom-time-format "'%a %d %b %Y, %I:%M:%S %p'"
+
+
+Unlock excess icons
+
+remove floppy from automatically mounting by editing: sudo gedit /etc/fstab 
+delete line with floppy.
+
+
+Python libraries: 
+PIL:
+sudo apt-get install python-imaging
+scipy:
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+matplotlib:
+sudo apt-get install python-matplotlib
+OpenCV. Try:
+sudo apt-get install python-opencv
+OpenCV - save the code they provide:
+lankhttps://help.ubuntu.com/community/OpenCV
+
+Latex packages
+-software centre: texlive-full, texlive-latex-extra and apt-file
+-run in terminal: apt-file update
+-to find if you have the package: ~$ apt-file -x search '/gensymb.sty$' gensymb.sty is the file to find
+
+sudo apt-get update
+sudo apt-get upgrade
+
+delete contents of downloads folder.
+
+ 
+To get rid of auto showing hidden files Edit-Preferences
+
+
+.ssh:
+sudo apt-get install openssh-client openssh-server
+on chromebook - add Secure Shell
+get ip address from desired computer (Connection Information -> Wired connection -> IP Address)
+username is your usual user name, IP address is this. you will be asked to enter your password.
+
+
+
+
+chromebook:
+fix font on terminal ubuntu - ttf-ubuntu-font-family
+
+mousepad: 
+search for cros-haswell-modules.sh,
+sudo bash that file
+to see if it is working, in terminal - xinput list
+
+Reminders:
+Timelapse: http://www.livingunderimagination.com/geekmadness/2012/01/25/using-openshot-to-create-timelapse-videos/
+
+skype - change settings so it works with camera, choose microphone in ubuntu sound settings at top.
+
+make python automatically start in idle - it will depend on the version of idle
+gedit ~/.local/share/applications/mimeapps.list
+Search for text/x-python, and make sure it is like this:
+text/x-python=idle-python2.7.desktop
+
+
+play native flash files in chrome:
+Edit /usr/share/mime/packages/freedesktop.org.xml file and change
+<mime-type type="application/vnd.adobe.flash.movie">
+to
+<mime-type type="application/x-shockwave-flash">
+and then run
+sudo update-mime-database /usr/share/mime
+
+
+If chrome does not search automatically, go to settings->search->manage search engines, and make a new search engine with "https://www.google.com.au/search?q=%s" as the key.
+
+
+
