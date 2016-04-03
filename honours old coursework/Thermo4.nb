@@ -1,0 +1,1554 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     45851,       1545]
+NotebookOptionsPosition[     44845,       1506]
+NotebookOutlinePosition[     45183,       1521]
+CellTagsIndexPosition[     45140,       1518]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Max Proft U5190335
+Assignment 4
+Q1\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.667888591697461*^9, 3.6678885960366287`*^9}, {
+  3.667889934334229*^9, 3.667889946256112*^9}}],
+
+Cell[TextData[{
+ "The critical point occurs when ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[PartialD]", "p"}], 
+     RowBox[{"\[PartialD]", "v"}]], "=", 
+    FormBox[
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["\[PartialD]", "2"], "p"}], 
+       RowBox[{"\[PartialD]", 
+        SuperscriptBox["v", "2"]}]], "=", "0"}],
+     TraditionalForm]}], TraditionalForm]]],
+ "\nFinding ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"\[PartialD]", "p"}], 
+    RowBox[{"\[PartialD]", "v"}]], TraditionalForm]]],
+ " "
+}], "Text",
+ CellChangeTimes->{{3.667888968727458*^9, 3.6678890053993473`*^9}, {
+  3.667889058169477*^9, 3.667889067329331*^9}, {3.667889841396461*^9, 
+  3.667889886949931*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"p", "[", "v_", "]"}], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"k", " ", "T"}], 
+     RowBox[{"v", "-", "b"}]], 
+    RowBox[{"Exp", "[", 
+     FractionBox[
+      RowBox[{"-", "a"}], 
+      RowBox[{"k", " ", "T", " ", "v"}]], "]"}]}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{
+   RowBox[{"p", "'"}], "[", "v", "]"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+  3.667888758546146*^9, 3.6678887684821587`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", 
+      FractionBox["a", 
+       RowBox[{"k", " ", "T", " ", "v"}]]}]], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"a", " ", 
+       RowBox[{"(", 
+        RowBox[{"b", "-", "v"}], ")"}]}], "+", 
+      RowBox[{"k", " ", "T", " ", 
+       SuperscriptBox["v", "2"]}]}], ")"}]}], 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"b", "-", "v"}], ")"}], "2"], " ", 
+    SuperscriptBox["v", "2"]}]]}]], "Output",
+ CellChangeTimes->{{3.6678886801417637`*^9, 3.667888701599839*^9}, 
+   3.667888770043054*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "Setting ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[PartialD]", "p"}], 
+     RowBox[{"\[PartialD]", "v"}]], "=", "0"}], TraditionalForm]]],
+ " we get:\n",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{"a", " ", 
+    RowBox[{"(", 
+     RowBox[{"b", "-", "v"}], ")"}]}], "+", 
+   RowBox[{"k", " ", "T", " ", 
+    SuperscriptBox["v", "2"]}]}]], "Output",
+  CellChangeTimes->{{3.6678886801417637`*^9, 3.667888701599839*^9}, 
+    3.667888770043054*^9}],
+ "=0\n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"T", "=", 
+    FractionBox[
+     RowBox[{"-", 
+      RowBox[{"a", "(", 
+       RowBox[{"b", "-", "v"}], ")"}]}], 
+     RowBox[{
+      SuperscriptBox["v", "2"], "k"}]]}], TraditionalForm]]],
+ "\nFinding and setting ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["\[PartialD]", "2"], "p"}], 
+     RowBox[{"\[PartialD]", 
+      SuperscriptBox["v", "2"]}]], "=", "0"}], TraditionalForm]]]
+}], "Text",
+ CellChangeTimes->{{3.667888776922812*^9, 3.667888927958304*^9}, 
+   3.667888962518208*^9, {3.6678890756262836`*^9, 3.667889109115353*^9}, {
+   3.667895290525754*^9, 3.667895292380989*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{
+   RowBox[{"p", "''"}], "[", "v", "]"}], "]"}]], "Input"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"-", 
+     FractionBox["a", 
+      RowBox[{"k", " ", "T", " ", "v"}]]}]], " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["a", "2"], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"b", "-", "v"}], ")"}], "2"]}], "-", 
+     RowBox[{"2", " ", "a", " ", "k", " ", "T", " ", 
+      RowBox[{"(", 
+       RowBox[{"b", "-", 
+        RowBox[{"2", " ", "v"}]}], ")"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"b", "-", "v"}], ")"}], " ", "v"}], "+", 
+     RowBox[{"2", " ", 
+      SuperscriptBox["k", "2"], " ", 
+      SuperscriptBox["T", "2"], " ", 
+      SuperscriptBox["v", "4"]}]}], ")"}]}], 
+  RowBox[{"k", " ", "T", " ", 
+   SuperscriptBox["v", "4"], " ", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "b"}], "+", "v"}], ")"}], "3"]}]]], "Output",
+ CellChangeTimes->{3.667889111971341*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "\[Implies] ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["a", "2"], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"b", "-", "v"}], ")"}], "2"]}], "-", 
+    RowBox[{"2", " ", "a", " ", "k", " ", "T", " ", 
+     RowBox[{"(", 
+      RowBox[{"b", "-", 
+       RowBox[{"2", " ", "v"}]}], ")"}], " ", 
+     RowBox[{"(", 
+      RowBox[{"b", "-", "v"}], ")"}], " ", "v"}], "+", 
+    RowBox[{"2", " ", 
+     SuperscriptBox["k", "2"], " ", 
+     SuperscriptBox["T", "2"], " ", 
+     SuperscriptBox["v", "4"]}]}], "=", "0"}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667889111971341*^9}],
+ "\nSubstituting in the expression for T in order to find ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["v", "c"], TraditionalForm]]],
+ " :\n\[Implies] ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{"3", " ", 
+    SuperscriptBox["a", "2"], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"b", "-", 
+       SubscriptBox["v", "c"]}], ")"}], "2"]}], "+", 
+   FractionBox[
+    RowBox[{"2", " ", 
+     SuperscriptBox["a", "2"], " ", 
+     RowBox[{"(", 
+      RowBox[{"b", "-", 
+       RowBox[{"2", " ", 
+        SubscriptBox["v", "c"]}]}], ")"}], " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"b", "-", 
+        SubscriptBox["v", "c"]}], ")"}], "2"]}], 
+    SubscriptBox["v", "c"]]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.6678891879558268`*^9}],
+ " = 0\n\[Implies] ",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    RowBox[{"3", " ", 
+     SubscriptBox["v", "c"]}], "  ", "+", 
+    RowBox[{"2", " ", 
+     RowBox[{"(", 
+      RowBox[{"b", "-", 
+       RowBox[{"2", " ", 
+        SubscriptBox["v", "c"]}]}], ")"}]}]}], " ", "=", "0"}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.6678891879558268`*^9}],
+ "\n\[Implies] ",
+ Cell[BoxData[
+  RowBox[{
+   SubscriptBox["v", "c"], "=", 
+   RowBox[{"2", "b"}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.6678891879558268`*^9}],
+ "\nSubstituting this back into T to find ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["T", "c"], TraditionalForm]]],
+ ":\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["T", "c"], "=", 
+    FractionBox["a", 
+     RowBox[{"4", "b", " ", "k"}]]}], TraditionalForm]]],
+ "\nSubstituting this into p to find ",
+ Cell[BoxData[
+  FormBox[
+   SubscriptBox["p", "c"], TraditionalForm]]],
+ ":\n",
+ Cell[BoxData[
+  RowBox[{
+   SubscriptBox["p", "c"], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"k", " "}], 
+     RowBox[{
+      RowBox[{"2", "b"}], "-", "b"}]], 
+    FractionBox["a", 
+     RowBox[{"4", "b", " ", "k"}]], 
+    RowBox[{"Exp", "[", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"-", "a"}], 
+       RowBox[{"k", " ", "2", "b"}]], 
+      FractionBox[
+       RowBox[{"4", "b", " ", "k"}], "a"]}], "]"}]}]}]], "Input",
+  CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+   3.667888758546146*^9, 3.6678887684821587`*^9}}],
+ "\n\n",
+ Cell[BoxData[
+  RowBox[{
+   SubscriptBox["p", "c"], "=", 
+   FractionBox["a", 
+    RowBox[{"4", 
+     SuperscriptBox["b", "2"], 
+     SuperscriptBox["e", "2"], " "}]]}]], "Input",
+  CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+   3.667888758546146*^9, 3.6678887684821587`*^9}}],
+ "\n\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SubscriptBox["p", "c"], 
+      SubscriptBox["v", "c"]}], 
+     RowBox[{"k", " ", 
+      SubscriptBox["T", "c"]}]], "=", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       FractionBox["a", 
+        RowBox[{"4", 
+         SuperscriptBox["b", "2"], 
+         SuperscriptBox["e", "2"], " "}]], "*", "2", "b"}], 
+      RowBox[{"k", " ", 
+       FractionBox["a", 
+        RowBox[{"4", "b", " ", "k"}]]}]], "=", 
+     FractionBox["2", 
+      RowBox[{
+       SuperscriptBox["e", "2"], " "}]]}]}], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    OverscriptBox["p", "_"], "=", 
+    RowBox[{
+     FractionBox["p", 
+      SubscriptBox["p", "c"]], "=", 
+     RowBox[{
+      RowBox[{
+       FractionBox[
+        RowBox[{
+         StyleBox["2", "Text"], 
+         StyleBox[
+          OverscriptBox[
+           StyleBox["T", "Text"], "_"], "Text"], 
+         StyleBox[" ", "Text"], 
+         SubscriptBox[
+          StyleBox["v", "Text"], "c"]}], 
+        RowBox[{
+         RowBox[{"2", "v"}], "-", 
+         SubscriptBox["v", "c"]}]], 
+       FractionBox[
+        SuperscriptBox["e", "2"], "2"], 
+       RowBox[{"Exp", "[", 
+        FractionBox[
+         RowBox[{"-", "a"}], 
+         RowBox[{"k", " ", 
+          OverscriptBox["T", "_"], 
+          SubscriptBox["T", "c"], " ", 
+          OverscriptBox["v", "_"], 
+          SubscriptBox["v", "c"]}]], "]"}]}], "=", 
+      RowBox[{
+       FractionBox[
+        StyleBox[
+         RowBox[{"2", 
+          OverscriptBox[
+           StyleBox["T", "Text"], "_"], " "}], "Text"], 
+        RowBox[{
+         RowBox[{"2", 
+          StyleBox[
+           OverscriptBox[
+            StyleBox["v", "Text"], "_"], "Text"]}], "-", "1"}]], 
+       FractionBox[
+        SuperscriptBox["e", "2"], "2"], 
+       RowBox[{"Exp", "[", 
+        FractionBox[
+         RowBox[{"-", "2"}], 
+         RowBox[{
+          OverscriptBox["T", "_"], " ", 
+          OverscriptBox["v", "_"]}]], "]"}]}]}]}]}], TraditionalForm]]],
+ "\n\n\n\nFinding the expansion coefficients:\nAlong the coexistance curve: \
+",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     OverscriptBox["p", "_"], "g"], "=", 
+    SubscriptBox[
+     OverscriptBox["p", "_"], "L"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     OverscriptBox["T", "_"], "g"], "=", 
+    SubscriptBox[
+     OverscriptBox["T", "_"], "L"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      StyleBox[
+       RowBox[{"2", 
+        OverscriptBox[
+         StyleBox["T", "Text"], "_"], " "}], "Text"], 
+      RowBox[{
+       RowBox[{"2", 
+        SubscriptBox[
+         StyleBox[
+          OverscriptBox[
+           StyleBox["v", "Text"], "_"], "Text"], "g"]}], "-", "1"}]], 
+     FractionBox[
+      SuperscriptBox["e", "2"], "2"], 
+     RowBox[{"Exp", "[", 
+      FractionBox[
+       RowBox[{"-", "2"}], 
+       RowBox[{
+        OverscriptBox["T", "_"], " ", 
+        SubscriptBox[
+         OverscriptBox["v", "_"], "g"]}]], "]"}]}], "=", 
+    RowBox[{
+     FractionBox[
+      StyleBox[
+       RowBox[{"2", 
+        OverscriptBox[
+         StyleBox["T", "Text"], "_"], " "}], "Text"], 
+      RowBox[{
+       RowBox[{"2", 
+        SubscriptBox[
+         StyleBox[
+          OverscriptBox[
+           StyleBox["v", "Text"], "_"], "Text"], "L"]}], "-", "1"}]], 
+     FractionBox[
+      SuperscriptBox["e", "2"], "2"], 
+     RowBox[{"Exp", "[", 
+      FractionBox[
+       RowBox[{"-", "2"}], 
+       RowBox[{
+        OverscriptBox["T", "_"], " ", 
+        SubscriptBox[
+         OverscriptBox["v", "_"], "L"]}]], "]"}]}]}], TraditionalForm]]],
+ "\[LineSeparator]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"Exp", "[", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"-", "2"}], 
+       RowBox[{
+        OverscriptBox["T", "_"], " "}]], 
+      RowBox[{"(", 
+       RowBox[{
+        FractionBox["1", 
+         SubscriptBox[
+          OverscriptBox["v", "_"], "g"]], "-", 
+        FractionBox["1", 
+         SubscriptBox[
+          OverscriptBox["v", "_"], "L"]]}], ")"}]}], "]"}], "=", 
+    FractionBox[
+     StyleBox[
+      RowBox[{
+       RowBox[{"2", 
+        SubscriptBox[
+         StyleBox[
+          OverscriptBox[
+           StyleBox["v", "Text"], "_"], "Text"], "g"]}], "-", "1", " "}], 
+      "Text"], 
+     RowBox[{
+      RowBox[{"2", 
+       SubscriptBox[
+        StyleBox[
+         OverscriptBox[
+          StyleBox["v", "Text"], "_"], "Text"], "L"]}], "-", "1"}]]}], 
+   TraditionalForm]]],
+ "\[LineSeparator]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    OverscriptBox["T", "_"], "=", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"-", "2"}], 
+      RowBox[{"(", 
+       RowBox[{
+        FractionBox["1", 
+         SubscriptBox[
+          OverscriptBox["v", "_"], "g"]], "-", 
+        FractionBox["1", 
+         SubscriptBox[
+          OverscriptBox["v", "_"], "L"]]}], ")"}]}], 
+     RowBox[{"Ln", "(", 
+      FractionBox[
+       StyleBox[
+        RowBox[{
+         RowBox[{"2", 
+          SubscriptBox[
+           StyleBox[
+            OverscriptBox[
+             StyleBox["v", "Text"], "_"], "Text"], "g"]}], "-", "1", " "}], 
+        "Text"], 
+       RowBox[{
+        RowBox[{"2", 
+         SubscriptBox[
+          StyleBox[
+           OverscriptBox[
+            StyleBox["v", "Text"], "_"], "Text"], "L"]}], "-", "1"}]], 
+      ")"}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\[LineSeparator]Setting ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     StyleBox[
+      OverscriptBox[
+       StyleBox["v", "Text"], "_"], "Text"], "g"], "\[TildeTilde]", 
+    RowBox[{"1", "+", 
+     RowBox[{"\[Epsilon]", "/", "2"}]}]}], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     StyleBox[
+      OverscriptBox[
+       StyleBox["v", "Text"], "_"], "Text"], "L"], "\[TildeTilde]", 
+    RowBox[{"1", "-", 
+     RowBox[{"\[Epsilon]", "/", "2"}]}]}], TraditionalForm]]],
+ "\[LineSeparator]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    OverscriptBox["T", "_"], "=", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "2"}], 
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{
+          SubscriptBox[
+           OverscriptBox["v", "_"], "L"], "-", 
+          SubscriptBox[
+           OverscriptBox["v", "_"], "g"]}], 
+         RowBox[{
+          SubscriptBox[
+           OverscriptBox["v", "_"], "g"], 
+          SubscriptBox[
+           OverscriptBox["v", "_"], "L"]}]], ")"}]}], 
+      RowBox[{
+       RowBox[{"Ln", "(", 
+        StyleBox[
+         RowBox[{"1", "+", "\[Epsilon]"}], "Text"], ")"}], "-", 
+       RowBox[{"Ln", "(", 
+        RowBox[{"1", "-", "\[Epsilon]"}], ")"}]}]], "=", 
+     RowBox[{
+      FractionBox[
+       RowBox[{
+        RowBox[{"-", "2"}], 
+        RowBox[{"(", 
+         FractionBox[
+          RowBox[{"1", "-", 
+           RowBox[{"\[Epsilon]", "/", "2"}], "-", 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"\[Epsilon]", "/", "2"}]}], ")"}]}], 
+          RowBox[{
+           RowBox[{"(", 
+            RowBox[{"1", "-", 
+             RowBox[{"\[Epsilon]", "/", "2"}]}], ")"}], 
+           RowBox[{"(", 
+            RowBox[{"1", "+", 
+             RowBox[{"\[Epsilon]", "/", "2"}]}], ")"}]}]], ")"}]}], 
+       RowBox[{"\[Epsilon]", "-", 
+        RowBox[{"(", 
+         RowBox[{"-", "\[Epsilon]"}], ")"}]}]], "=", 
+      RowBox[{
+       FractionBox[
+        RowBox[{
+         RowBox[{"-", "2"}], 
+         RowBox[{"(", 
+          FractionBox[
+           RowBox[{"-", "\[Epsilon]"}], 
+           RowBox[{"1", "-", 
+            RowBox[{
+             SuperscriptBox["\[Epsilon]", "2"], "/", "4"}]}]], ")"}]}], 
+        RowBox[{"2", "\[Epsilon]"}]], "=", 
+       FractionBox["1", 
+        RowBox[{"1", "-", 
+         RowBox[{
+          SuperscriptBox["\[Epsilon]", "2"], "/", "4"}]}]]}]}]}]}], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nFrom Binomial Expansion:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    OverscriptBox["T", "_"], "\[TildeTilde]", 
+    RowBox[{"1", "+", 
+     RowBox[{
+      SuperscriptBox["\[Epsilon]", "2"], "/", "4"}]}]}], TraditionalForm]]],
+ "\nSince ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Epsilon]", "=", 
+    RowBox[{
+     SubscriptBox["v", "g"], "-", 
+     SubscriptBox["v", "L"]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", if we rearrange we get:\[LineSeparator]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{
+      SubscriptBox["v", "g"], "-", 
+      SubscriptBox["v", "L"]}], ")"}], "~", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"T", "-", 
+       SubscriptBox["T", "c"]}], ")"}], 
+     RowBox[{"-", "0.5"}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nAnd so we get \[Beta]=-0.5\[LineSeparator]\[LineSeparator]\n\nAlong an \
+isotherm:\[LineSeparator]",
+ Cell[BoxData[
+  RowBox[{"p", "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"k", " ", "T"}], 
+     RowBox[{"v", "-", "b"}]], 
+    RowBox[{"Exp", "[", 
+     FractionBox[
+      RowBox[{"-", "a"}], 
+      RowBox[{"k", " ", "T", " ", "v"}]], "]"}]}]}]], "Input",
+  CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+   3.667888758546146*^9, 3.6678887684821587`*^9}}],
+ "\nIf we taylor expand this about ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", "=", 
+    SubscriptBox["v", "c"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " we get (By definition of the critical point, the first and second \
+derivatives are zero):\n",
+ Cell[BoxData[
+  RowBox[{"p", "=", 
+   RowBox[{
+    RowBox[{
+     SubscriptBox["p", "c"], "+", 
+     FractionBox[
+      RowBox[{
+       SuperscriptBox["d", "3"], 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          RowBox[{"k", " ", "T"}], 
+          RowBox[{"v", "-", "b"}]], 
+         RowBox[{"Exp", "[", 
+          FractionBox[
+           RowBox[{"-", "a"}], 
+           RowBox[{"k", " ", "T", " ", "v"}]], "]"}]}], ")"}]}], 
+      SuperscriptBox["dv", "3"]]}], "|", 
+    UnderscriptBox[" ", 
+     RowBox[{"v", "=", 
+      SubscriptBox["v", "c"]}]], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"v", "-", 
+       SubscriptBox["v", "c"]}], ")"}], "3"]}]}]], "Input",
+  CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+   3.667888758546146*^9, 3.6678887684821587`*^9}}],
+ "\n",
+ Cell[BoxData[
+  RowBox[{"p", "=", 
+   RowBox[{
+    SubscriptBox["p", "c"], "-", 
+    RowBox[{
+     FractionBox[
+      RowBox[{
+       RowBox[{"Exp", "[", 
+        RowBox[{"-", 
+         FractionBox["a", 
+          RowBox[{"k", " ", "T", " ", 
+           SubscriptBox["v", "c"]}]]}], "]"}], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"a", " ", 
+          RowBox[{"(", 
+           RowBox[{"b", "-", 
+            SubscriptBox["v", "c"]}], ")"}]}], "+", 
+         RowBox[{"k", " ", 
+          SuperscriptBox[
+           SubscriptBox["v", "c"], "2"]}]}], ")"}]}], 
+      RowBox[{
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"b", "-", 
+          SubscriptBox["v", "c"]}], ")"}], "2"], " ", 
+       SuperscriptBox[
+        SubscriptBox["v", "c"], "2"]}]], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"v", "-", 
+        SubscriptBox["v", "c"]}], ")"}], "3"]}]}]}]], "Input",
+  CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+   3.667888758546146*^9, 3.6678887684821587`*^9}}],
+ "\n",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{"p", "-", 
+    SubscriptBox["p", "c"]}], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"4", " ", "k", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SubscriptBox["T", "c"]}], ")"}]}], 
+     RowBox[{
+      SuperscriptBox["\[ExponentialE]", "2"], " ", 
+      SuperscriptBox[
+       SubscriptBox["v", "c"], "2"]}]], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       SubscriptBox["v", "c"], "-", "v"}], ")"}], "3"]}]}]], "Input",
+  CellChangeTimes->{{3.667888645449337*^9, 3.667888700928821*^9}, {
+   3.667888758546146*^9, 3.6678887684821587`*^9}}],
+ "\nAnd so we get \[Delta]=3\n\[LineSeparator]\[LineSeparator]\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Kappa]", "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox[
+       RowBox[{"-", "1"}], "v"], 
+      FractionBox[
+       RowBox[{"\[PartialD]", "v"}], 
+       RowBox[{"\[PartialD]", "p"}]]}], "|", 
+     UnderscriptBox[" ", "T"]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\[LineSeparator]\[LineSeparator]Finding ",
+ Cell[BoxData[
+  FormBox[
+   FractionBox[
+    RowBox[{"\[PartialD]", "p"}], 
+    RowBox[{"\[PartialD]", "v"}]], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", and evaluating this at ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"v", "=", 
+    SubscriptBox["v", "c"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"]
+}], "Text",
+ CellChangeTimes->{{3.667889116836254*^9, 3.667889140267353*^9}, {
+   3.6678892113440523`*^9, 3.667889345145135*^9}, {3.667889393681685*^9, 
+   3.667889450619841*^9}, {3.667889483163743*^9, 3.667889508587998*^9}, {
+   3.667889570577035*^9, 3.6678895795596943`*^9}, {3.667889610784642*^9, 
+   3.667889828835785*^9}, {3.667889914887713*^9, 3.66788991563018*^9}, {
+   3.6678899598323307`*^9, 3.667890016184463*^9}, {3.667890114859556*^9, 
+   3.66789024269116*^9}, {3.667890278587227*^9, 3.667890371410655*^9}, {
+   3.667891021553399*^9, 3.6678911300182543`*^9}, {3.667891273123658*^9, 
+   3.6678913030967903`*^9}, {3.667891447347601*^9, 3.667891503309628*^9}, {
+   3.667892546528637*^9, 3.667892772286126*^9}, {3.667892803826151*^9, 
+   3.667892815305133*^9}, {3.667892969846933*^9, 3.667892971506914*^9}, {
+   3.667894582195301*^9, 3.667894808362245*^9}, {3.6678948482585983`*^9, 
+   3.6678949609589376`*^9}, {3.667894999431921*^9, 3.6678950223676043`*^9}, {
+   3.667895517107224*^9, 3.6678955298922443`*^9}, {3.667898458828906*^9, 
+   3.667898460364456*^9}, {3.667983652854231*^9, 3.6679836579098797`*^9}, {
+   3.667983738431253*^9, 3.667983754649082*^9}, {3.667983799930765*^9, 
+   3.667983829834358*^9}, {3.66798388731411*^9, 3.667984067192423*^9}, {
+   3.667984170234209*^9, 3.667984198963889*^9}, {3.6679842772537613`*^9, 
+   3.667984466569914*^9}, {3.667984527923246*^9, 3.667984527923313*^9}, {
+   3.6679846337602587`*^9, 3.6679846411145372`*^9}, {3.6679846887837677`*^9, 
+   3.667984710410037*^9}, {3.6679847906184177`*^9, 3.667984806521146*^9}, {
+   3.667984856613003*^9, 3.667984903908455*^9}, {3.667985015812201*^9, 
+   3.6679852929569607`*^9}, 3.6679854225756063`*^9, {3.667985650553248*^9, 
+   3.667985862622492*^9}, {3.6679860290653152`*^9, 3.667986237029276*^9}, {
+   3.667986368178282*^9, 3.6679863767701187`*^9}, {3.667986536289441*^9, 
+   3.667986623959918*^9}, {3.667986654528633*^9, 3.667986658761573*^9}, {
+   3.667987121724895*^9, 3.66798715504662*^9}, {3.667987199730441*^9, 
+   3.667987309842564*^9}, {3.667987486025628*^9, 3.667987513854003*^9}, {
+   3.6679875519045753`*^9, 3.6679876702178583`*^9}, {3.6679877037074757`*^9, 
+   3.667987797404456*^9}, {3.667987830246984*^9, 3.667987837756662*^9}, {
+   3.667987899146236*^9, 3.667987903872581*^9}, {3.667987987459298*^9, 
+   3.667988034635948*^9}, {3.6679881322314587`*^9, 3.667988184497188*^9}, {
+   3.667988232475066*^9, 3.667988298961639*^9}, {3.667988329964772*^9, 
+   3.667988330145185*^9}, {3.6679884045977383`*^9, 3.667988405133813*^9}, {
+   3.66798844845432*^9, 3.667988464509385*^9}, {3.667989607794978*^9, 
+   3.66798972688634*^9}, {3.667989794261798*^9, 3.667989892052434*^9}, {
+   3.667989948227989*^9, 3.667989984080776*^9}, {3.66799001511731*^9, 
+   3.66799017291558*^9}, {3.6679903825559063`*^9, 3.6679904541397667`*^9}, {
+   3.667990506738079*^9, 3.667990552037407*^9}, {3.667990596572138*^9, 
+   3.6679907169715967`*^9}, {3.667990869309166*^9, 3.667990879899021*^9}, {
+   3.66799097907672*^9, 3.667990982788068*^9}, {3.667991494323597*^9, 
+   3.667991525691598*^9}, {3.667991717320401*^9, 3.667991724192129*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"FullSimplify", "[", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{
+      FractionBox[
+       RowBox[{"k", " ", "T"}], 
+       RowBox[{"v", "-", 
+        RowBox[{"vc", "/", "2"}]}]], 
+      RowBox[{"Exp", "[", 
+       FractionBox[
+        RowBox[{
+         RowBox[{"-", "Tc"}], "*", "2", "vc", " ", "k"}], 
+        RowBox[{"k", " ", "T", " ", "v"}]], "]"}]}], ",", "v"}], "]"}], "]"}],
+   "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.667991131820614*^9, 3.66799115920679*^9}, {
+  3.667991283595886*^9, 3.667991366998115*^9}, {3.667991444006654*^9, 
+  3.667991444607078*^9}}],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{"4", " ", 
+    SuperscriptBox["\[ExponentialE]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"2", " ", "Tc", " ", "vc"}], 
+       RowBox[{"T", " ", "v"}]]}]], " ", "k", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"T", " ", 
+       SuperscriptBox["v", "2"]}], "+", 
+      RowBox[{"Tc", " ", "vc", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "2"}], " ", "v"}], "+", "vc"}], ")"}]}]}], ")"}]}], 
+   RowBox[{
+    SuperscriptBox["v", "2"], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", "2"}], " ", "v"}], "+", "vc"}], ")"}], 
+     "2"]}]]}]], "Output",
+ CellChangeTimes->{
+  3.667991156004058*^9, {3.6679913327159433`*^9, 3.667991367463764*^9}, {
+   3.667991440663575*^9, 3.667991447174122*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{
+   RowBox[{"-", 
+    FractionBox[
+     RowBox[{"4", " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{"-", 
+        FractionBox[
+         RowBox[{"2", " ", "Tc", " ", "vc"}], 
+         RowBox[{"T", " ", "v"}]]}]], " ", "k", " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"T", " ", 
+         SuperscriptBox["v", "2"]}], "+", 
+        RowBox[{"Tc", " ", "vc", " ", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "2"}], " ", "v"}], "+", "vc"}], ")"}]}]}], ")"}]}], 
+     RowBox[{
+      SuperscriptBox["v", "2"], " ", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"-", "2"}], " ", "v"}], "+", "vc"}], ")"}], "2"]}]]}], "/.", 
+   RowBox[{"v", "\[Rule]", "vc"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6679913982062063`*^9, 3.667991412845978*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"4", " ", 
+   SuperscriptBox["\[ExponentialE]", 
+    RowBox[{"-", 
+     FractionBox[
+      RowBox[{"2", " ", "Tc"}], "T"]}]], " ", "k", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"-", "T"}], "+", "Tc"}], ")"}]}], 
+  SuperscriptBox["vc", "2"]]], "Output",
+ CellChangeTimes->{{3.6679914034997168`*^9, 3.667991413300221*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "Hence we get:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Kappa]", "=", 
+    RowBox[{
+     RowBox[{
+      FractionBox[
+       RowBox[{"-", "1"}], 
+       SubscriptBox["v", "c"]], 
+      FractionBox[
+       SubscriptBox["v", "c"], 
+       RowBox[{"4", " ", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"-", 
+          FractionBox[
+           RowBox[{"2", " ", "Tc"}], "T"]}]], " ", "k", " ", 
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"-", "T"}], "+", "Tc"}], ")"}]}]]}], "=", 
+     RowBox[{
+      FractionBox[
+       SuperscriptBox["\[ExponentialE]", 
+        RowBox[{"2", "/", 
+         OverscriptBox["T", "_"]}]], 
+       RowBox[{"4", " ", "k", " "}]], 
+      FractionBox["1", 
+       RowBox[{"T", "-", 
+        SubscriptBox["T", "c"]}]]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nAnd hence \[Gamma]=1\n\n"
+}], "Text",
+ CellChangeTimes->{{3.667991546162122*^9, 3.667991553715663*^9}, {
+  3.667991583963928*^9, 3.6679916042356663`*^9}, {3.667991634365018*^9, 
+  3.6679916972615433`*^9}, {3.667991731422906*^9, 3.667991731590955*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Q2", "Subsubsection",
+ CellChangeTimes->{{3.667889956735392*^9, 3.6678899569837217`*^9}}],
+
+Cell[TextData[{
+ "Throughout this question, assume that a, b, c are functions of T.\nb < 0\nc \
+> 0\n\nStable solutions occur when ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[PartialD]", "F"}], 
+     RowBox[{"\[PartialD]", "m"}]], "=", "0"}], TraditionalForm]]],
+ " and ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["\[PartialD]", "2"], "F"}], 
+     RowBox[{"\[PartialD]", 
+      SuperscriptBox["m", "2"]}]], ">", "0"}], TraditionalForm]]],
+ "\nSolving ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{"\[PartialD]", "F"}], 
+     RowBox[{"\[PartialD]", "m"}]], "=", "0"}], TraditionalForm]]],
+ " we get either m=0 or:\n",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{"a", "+", 
+    RowBox[{"2", " ", "b", " ", 
+     SuperscriptBox["m", "2"]}], "+", 
+    RowBox[{"3", " ", "c", " ", 
+     SuperscriptBox["m", "4"]}]}], "=", "0"}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{{3.667899921294436*^9, 3.667899927684659*^9}}],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["m", "2"], "=", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"-", "b"}], "\[PlusMinus]", 
+      SqrtBox[
+       RowBox[{
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"3", "a", " ", "c"}]}]]}], 
+     RowBox[{"3", "c"}]]}], TraditionalForm]]],
+ "\nIf ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["b", "2"], "-", 
+     RowBox[{"3", "ac"}]}], "<", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", we will only have 1 real solution, m=0.\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", ">", 
+    FractionBox[
+     SuperscriptBox["b", "2"], 
+     RowBox[{"3", "c"}]], ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n\nSuppose that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["b", "2"], "-", 
+     RowBox[{"3", "ac"}]}], ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "b"}], "-", 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["b", "2"], "-", 
+       RowBox[{"3", "ac"}]}]]}], "<", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". \n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["b", "2"], "-", 
+     RowBox[{"3", "ac"}]}], ">", 
+    SuperscriptBox["b", "2"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"ac", "<", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", "<", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nThis means we have 3 solutions:\nm=0\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", 
+    RowBox[{"\[PlusMinus]", 
+     SqrtBox[
+      FractionBox[
+       RowBox[{
+        RowBox[{"-", "b"}], "+", 
+        SqrtBox[
+         RowBox[{
+          SuperscriptBox["b", "2"], "-", 
+          RowBox[{"3", "a", " ", "c"}]}]]}], 
+       RowBox[{"3", "c"}]]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n\nSuppose that  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["b", "2"], "-", 
+     RowBox[{"3", "ac"}]}], ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " and that ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "b"}], "-", 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["b", "2"], "-", 
+       RowBox[{"4", "ac"}]}]]}], ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". \n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     SuperscriptBox["b", "2"], "-", 
+     RowBox[{"3", "ac"}]}], "<", 
+    SuperscriptBox["b", "2"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"ac", ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n\[Implies] ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nThis means we have 5 solutions:\nm=0 or:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", 
+    RowBox[{"\[PlusMinus]", 
+     SqrtBox[
+      FractionBox[
+       RowBox[{
+        RowBox[{"-", "b"}], "\[PlusMinus]", 
+        SqrtBox[
+         RowBox[{
+          SuperscriptBox["b", "2"], "-", 
+          RowBox[{"3", "a", " ", "c"}]}]]}], 
+       RowBox[{"3", "c"}]]]}]}], TraditionalForm]]],
+ "\n\nI assume that a \[NotEqual] 0, as this case can be considered as the \
+limit of the above cases.\n\n\nFinding out which of these solutions are \
+stable:\n i.e.",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      SuperscriptBox["\[PartialD]", "2"], "F"}], 
+     RowBox[{"\[PartialD]", 
+      SuperscriptBox["m", "2"]}]], ">", "0"}], TraditionalForm]]],
+ "\n ",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{
+    RowBox[{"2", " ", "a"}], "+", 
+    RowBox[{"12", " ", "b", " ", 
+     SuperscriptBox["m", "2"]}], "+", 
+    RowBox[{"30", " ", "c", " ", 
+     SuperscriptBox["m", "4"]}]}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722397303*^9, 3.667993335579118*^9}],
+ "\n 1 solution:\n m=0 \[Implies] ",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{"2", " ", "a"}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722397303*^9, 3.667993335579118*^9}],
+ "\nSince  ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"a", ">", 
+    FractionBox[
+     SuperscriptBox["b", "2"], 
+     RowBox[{"3", "c"}]], ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ", this solution is stable.\[LineSeparator]\n\n3 Solutions:\n m=0 \[Implies] \
+",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{"2", " ", "a"}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722397303*^9, 3.667993335579118*^9}],
+ "\n Since a<0, this is unstable.\n ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"m", "=", 
+    RowBox[{"\[PlusMinus]", 
+     SqrtBox[
+      FractionBox[
+       RowBox[{
+        RowBox[{"-", "b"}], "+", 
+        SqrtBox[
+         RowBox[{
+          SuperscriptBox["b", "2"], "-", 
+          RowBox[{"3", "a", " ", "c"}]}]]}], 
+       RowBox[{"3", "c"}]]]}]}], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[{
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{
+    RowBox[{"2", " ", "a"}], "+", 
+    RowBox[{"12", " ", "b", " ", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "b"}], "+", 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["b", "2"], "-", 
+         RowBox[{"3", "a", " ", "c"}]}]]}], 
+      RowBox[{"3", "c"}]]}], "+", 
+    RowBox[{"30", " ", "c", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{
+         RowBox[{"-", "b"}], "+", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox["b", "2"], "-", 
+           RowBox[{"3", "a", " ", "c"}]}]]}], 
+        RowBox[{"3", "c"}]], ")"}], "2"]}]}]}], "\[IndentingNewLine]", 
+  RowBox[{"=", 
+   RowBox[{
+    RowBox[{"2", " ", "a"}], "+", 
+    RowBox[{"4", " ", "b", " ", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "b"}], "+", 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["b", "2"], "-", 
+         RowBox[{"3", "a", " ", "c"}]}]]}], "c"]}], "+", 
+    RowBox[{"10", 
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"2", "b", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox["b", "2"], "-", 
+           RowBox[{"3", "a", " ", "c"}]}]]}], "+", 
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"3", "a", " ", "c"}]}], 
+       RowBox[{"3", "c"}]], ")"}]}]}]}], "\[IndentingNewLine]", 
+  RowBox[{"=", 
+   RowBox[{
+    RowBox[{"2", "a"}], "-", 
+    FractionBox[
+     RowBox[{"4", 
+      SuperscriptBox["b", "2"]}], "c"], "+", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"4", "b"}], "c"], 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["b", "2"], "-", 
+       RowBox[{"3", "a", " ", "c"}]}]]}], "+", 
+    FractionBox[
+     RowBox[{"20", 
+      SuperscriptBox["b", "2"]}], 
+     RowBox[{"3", "c"}]], "-", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"20", "b"}], 
+      RowBox[{"3", "c"}]], 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["b", "2"], "-", 
+       RowBox[{"3", "a", " ", "c"}]}]]}], "-", 
+    RowBox[{"10", "a"}]}]}], "\[IndentingNewLine]", 
+  RowBox[{"=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "8"}], "a"}], "+", 
+    FractionBox[
+     RowBox[{"8", 
+      SuperscriptBox["b", "2"]}], 
+     RowBox[{"3", "c"}]], "-", 
+    FractionBox[
+     RowBox[{"8", "b", 
+      SqrtBox[
+       RowBox[{
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"3", "a", " ", "c"}]}]]}], 
+     RowBox[{"3", "c"}]]}]}]}], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722435885*^9}],
+ "\nLet \[CapitalDelta]=",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    RowBox[{
+     SuperscriptBox["b", "2"], " ", "-", " ", 
+     RowBox[{"3", " ", "a", " ", "c"}]}]], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"8", 
+      SuperscriptBox["\[CapitalDelta]", "2"]}], 
+     RowBox[{"3", "c"}]], "-", 
+    RowBox[{"8", 
+     FractionBox[
+      RowBox[{"b", " ", "\[CapitalDelta]"}], 
+      RowBox[{"3", "c"}]]}]}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722435885*^9}],
+ "\nSince \[CapitalDelta] > 0, c > 0, b < 0, both of these solutions have ",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], ">", "0"}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722435885*^9}],
+ ", and so they are stable.\n\n\n5 Solutions:\n m=0 \[Implies] ",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{"2", " ", "a"}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722397303*^9, 3.667993335579118*^9}],
+ "\n Since a>0, this is stable.\n ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["m", "2"], "=", 
+    FractionBox[
+     RowBox[{
+      RowBox[{"-", "b"}], "\[PlusMinus]", 
+      SqrtBox[
+       RowBox[{
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"3", "a", " ", "c"}]}]]}], 
+     RowBox[{"3", "c"}]]}], TraditionalForm]]],
+ "\n The + solution is the same as in the 3 solution case, and so we get \
+these solutions to be stable.\n Now consider only the - solution\n \n",
+ Cell[BoxData[{
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{
+    RowBox[{"2", " ", "a"}], "+", 
+    RowBox[{"12", " ", "b", " ", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "b"}], "-", 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["b", "2"], "-", 
+         RowBox[{"3", "a", " ", "c"}]}]]}], 
+      RowBox[{"3", "c"}]]}], "+", 
+    RowBox[{"30", " ", "c", " ", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{
+         RowBox[{"-", "b"}], "-", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox["b", "2"], "-", 
+           RowBox[{"3", "a", " ", "c"}]}]]}], 
+        RowBox[{"3", "c"}]], ")"}], "2"]}]}]}], "\[IndentingNewLine]", 
+  RowBox[{"=", 
+   RowBox[{
+    RowBox[{"2", " ", "a"}], "+", 
+    RowBox[{"4", " ", "b", " ", 
+     FractionBox[
+      RowBox[{
+       RowBox[{"-", "b"}], "-", 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["b", "2"], "-", 
+         RowBox[{"3", "a", " ", "c"}]}]]}], "c"]}], "+", 
+    RowBox[{"10", 
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{
+        SuperscriptBox["b", "2"], "+", 
+        RowBox[{"2", "b", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox["b", "2"], "-", 
+           RowBox[{"3", "a", " ", "c"}]}]]}], "+", 
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"3", "a", " ", "c"}]}], 
+       RowBox[{"3", "c"}]], ")"}]}]}]}], "\[IndentingNewLine]", 
+  RowBox[{"=", 
+   RowBox[{
+    RowBox[{"2", "a"}], "-", 
+    FractionBox[
+     RowBox[{"4", 
+      SuperscriptBox["b", "2"]}], "c"], "-", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"4", "b"}], "c"], 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["b", "2"], "-", 
+       RowBox[{"3", "a", " ", "c"}]}]]}], "+", 
+    FractionBox[
+     RowBox[{"20", 
+      SuperscriptBox["b", "2"]}], 
+     RowBox[{"3", "c"}]], "+", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"20", "b"}], 
+      RowBox[{"3", "c"}]], 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["b", "2"], "-", 
+       RowBox[{"3", "a", " ", "c"}]}]]}], "-", 
+    RowBox[{"10", "a"}]}]}], "\[IndentingNewLine]", 
+  RowBox[{"=", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "8"}], "a"}], "+", 
+    FractionBox[
+     RowBox[{"8", 
+      SuperscriptBox["b", "2"]}], 
+     RowBox[{"3", "c"}]], "+", 
+    FractionBox[
+     RowBox[{"8", "b", 
+      SqrtBox[
+       RowBox[{
+        SuperscriptBox["b", "2"], "-", 
+        RowBox[{"3", "a", " ", "c"}]}]]}], 
+     RowBox[{"3", "c"}]]}]}]}], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722435885*^9}],
+ "\nLet \[CapitalDelta]=",
+ Cell[BoxData[
+  FormBox[
+   SqrtBox[
+    RowBox[{
+     SuperscriptBox["b", "2"], " ", "-", " ", 
+     RowBox[{"3", " ", "a", " ", "c"}]}]], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     SuperscriptBox["\[PartialD]", "2"], "F"}], 
+    RowBox[{"\[PartialD]", 
+     SuperscriptBox["m", "2"]}]], "=", 
+   RowBox[{
+    RowBox[{
+     FractionBox[
+      RowBox[{"8", 
+       SuperscriptBox["\[CapitalDelta]", "2"]}], 
+      RowBox[{"3", "c"}]], "+", 
+     RowBox[{"8", 
+      FractionBox[
+       RowBox[{"b", " ", "\[CapitalDelta]"}], 
+       RowBox[{"3", "c"}]]}]}], "=", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"8", "\[CapitalDelta]"}], 
+      RowBox[{"3", "c"}]], 
+     RowBox[{"(", 
+      RowBox[{"\[CapitalDelta]", "+", "b"}], ")"}]}]}]}]], "Output",
+  GeneratedCell->False,
+  CellAutoOverwrite->False,
+  CellChangeTimes->{3.667898644867095*^9, 3.667898787400515*^9, 
+   3.6678988977793303`*^9, 3.667899722435885*^9}],
+ "\nThis is stable if \[CapitalDelta] > -b\n\[Implies] - 3 a c > 0\n\
+\[Implies] a<0\nBut for this solution, we have a > 0.\nHence it cannot be \
+stable. \n\[LineSeparator]Sketches attached at the end."
+}], "Text",
+ CellChangeTimes->CompressedData["
+1:eJwdxU8oQwEAB+BnhymKxcJM2hhlrXDYZmmYWj2ZNXtarSSbHObiYnLYFAdb
+is0Sl6HE2oRy0+yA0BLK/sUsJ0nb2rKDjUn22+Hr4+qn1ZM0giDYBXg07lV8
+UQkZb++5OJtcH8YbRlfx5B3ThFXi7uIZd5kVu1gvdryi6/TioaZQAPN/nRFM
+MO5fccfCBT1bmDTNV+CAW8DFyjRHhCO2BwrTs2cT+DDdNYNTV+JFfFIatuB3
+v8WB5xokOaxy9n9jxeaOp3kkIas3C8/xG19+jatuf/x47GA2iElKHcZHMkYM
+S3Q3H5il2U1hJzOZw0vVGYJXuM9aI8SCNlsvnix3DOC4dovC0pBTiz+fasex
+3icw4NWE2YNPB/98uGRfdInzBmMQc6Yeo1hO0+SxtbGV1lJYGVurw6SsXYqj
+leoefKzbXsZ20l38H+HE1w0=
+  "]]
+}, Open  ]]
+},
+WindowSize->{1215, 1000},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 184, 6, 83, "Subsubsection"],
+Cell[767, 30, 753, 26, 84, "Text"],
+Cell[CellGroupData[{
+Cell[1545, 60, 541, 17, 81, "Input"],
+Cell[2089, 79, 638, 21, 66, "Output"]
+}, Open  ]],
+Cell[2742, 103, 1177, 40, 141, "Text"],
+Cell[CellGroupData[{
+Cell[3944, 147, 113, 3, 32, "Input"],
+Cell[4060, 152, 942, 30, 66, "Output"]
+}, Open  ]],
+Cell[5017, 185, 19361, 614, 1345, "Text"],
+Cell[CellGroupData[{
+Cell[24403, 803, 623, 18, 83, "Input"],
+Cell[25029, 823, 855, 28, 67, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[25921, 856, 914, 28, 77, "Input"],
+Cell[26838, 886, 366, 11, 61, "Output"]
+}, Open  ]],
+Cell[27219, 900, 1105, 34, 152, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28361, 939, 95, 1, 35, "Subsubsection"],
+Cell[28459, 942, 16370, 561, 2104, "Text"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

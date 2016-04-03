@@ -1,0 +1,649 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19769,        639]
+NotebookOptionsPosition[     19005,        608]
+NotebookOutlinePosition[     19343,        623]
+CellTagsIndexPosition[     19300,        620]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["#1 Integral", "Text",
+ CellChangeTimes->{{3.6672077118529177`*^9, 3.66720771411712*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"n", " ", "i", " ", "\[Mu]", " ", 
+     SuperscriptBox["a", "2"]}], 
+    RowBox[{"2", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["z", "2"], "+", 
+        SuperscriptBox["a", "2"]}], ")"}], 
+      RowBox[{"3", "/", "2"}]]}]], ",", 
+   RowBox[{"{", 
+    RowBox[{"z", ",", 
+     RowBox[{"-", "Zlow"}], ",", "Zhigh"}], "}"}], ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"Zlow", ">", "0"}], ",", 
+      RowBox[{"Zhigh", ">", "0"}], ",", 
+      RowBox[{"a", ">", "0"}]}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.667205215518487*^9, 3.667205366015921*^9}, {
+  3.66720541161665*^9, 3.667205413273402*^9}, {3.667207524378306*^9, 
+  3.6672075517777433`*^9}, {3.667207587626924*^9, 3.667207615331683*^9}, {
+  3.667207727888248*^9, 3.667207728453681*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox["1", "2"], " ", "i", " ", "n", " ", 
+  RowBox[{"(", 
+   RowBox[{
+    FractionBox["Zhigh", 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["a", "2"], "+", 
+       SuperscriptBox["Zhigh", "2"]}]]], "+", 
+    FractionBox["Zlow", 
+     SqrtBox[
+      RowBox[{
+       SuperscriptBox["a", "2"], "+", 
+       SuperscriptBox["Zlow", "2"]}]]]}], ")"}], " ", "\[Mu]"}]], "Output",
+ CellChangeTimes->{{3.66720532741846*^9, 3.6672053676179447`*^9}, 
+   3.667205414249769*^9, {3.66720761218466*^9, 3.6672076174149714`*^9}, 
+   3.667207730491702*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\[LineSeparator]\[LineSeparator]Q6.1 b)", "Subsubsection",
+ CellChangeTimes->{{3.667215775756114*^9, 3.667215796682448*^9}}],
+
+Cell[TextData[{
+ "Note: all integrals are over (-\[Infinity],\[Infinity]) unless otherwise \
+specified.\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Psi]", "(", 
+     RowBox[{
+      OverscriptBox["x", "\[RightVector]"], ",", " ", "t"}], ")"}], " ", "=", 
+    " ", 
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      FractionBox[
+       SubscriptBox[
+        RowBox[{"[", 
+         RowBox[{"f", "(", 
+          RowBox[{
+           RowBox[{
+            OverscriptBox["x", "\[RightVector]"], "'"}], ",", 
+           RowBox[{"t", "'"}]}], ")"}], "]"}], "ret"], 
+       RowBox[{"|", 
+        RowBox[{
+         OverscriptBox["x", "\[RightVector]"], "-", 
+         RowBox[{
+          OverscriptBox["x", "\[RightVector]"], "'"}]}], "|"}]], 
+      SuperscriptBox["d", "3"], 
+      RowBox[{"x", "'"}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nwhere ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"f", "(", 
+     RowBox[{
+      RowBox[{
+       OverscriptBox["x", "\[RightVector]"], "'"}], ",", 
+      RowBox[{"t", "'"}]}], ")"}], "=", 
+    RowBox[{
+     RowBox[{"\[Delta]", "(", 
+      RowBox[{"x", "'"}], ")"}], 
+     RowBox[{"\[Delta]", "(", 
+      RowBox[{"t", "'"}], ")"}]}]}], TraditionalForm]]],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Implies]", 
+     RowBox[{"\[Psi]", "(", 
+      RowBox[{
+       OverscriptBox["x", "\[RightVector]"], ",", " ", "t"}], ")"}]}], " ", 
+    "=", " ", 
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      FractionBox[
+       SubscriptBox["", 
+        RowBox[{
+         RowBox[{"\[Delta]", "(", 
+          RowBox[{"x", "'"}], ")"}], 
+         RowBox[{"\[Delta]", "(", 
+          RowBox[{"t", "-", 
+           FractionBox[
+            RowBox[{"|", 
+             RowBox[{
+              OverscriptBox["x", "\[RightVector]"], "-", 
+              RowBox[{
+               OverscriptBox["x", "\[RightVector]"], "'"}]}], "|"}], "c"]}], 
+          ")"}]}]], 
+       RowBox[{"|", 
+        RowBox[{
+         OverscriptBox["x", "\[RightVector]"], "-", 
+         RowBox[{
+          OverscriptBox["x", "\[RightVector]"], "'"}]}], "|"}]], 
+      RowBox[{"dx", "'"}], 
+      RowBox[{"dy", "'"}], 
+      RowBox[{"dz", "'"}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\ndoing the integral with respect to x\[CloseCurlyQuote] we get:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Implies]", 
+     RowBox[{"\[Psi]", "(", 
+      RowBox[{
+       OverscriptBox["x", "\[RightVector]"], ",", " ", "t"}], ")"}]}], " ", 
+    "=", " ", 
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      FractionBox[
+       SubscriptBox["", 
+        RowBox[{"\[Delta]", "(", 
+         RowBox[{"t", "-", 
+          FractionBox[
+           SqrtBox[
+            RowBox[{
+             SuperscriptBox["x", "2"], "+", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"y", "-", 
+                RowBox[{"y", "'"}]}], ")"}], "2"], "+", 
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{"z", "-", 
+                RowBox[{"z", "'"}]}], ")"}], "2"]}]], "c"]}], ")"}]], 
+       SqrtBox[
+        RowBox[{
+         SuperscriptBox["x", "2"], "+", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"y", "-", 
+            RowBox[{"y", "'"}]}], ")"}], "2"], "+", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"z", "-", 
+            RowBox[{"z", "'"}]}], ")"}], "2"]}]]], 
+      RowBox[{"dy", "'"}], 
+      RowBox[{"dz", "'"}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nUsing ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Delta]", "(", 
+     RowBox[{"g", "(", 
+      RowBox[{"y", "'"}], ")"}], ")"}], "=", 
+    RowBox[{
+     SubscriptBox["\[Sum]", "zeros"], 
+     FractionBox[
+      RowBox[{"\[Delta]", "(", 
+       RowBox[{
+        RowBox[{"y", "'"}], "-", 
+        SubscriptBox["y", "0"]}], ")"}], 
+      RowBox[{"|", 
+       RowBox[{
+        RowBox[{"g", "'"}], 
+        RowBox[{"(", 
+         SubscriptBox["y", "0"], ")"}]}], "|"}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nSolving for the zeros we get:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["y", "0"], "=", 
+    RowBox[{"y", "\[PlusMinus]", 
+     SqrtBox[
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["c", "2"], 
+        SuperscriptBox["t", "2"]}], "-", 
+       SuperscriptBox["x", "2"], "-", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"z", "-", 
+          RowBox[{"z", "'"}]}], ")"}], "2"]}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nand ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"g", "'"}], 
+    RowBox[{"(", 
+     SubscriptBox["y", "0"]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ") is given by:"
+}], "Text",
+ CellChangeTimes->{{3.6672129790246353`*^9, 3.667213473013587*^9}, {
+  3.667213625938253*^9, 3.667213653049843*^9}, {3.667213918172164*^9, 
+  3.667213918609333*^9}, {3.6672143756848783`*^9, 3.667214404670466*^9}, {
+  3.667215772442821*^9, 3.667215773315296*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"t", "-", 
+     FractionBox[
+      SqrtBox[
+       RowBox[{
+        SuperscriptBox["x", "2"], "+", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"y", "-", "yp"}], ")"}], "2"], "+", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"z", "-", "zp"}], ")"}], "2"]}]], "c"]}], ",", "yp"}], 
+   "]"}], "/.", 
+  RowBox[{"yp", "->", 
+   RowBox[{"y", "\[PlusMinus]", 
+    SqrtBox[
+     RowBox[{
+      RowBox[{
+       SuperscriptBox["c", "2"], 
+       SuperscriptBox["t", "2"]}], "-", 
+      SuperscriptBox["x", "2"], "-", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        RowBox[{"z", "-", 
+         RowBox[{"z", "'"}]}], ")"}], "2"]}]]}]}]}]], "Input",
+ CellChangeTimes->{{3.6672135312944603`*^9, 3.667213612433752*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"y", "-", 
+   RowBox[{"(", 
+    RowBox[{"y", "\[PlusMinus]", 
+     SqrtBox[
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["c", "2"], " ", 
+        SuperscriptBox["t", "2"]}], "-", 
+       SuperscriptBox["x", "2"], "-", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"z", "-", 
+          SuperscriptBox["z", "\[Prime]",
+           MultilineFunction->None]}], ")"}], "2"]}]]}], ")"}]}], 
+  RowBox[{"c", " ", 
+   SqrtBox[
+    RowBox[{
+     SuperscriptBox["x", "2"], "+", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"z", "-", "zp"}], ")"}], "2"], "+", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"y", "-", 
+        RowBox[{"(", 
+         RowBox[{"y", "\[PlusMinus]", 
+          SqrtBox[
+           RowBox[{
+            RowBox[{
+             SuperscriptBox["c", "2"], " ", 
+             SuperscriptBox["t", "2"]}], "-", 
+            SuperscriptBox["x", "2"], "-", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{"z", "-", 
+               SuperscriptBox["z", "\[Prime]",
+                MultilineFunction->None]}], ")"}], "2"]}]]}], ")"}]}], ")"}], 
+      "2"]}]]}]]], "Output",
+ CellChangeTimes->{{3.6672135545494747`*^9, 3.6672136136041594`*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "And so we can simplify this to get:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"|", 
+     RowBox[{
+      RowBox[{"g", "'"}], 
+      RowBox[{"(", 
+       SubscriptBox["y", "0"], ")"}]}], "|"}], " ", "=", 
+    FractionBox[
+     SqrtBox[
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["c", "2"], " ", 
+        SuperscriptBox["t", "2"]}], "-", 
+       SuperscriptBox["x", "2"], "-", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{"z", "-", 
+          SuperscriptBox["z", "\[Prime]",
+           MultilineFunction->None]}], ")"}], "2"]}]], 
+     RowBox[{
+      SuperscriptBox["c", "2"], "t", " "}]]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nWhich is only valid for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["c", "2"], " ", 
+      SuperscriptBox["t", "2"]}], "-", 
+     SuperscriptBox["x", "2"], "-", 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"z", "-", 
+        SuperscriptBox["z", "\[Prime]",
+         MultilineFunction->None]}], ")"}], "2"]}], ">", "0"}], 
+   TraditionalForm]]],
+ "\nDefining \[CapitalTheta] as the step function as we did in a) we get:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Psi]", "(", 
+     RowBox[{
+      OverscriptBox["x", "\[RightVector]"], ",", " ", "t"}], ")"}], " ", "=", 
+    " ", 
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      FractionBox[
+       SubscriptBox["", 
+        RowBox[{
+         RowBox[{"\[Delta]", "(", 
+          RowBox[{
+           RowBox[{"y", "'"}], "-", 
+           RowBox[{"(", 
+            RowBox[{"y", "+", 
+             SqrtBox[
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["c", "2"], 
+                SuperscriptBox["t", "2"]}], "-", 
+               SuperscriptBox["x", "2"], "-", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"z", "-", 
+                  RowBox[{"z", "'"}]}], ")"}], "2"]}]]}], ")"}]}], ")"}], "+", 
+         RowBox[{"\[Delta]", "(", 
+          RowBox[{
+           RowBox[{"y", "'"}], "-", 
+           RowBox[{"(", 
+            RowBox[{"y", "-", 
+             SqrtBox[
+              RowBox[{
+               RowBox[{
+                SuperscriptBox["c", "2"], 
+                SuperscriptBox["t", "2"]}], "-", 
+               SuperscriptBox["x", "2"], "-", 
+               SuperscriptBox[
+                RowBox[{"(", 
+                 RowBox[{"z", "-", 
+                  RowBox[{"z", "'"}]}], ")"}], "2"]}]]}], ")"}]}], ")"}]}]], 
+       RowBox[{
+        SqrtBox[
+         RowBox[{
+          SuperscriptBox["x", "2"], "+", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"y", "-", 
+             RowBox[{"y", "'"}]}], ")"}], "2"], "+", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"z", "-", 
+             RowBox[{"z", "'"}]}], ")"}], "2"]}]], 
+        FractionBox[
+         SqrtBox[
+          RowBox[{
+           RowBox[{
+            SuperscriptBox["c", "2"], " ", 
+            SuperscriptBox["t", "2"]}], "-", 
+           SuperscriptBox["x", "2"], "-", 
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{"z", "-", 
+              SuperscriptBox["z", "\[Prime]",
+               MultilineFunction->None]}], ")"}], "2"]}]], 
+         RowBox[{
+          SuperscriptBox["c", "2"], "t", " "}]]}]], 
+      RowBox[{"\[CapitalTheta]", "(", 
+       RowBox[{
+        RowBox[{
+         SuperscriptBox["c", "2"], " ", 
+         SuperscriptBox["t", "2"]}], "-", 
+        SuperscriptBox["x", "2"], "-", 
+        SuperscriptBox[
+         RowBox[{"(", 
+          RowBox[{"z", "-", 
+           SuperscriptBox["z", "\[Prime]",
+            MultilineFunction->None]}], ")"}], "2"]}], ")"}], 
+      RowBox[{"dy", "'"}], 
+      RowBox[{"dz", "'"}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nDoing the integral with respect to y\[CloseCurlyQuote] we get:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Psi]", "(", 
+     RowBox[{
+      OverscriptBox["x", "\[RightVector]"], ",", " ", "t"}], ")"}], " ", "=", 
+    " ", 
+    RowBox[{"\[Integral]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"2", "c", " ", 
+        RowBox[{"\[CapitalTheta]", "(", 
+         RowBox[{
+          RowBox[{
+           SuperscriptBox["c", "2"], " ", 
+           SuperscriptBox["t", "2"]}], "-", 
+          SuperscriptBox["x", "2"], "-", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{"z", "-", 
+             SuperscriptBox["z", "\[Prime]",
+              MultilineFunction->None]}], ")"}], "2"]}], ")"}]}], 
+       SqrtBox[
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["c", "2"], " ", 
+          SuperscriptBox["t", "2"]}], "-", 
+         SuperscriptBox["x", "2"], "-", 
+         SuperscriptBox[
+          RowBox[{"(", 
+           RowBox[{"z", "-", 
+            SuperscriptBox["z", "\[Prime]",
+             MultilineFunction->None]}], ")"}], "2"]}]]], 
+      RowBox[{"dz", "'"}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nI will do a variable transformation \[Xi]=z\[CloseCurlyQuote]-z\[Implies] \
+d\[Xi]=dz\[CloseCurlyQuote]\nFrom the definition of \[CapitalTheta] we know \
+that the function will only be non-zero for ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SuperscriptBox["\[Xi]", "2"], "<", 
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["c", "2"], 
+      SuperscriptBox["t", "2"]}], "-", 
+     SuperscriptBox["x", "2"]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[Implies]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", 
+       SqrtBox[
+        RowBox[{
+         RowBox[{
+          SuperscriptBox["c", "2"], 
+          SuperscriptBox["t", "2"]}], "-", 
+         SuperscriptBox["x", "2"]}]]}], "\[Xi]"}], "<", 
+     SqrtBox[
+      RowBox[{
+       RowBox[{
+        SuperscriptBox["c", "2"], 
+        SuperscriptBox["t", "2"]}], "-", 
+       SuperscriptBox["x", "2"]}]]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nThis only makes sense if ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      SuperscriptBox["c", "2"], 
+      SuperscriptBox["t", "2"]}], "-", 
+     SuperscriptBox["x", "2"]}], ">", "0"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ " \[DoubleLeftRightArrow] ct-|x|>0, and so it must be zero at all other \
+times. \nHence we can multiply the solution by the step function: \
+\[CapitalTheta](ct-|x|).\nDoing the integral we get ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", "A"}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ":=",
+ Cell[BoxData[
+  RowBox[{
+   RowBox[{
+    SuperscriptBox["c", "2"], " ", 
+    SuperscriptBox["t", "2"]}], "-", 
+   SuperscriptBox["x", "2"]}]], "Input",
+  CellChangeTimes->{{3.667214232260243*^9, 3.667214289849441*^9}, {
+   3.667215228876191*^9, 3.667215250803913*^9}, {3.667215283519511*^9, 
+   3.6672153012935877`*^9}, {3.667215334616784*^9, 3.667215361022537*^9}, {
+   3.66721542584276*^9, 3.667215450345971*^9}, {3.667215560316943*^9, 
+   3.667215574166072*^9}}],
+ "):"
+}], "Text",
+ CellChangeTimes->{{3.667213617433173*^9, 3.667213661268971*^9}, {
+  3.667213713619994*^9, 3.667213818550682*^9}, {3.667213865528158*^9, 
+  3.667214033623694*^9}, {3.66721406803008*^9, 3.667214199208776*^9}, {
+  3.667214239202437*^9, 3.667214248274263*^9}, {3.667214320269*^9, 
+  3.667214352412785*^9}, {3.667214633876186*^9, 3.667214766678693*^9}, {
+  3.66721480363302*^9, 3.667214871042156*^9}, {3.667214977325884*^9, 
+  3.6672150177507687`*^9}, {3.667215050670843*^9, 3.667215051296433*^9}, {
+  3.667215114601544*^9, 3.6672152771332407`*^9}, {3.667215466138895*^9, 
+  3.6672155499412117`*^9}, {3.667215581477696*^9, 3.667215600158121*^9}, {
+  3.667215805683663*^9, 3.6672158100993233`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   FormBox[
+    FractionBox[
+     RowBox[{"2", "c", " ", "StepFunction"}], 
+     SqrtBox[
+      RowBox[{"A", "-", 
+       SuperscriptBox["\[Zeta]", "2"]}]]],
+    TraditionalForm], ",", 
+   RowBox[{"{", 
+    RowBox[{"\[Zeta]", ",", 
+     RowBox[{"-", 
+      SqrtBox["A"]}], ",", 
+     SqrtBox["A"]}], "}"}], ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"A", ">", "0"}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.667214232260243*^9, 3.667214289849441*^9}, {
+  3.667215228876191*^9, 3.667215250803913*^9}, {3.667215283519511*^9, 
+  3.6672153012935877`*^9}, {3.667215334616784*^9, 3.667215361022537*^9}, {
+  3.66721542584276*^9, 3.667215450345971*^9}, {3.667215560316943*^9, 
+  3.667215574166072*^9}, {3.667215606047207*^9, 3.667215633040468*^9}, {
+  3.667215669574542*^9, 3.667215685344371*^9}}],
+
+Cell[BoxData[
+ RowBox[{"2", " ", "c", " ", "\[Pi]", " ", "StepFunction"}]], "Output",
+ CellChangeTimes->{
+  3.667214252732027*^9, {3.667214291760312*^9, 3.6672143114764023`*^9}, 
+   3.667215409179109*^9, 3.66721564037568*^9, 3.6672156878280573`*^9}]
+}, Open  ]],
+
+Cell[TextData[{
+ "And so our solution is\[LineSeparator]",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    RowBox[{"\[Psi]", "(", 
+     RowBox[{
+      OverscriptBox["x", "\[RightVector]"], ",", " ", "t"}], ")"}], " ", "=", 
+    
+    RowBox[{"2", "\[Pi]", " ", "c", " ", 
+     RowBox[{"\[CapitalTheta]", "(", 
+      RowBox[{
+       RowBox[{"ct", "-"}], "|", "x", "|"}], ")"}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"]
+}], "Text",
+ CellChangeTimes->{{3.6672156540064087`*^9, 3.667215667839341*^9}, {
+  3.667215708608162*^9, 3.667215744154127*^9}}]
+}, Open  ]]
+},
+WindowSize->{1215, 1000},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 94, 1, 33, "Text"],
+Cell[CellGroupData[{
+Cell[677, 25, 918, 25, 68, "Input"],
+Cell[1598, 52, 578, 17, 70, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2213, 74, 130, 1, 83, "Subsubsection"],
+Cell[2346, 77, 5027, 167, 407, "Text"],
+Cell[CellGroupData[{
+Cell[7398, 248, 820, 28, 70, "Input"],
+Cell[8221, 278, 1260, 40, 98, "Output"]
+}, Open  ]],
+Cell[9496, 321, 7764, 232, 455, "Text"],
+Cell[CellGroupData[{
+Cell[17285, 557, 883, 23, 72, "Input"],
+Cell[18171, 582, 249, 4, 32, "Output"]
+}, Open  ]],
+Cell[18435, 589, 554, 16, 55, "Text"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

@@ -1,0 +1,96 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2880,         86]
+NotebookOptionsPosition[      2530,         69]
+NotebookOutlinePosition[      2869,         84]
+CellTagsIndexPosition[      2826,         81]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["\<\
+Max Proft
+U5190335
+HW5\
+\>", "Subsubsection",
+ CellChangeTimes->{{3.667153948743719*^9, 3.6671539559120817`*^9}}],
+
+Cell["\<\
+1. Measurement Problem
+In QM we take a postulate to be that a measurement will collapse the \
+wavefunction. We do this without defining what a measurement is. Moreover, we \
+can\[CloseCurlyQuote]t get the measurement postulate from the other \
+postulates. If we are unsure as to whether or not a measurement has been \
+made, we have no way of collapsing the wavefunction since we have no way to \
+define it, and hence we can\[CloseCurlyQuote]t model the evolution of the \
+system correctly.\
+\>", "Text",
+ CellChangeTimes->{{3.667098318220962*^9, 3.667098339936261*^9}, {
+  3.667150577313416*^9, 3.667150614986731*^9}, {3.6671506841809807`*^9, 
+  3.667150869130329*^9}, {3.66715149845798*^9, 3.6671515473470917`*^9}, {
+  3.6671516388621492`*^9, 3.667151644494391*^9}, {3.667153943113537*^9, 
+  3.667153946001216*^9}}],
+
+Cell[TextData[{
+ "2. Dressed States\nThe dressed states are the eigenstates of the \
+hamiltonian of a coupled system, including the interaction term, but not \
+including terms from the surrounding environment.\n\ne.g. The dressed states \
+of a 2 level atom coupled with the laser are the eigenstates of ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox[
+     OverscriptBox["H", "^"], "atom"], "+", 
+    SubscriptBox[
+     OverscriptBox["H", "^"], "laser"], "+", 
+    SubscriptBox[
+     OverscriptBox["H", "^"], "interaction"]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ ". Notice that there is not term which includes the vacuum."
+}], "Text",
+ CellChangeTimes->{{3.667098327343913*^9, 3.667098342888414*^9}, {
+  3.667153049520054*^9, 3.667153107929904*^9}, {3.6671532465260983`*^9, 
+  3.6671533120479918`*^9}, {3.6671535128209867`*^9, 3.667153513764818*^9}, {
+  3.667153551077981*^9, 3.66715369215783*^9}, {3.6671538006207457`*^9, 
+  3.667153902823408*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 748},
+WindowMargins->{{105, Automatic}, {67, Automatic}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 123, 5, 83, "Subsubsection"],
+Cell[706, 29, 827, 14, 143, "Text"],
+Cell[1536, 45, 978, 21, 148, "Text"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

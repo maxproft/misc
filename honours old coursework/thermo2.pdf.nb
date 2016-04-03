@@ -1,0 +1,304 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8652,        294]
+NotebookOptionsPosition[      7523,        252]
+NotebookOutlinePosition[      8058,        272]
+CellTagsIndexPosition[      8015,        269]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["#1 Integral ", "Text",
+ CellChangeTimes->{{3.666314120239202*^9, 3.666314125254677*^9}, {
+  3.666316440273776*^9, 3.666316442457121*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    FractionBox["1", 
+     RowBox[{"2", "\[Pi]", " ", "\[HBar]"}]], 
+    RowBox[{"Exp", "[", 
+     RowBox[{
+      RowBox[{"-", "\[Beta]"}], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        FractionBox["1", 
+         RowBox[{"2", "m"}]], "+", 
+        FractionBox[
+         RowBox[{
+          SuperscriptBox["k", "2"], 
+          SuperscriptBox["x", "2"]}], "m"]}], ")"}], 
+      SuperscriptBox["p", "2"]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"p", ",", 
+     RowBox[{"-", "\[Infinity]"}], ",", "\[Infinity]"}], "}"}]}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.6663139829880047`*^9, 3.666314069413784*^9}, {
+  3.666314108727396*^9, 3.666314116303359*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ConditionalExpression", "[", 
+  RowBox[{
+   FractionBox["1", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"2", " ", "\[Pi]"}]], " ", 
+     SqrtBox[
+      FractionBox[
+       RowBox[{"\[Beta]", "+", 
+        RowBox[{"2", " ", 
+         SuperscriptBox["k", "2"], " ", 
+         SuperscriptBox["x", "2"], " ", "\[Beta]"}]}], "m"]], " ", 
+     "\[HBar]"}]], ",", 
+   RowBox[{
+    RowBox[{"Re", "[", 
+     FractionBox[
+      RowBox[{"\[Beta]", "+", 
+       RowBox[{"2", " ", 
+        SuperscriptBox["k", "2"], " ", 
+        SuperscriptBox["x", "2"], " ", "\[Beta]"}]}], "m"], "]"}], ">", 
+    "0"}]}], "]"}]], "Output",
+ CellChangeTimes->{{3.666314040339322*^9, 3.6663140708117533`*^9}}]
+}, Open  ]],
+
+Cell["#2 Integral ", "Text",
+ CellChangeTimes->{{3.666315740834957*^9, 3.6663157485523252`*^9}, {
+  3.666316444888253*^9, 3.666316446928512*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   FractionBox["1", 
+    RowBox[{
+     SqrtBox[
+      RowBox[{"2", " ", "\[Pi]"}]], " ", 
+     SqrtBox[
+      FractionBox[
+       RowBox[{"\[Beta]", "+", 
+        RowBox[{"2", " ", 
+         SuperscriptBox["k", "2"], " ", 
+         SuperscriptBox["x", "2"], " ", "\[Beta]"}]}], "m"]], " ", 
+     "\[HBar]"}]], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{
+      RowBox[{"-", "X"}], "/", "2"}], ",", 
+     RowBox[{"X", "/", "2"}]}], "}"}], ",", 
+   RowBox[{"Assumptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\[Beta]", "\[Element]", "Reals"}], ",", 
+      RowBox[{"k", "\[Element]", "Reals"}], ",", 
+      RowBox[{"X", "\[Element]", "Reals"}]}], "}"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6663144080051394`*^9, 3.666314421478507*^9}, {
+  3.6663145085059147`*^9, 3.6663145771623173`*^9}, {3.66631496723715*^9, 
+  3.666315021141343*^9}}],
+
+Cell[BoxData[
+ RowBox[{"ConditionalExpression", "[", 
+  RowBox[{
+   FractionBox[
+    RowBox[{"Log", "[", 
+     RowBox[{"1", "+", 
+      RowBox[{"k", " ", "X", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"k", " ", "X"}], "+", 
+         SqrtBox[
+          RowBox[{"2", "+", 
+           RowBox[{
+            SuperscriptBox["k", "2"], " ", 
+            SuperscriptBox["X", "2"]}]}]]}], ")"}]}]}], "]"}], 
+    RowBox[{"2", " ", "k", " ", 
+     SqrtBox["\[Pi]"], " ", 
+     SqrtBox[
+      FractionBox["\[Beta]", "m"]], " ", "\[HBar]"}]], ",", 
+   RowBox[{
+    RowBox[{"\[Beta]", "\[GreaterEqual]", "0"}], "&&", 
+    RowBox[{
+     RowBox[{"k", " ", "\[Beta]"}], "\[GreaterEqual]", "0"}], "&&", 
+    RowBox[{"X", ">", "0"}]}]}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.6663144949256477`*^9, {3.6663145369963007`*^9, 3.666314581437623*^9}, {
+   3.666315017192616*^9, 3.6663150235220747`*^9}}]
+}, Open  ]],
+
+Cell["#3 Derivative ", "Text",
+ CellChangeTimes->{{3.666315753696302*^9, 3.6663157693844643`*^9}, {
+  3.666316449449717*^9, 3.66631645204156*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"-", 
+  RowBox[{"D", "[", 
+   RowBox[{
+    RowBox[{"Log", "[", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"n", "!"}]], 
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox[
+         RowBox[{"Log", "[", 
+          RowBox[{"1", "+", 
+           RowBox[{"k", " ", "X", " ", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"k", " ", "X"}], "+", 
+              SqrtBox[
+               RowBox[{"2", "+", 
+                RowBox[{
+                 SuperscriptBox["k", "2"], " ", 
+                 SuperscriptBox["X", "2"]}]}]]}], ")"}]}]}], "]"}], 
+         RowBox[{"2", " ", "k", " ", 
+          SqrtBox["\[Pi]"], " ", 
+          SqrtBox[
+           FractionBox["\[Beta]", "m"]], " ", "\[HBar]"}]], ")"}], "n"]}], 
+     "]"}], ",", "\[Beta]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.666315709148817*^9, 3.666315728055737*^9}, {
+  3.666315787714613*^9, 3.6663158276348143`*^9}, {3.666316022015588*^9, 
+  3.666316071872719*^9}}],
+
+Cell[BoxData[
+ FractionBox["n", 
+  RowBox[{"2", " ", "\[Beta]"}]]], "Output",
+ CellChangeTimes->{
+  3.666315770993806*^9, {3.666315803812512*^9, 3.666315828097494*^9}, 
+   3.666316032448443*^9, 3.6663160736325407`*^9}]
+}, Open  ]],
+
+Cell["#4 Summation", "Text",
+ CellChangeTimes->{{3.6663164749293947`*^9, 3.666316477401196*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Sum", "[", 
+  RowBox[{
+   RowBox[{"Exp", "[", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"\[Beta]", " ", "\[HBar]", " ", "p", " ", "k"}], "m"]}], 
+     RowBox[{"(", 
+      RowBox[{"i", "+", "1"}], ")"}]}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "\[Infinity]"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.66631638646771*^9, 3.666316423400303*^9}}],
+
+Cell[BoxData[
+ FractionBox["1", 
+  RowBox[{
+   RowBox[{"-", "1"}], "+", 
+   SuperscriptBox["\[ExponentialE]", 
+    FractionBox[
+     RowBox[{"k", " ", "p", " ", "\[Beta]", " ", "\[HBar]"}], 
+     "m"]]}]]], "Output",
+ CellChangeTimes->{3.66631642413468*^9}]
+}, Open  ]],
+
+Cell["#5 Derivative", "Text",
+ CellChangeTimes->{{3.666316820078992*^9, 3.666316846699744*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"FullSimplify", "[", 
+  RowBox[{"-", 
+   RowBox[{"D", "[", 
+    RowBox[{
+     RowBox[{"Log", "[", 
+      SuperscriptBox[
+       RowBox[{"(", 
+        FractionBox["1", 
+         RowBox[{
+          RowBox[{"-", "1"}], "+", 
+          SuperscriptBox["\[ExponentialE]", 
+           FractionBox[
+            RowBox[{"k", " ", "p", " ", "\[Beta]", " ", "\[HBar]"}], "m"]]}]],
+         ")"}], "n"], "]"}], ",", "\[Beta]"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.6663167682526007`*^9, 3.666316807763837*^9}}],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"1", "+", 
+     FractionBox["1", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["\[ExponentialE]", 
+        FractionBox[
+         RowBox[{"k", " ", "p", " ", "\[Beta]", " ", "\[HBar]"}], "m"]]}]]}], 
+    ")"}], " ", "k", " ", "n", " ", "p", " ", "\[HBar]"}], "m"]], "Output",
+ CellChangeTimes->{{3.6663167795219193`*^9, 3.6663168083851337`*^9}}]
+}, Open  ]]
+},
+WindowSize->{1215, 1000},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+PrintingCopies->1,
+PrintingPageRange->{Automatic, Automatic},
+PrintingOptions->{"PaperOrientation"->"Portrait",
+"PaperSize"->{Automatic, Automatic},
+"PostScriptOutputFile"->"/home/max/print.pdf"},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 143, 2, 33, "Text"],
+Cell[CellGroupData[{
+Cell[726, 26, 730, 23, 62, "Input"],
+Cell[1459, 51, 703, 22, 83, "Output"]
+}, Open  ]],
+Cell[2177, 76, 145, 2, 33, "Text"],
+Cell[CellGroupData[{
+Cell[2347, 82, 930, 27, 88, "Input"],
+Cell[3280, 111, 902, 26, 99, "Output"]
+}, Open  ]],
+Cell[4197, 140, 146, 2, 33, "Text"],
+Cell[CellGroupData[{
+Cell[4368, 146, 991, 29, 115, "Input"],
+Cell[5362, 177, 218, 5, 48, "Output"]
+}, Open  ]],
+Cell[5595, 185, 96, 1, 33, "Text"],
+Cell[CellGroupData[{
+Cell[5716, 190, 423, 12, 56, "Input"],
+Cell[6142, 204, 257, 8, 62, "Output"]
+}, Open  ]],
+Cell[6414, 215, 95, 1, 33, "Text"],
+Cell[CellGroupData[{
+Cell[6534, 220, 533, 15, 81, "Input"],
+Cell[7070, 237, 437, 12, 83, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

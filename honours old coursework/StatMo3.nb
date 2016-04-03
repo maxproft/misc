@@ -1,0 +1,206 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5923,        197]
+NotebookOptionsPosition[      5464,        177]
+NotebookOutlinePosition[      5803,        192]
+CellTagsIndexPosition[      5760,        189]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\<\
+b)
+We have found the Grand Partition Function to be:\
+\>", "Text",
+ CellChangeTimes->{{3.6674241940524273`*^9, 3.6674242034128113`*^9}, {
+  3.6674248370614223`*^9, 3.667424837773243*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Z", "[", "\[Beta]_", "]"}], "=", 
+   RowBox[{"4", 
+    FractionBox["\[Pi]", 
+     RowBox[{"n", "!"}]], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{"2", "\[Pi]", " ", "m"}], 
+       RowBox[{"\[Beta]", " ", 
+        SuperscriptBox["h", "2"]}]], ")"}], 
+     RowBox[{"3", 
+      RowBox[{"n", "/", "2"}]}]], 
+    RowBox[{"Exp", "[", 
+     RowBox[{"\[Mu]", " ", "\[Beta]", " ", "n"}], "]"}], 
+    SuperscriptBox[
+     RowBox[{"(", 
+      FractionBox[
+       RowBox[{"Sinh", "[", 
+        RowBox[{"H", " ", "\[Beta]", " ", "\[Mu]0"}], "]"}], 
+       RowBox[{"H", " ", "\[Beta]", " ", "\[Mu]0"}]], ")"}], "n"]}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.667424100880822*^9, 3.6674241729489603`*^9}}],
+
+Cell[TextData[{
+ "The Grand Potential is given by:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"\[CapitalOmega]", "=", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"-", "1"}], "\[Beta]"], 
+     RowBox[{"Ln", "(", "Z", ")"}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\nExpanding out all of the terms we get:"
+}], "Text",
+ CellChangeTimes->{{3.667424181513472*^9, 3.6674242094927797`*^9}, {
+  3.667424310287497*^9, 3.667424338153144*^9}, {3.66742520016565*^9, 
+  3.667425208303114*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"\[CapitalOmega]", "[", "\[Beta]_", "]"}], "=", 
+  RowBox[{"Expand", "[", 
+   RowBox[{"PowerExpand", "[", 
+    RowBox[{
+     FractionBox[
+      RowBox[{"-", "1"}], "\[Beta]"], 
+     RowBox[{"Log", "[", 
+      RowBox[{"Z", "[", "\[Beta]", "]"}], "]"}]}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.667424341726056*^9, 3.667424392857095*^9}, {
+  3.6674247306520767`*^9, 3.667424736789361*^9}, {3.667424775725293*^9, 
+  3.667424789795967*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "n"}], " ", "\[Mu]"}], "-", 
+  FractionBox[
+   RowBox[{"2", " ", 
+    RowBox[{"Log", "[", "2", "]"}]}], "\[Beta]"], "-", 
+  FractionBox[
+   RowBox[{"3", " ", "n", " ", 
+    RowBox[{"Log", "[", "2", "]"}]}], 
+   RowBox[{"2", " ", "\[Beta]"}]], "+", 
+  FractionBox[
+   RowBox[{"3", " ", "n", " ", 
+    RowBox[{"Log", "[", "h", "]"}]}], "\[Beta]"], "+", 
+  FractionBox[
+   RowBox[{"n", " ", 
+    RowBox[{"Log", "[", "H", "]"}]}], "\[Beta]"], "-", 
+  FractionBox[
+   RowBox[{"3", " ", "n", " ", 
+    RowBox[{"Log", "[", "m", "]"}]}], 
+   RowBox[{"2", " ", "\[Beta]"}]], "-", 
+  FractionBox[
+   RowBox[{"Log", "[", "\[Pi]", "]"}], "\[Beta]"], "-", 
+  FractionBox[
+   RowBox[{"3", " ", "n", " ", 
+    RowBox[{"Log", "[", "\[Pi]", "]"}]}], 
+   RowBox[{"2", " ", "\[Beta]"}]], "+", 
+  FractionBox[
+   RowBox[{"5", " ", "n", " ", 
+    RowBox[{"Log", "[", "\[Beta]", "]"}]}], 
+   RowBox[{"2", " ", "\[Beta]"}]], "+", 
+  FractionBox[
+   RowBox[{"n", " ", 
+    RowBox[{"Log", "[", "\[Mu]0", "]"}]}], "\[Beta]"], "+", 
+  FractionBox[
+   RowBox[{"Log", "[", 
+    RowBox[{"n", "!"}], "]"}], "\[Beta]"], "-", 
+  FractionBox[
+   RowBox[{"n", " ", 
+    RowBox[{"Log", "[", 
+     RowBox[{"Sinh", "[", 
+      RowBox[{"H", " ", "\[Beta]", " ", "\[Mu]0"}], "]"}], "]"}]}], 
+   "\[Beta]"]}]], "Output",
+ CellChangeTimes->{{3.667424778469857*^9, 3.667424790142683*^9}}]
+}, Open  ]],
+
+Cell[TextData[{
+ "c)\nFinding the magnetism:\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{"\[PartialD]", "\[CapitalOmega]"}], 
+       RowBox[{"\[PartialD]", "H"}]]}], "=", 
+     RowBox[{"-", 
+      RowBox[{
+       FractionBox["\[PartialD]", 
+        RowBox[{"\[PartialD]", "H"}]], 
+       RowBox[{"(", 
+        RowBox[{
+         FractionBox[
+          RowBox[{"n", " ", 
+           RowBox[{"Log", "[", "H", "]"}]}], "\[Beta]"], "-", 
+         FractionBox[
+          RowBox[{"n", " ", 
+           RowBox[{"Log", "[", 
+            RowBox[{"Sinh", "[", 
+             RowBox[{"H", " ", "\[Beta]", " ", "\[Mu]0"}], "]"}], "]"}]}], 
+          "\[Beta]"]}], ")"}]}]}]}]}], TraditionalForm]],
+  FormatType->"TraditionalForm"],
+ "\n",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"M", "=", 
+    RowBox[{
+     RowBox[{"-", 
+      FractionBox["n", 
+       RowBox[{"H", " ", "\[Beta]"}]]}], "+", 
+     RowBox[{"n", " ", "\[Mu]0", " ", 
+      RowBox[{"Coth", "[", 
+       RowBox[{"H", " ", "\[Beta]", " ", "\[Mu]0"}], "]"}]}]}]}], 
+   TraditionalForm]],
+  FormatType->"TraditionalForm"]
+}], "Text",
+ CellChangeTimes->{{3.6674248402290297`*^9, 3.667424840565131*^9}, {
+  3.667424908263173*^9, 3.667424931655699*^9}, {3.6674252158140497`*^9, 
+  3.667425249286799*^9}, {3.667425286600801*^9, 3.667425352249538*^9}, {
+  3.667425397211011*^9, 3.66742539809892*^9}, {3.667426073733677*^9, 
+  3.667426081871046*^9}, {3.667426185473033*^9, 3.6674261854730864`*^9}}]
+},
+WindowSize->{607, 972},
+WindowMargins->{{Automatic, -9}, {Automatic, -10}},
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (December 10, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 197, 5, 55, "Text"],
+Cell[758, 27, 772, 24, 60, "Input"],
+Cell[1533, 53, 500, 14, 87, "Text"],
+Cell[CellGroupData[{
+Cell[2058, 71, 479, 12, 58, "Input"],
+Cell[2540, 85, 1396, 43, 137, "Output"]
+}, Open  ]],
+Cell[3951, 131, 1509, 44, 121, "Text"]
+}
+]
+*)
+
+(* End of internal cache information *)
