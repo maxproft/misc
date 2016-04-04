@@ -5,7 +5,7 @@ import datetime
 
 
 
-tree = ET.parse('20160329.gpx')
+tree = ET.parse('20160330.gpx')
 gpx = tree.getroot()
 
 #print "gpx.tag"
@@ -37,7 +37,7 @@ for trk in gpx:
 data = np.array(data)
 
 #Scatter Plot of position
-if 0:
+if 1:
     plt.plot(data[:,0],data[:,1])
     plt.title("Where I Ran (lat/long)")
     plt.show()
@@ -71,7 +71,7 @@ if 1:
 
 
 #Plot cummulative distance against time:
-if 0:
+if 1:
     radearth=6371*1000 #in meters
     distance=[radearth*6.28/360*
               ((float(data[i,0])-float(data[i+1,0]))**2+(float(data[i,1])-float(data[i+1,1]))**2)**0.5
