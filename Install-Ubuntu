@@ -136,6 +136,15 @@ get ip address from desired computer (Connection Information -> Wired connection
 username is your usual user name, IP address is this. you will be asked to enter your password.
 
 
+dvorak:
+Temp: setxkbmap dvorak
+(go back) setxkbmap us
+Perminantly: sudo gedit /etc/default/keyboard
+XKBMODEL="pc105"
+XKBLAYOUT="us"
+XKBVARIANT="dvorak"
+XKBOPTIONS=""
+sudo dpkg-reconfigure console-setup
 
 
 chromebook:

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <trk>
+  <name>ACTIVE LOG000026</name>
+  <trkseg>
+   <trkpt lat="-35.278911" lon="149.111686">
+    <ele>589.678</ele>
+    <time>2016-04-17T13:00:26Z</time>
+   </trkpt>
+   <trkpt lat="-35.278538" lon="149.111929">
+    <ele>590.072</ele>
+    <time>2016-04-17T13:00:56Z</time>
+   </trkpt>
+   <trkpt lat="-35.278297" lon="149.112211">
+    <ele>588.447</ele>
+    <time>2016-04-17T13:01:26Z</time>
+   </trkpt>
+   <trkpt lat="-35.277988" lon="149.112474">
+    <ele>587.268</ele>
+    <time>2016-04-17T13:01:56Z</time>
+   </trkpt>
+   <trkpt lat="-35.277611" lon="149.112747">
+    <ele>586.630</ele>
+    <time>2016-04-17T13:02:26Z</time>
+   </trkpt>
+   <trkpt lat="-35.277699" lon="149.112998">
+    <ele>585.231</ele>
+    <time>2016-04-17T13:02:56Z</time>
+   </trkpt>
+   <trkpt lat="-35.278031" lon="149.113116">
+    <ele>584.079</ele>
+    <time>2016-04-17T13:03:26Z</time>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>
