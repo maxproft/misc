@@ -49,6 +49,12 @@ sudo dpkg --add-architecture i386
 and install synaptic -> edit -> fix broken packages.
 
 
+to stop mathematica from making it's "Wolfram Mathematica" folder, edit ~/.Mathematica/Kernel/init.m and add the line:
+With[{dir = $HomeDirectory <> "/Wolfram Mathematica"},
+  If[DirectoryQ[dir], DeleteDirectory[dir]]
+]
+
+
 remove keychain:
 Password and Encryption Keys, right click on 'Login' select change password to nothing.
 
@@ -130,6 +136,15 @@ get ip address from desired computer (Connection Information -> Wired connection
 username is your usual user name, IP address is this. you will be asked to enter your password.
 
 
+dvorak:
+Temp: setxkbmap dvorak
+(go back) setxkbmap us
+Perminantly: sudo gedit /etc/default/keyboard
+XKBMODEL="pc105"
+XKBLAYOUT="us"
+XKBVARIANT="dvorak"
+XKBOPTIONS=""
+sudo dpkg-reconfigure console-setup
 
 
 chromebook:

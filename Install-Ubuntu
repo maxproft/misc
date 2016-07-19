@@ -146,6 +146,12 @@ XKBVARIANT="dvorak"
 XKBOPTIONS=""
 sudo dpkg-reconfigure console-setup
 
+to return to old setup:
+XKBMODEL="pc105"
+XKBLAYOUT="us"
+XKBVARIANT=""
+XKBOPTIONS=""
+
 
 chromebook:
 fix font on terminal ubuntu - ttf-ubuntu-font-family
