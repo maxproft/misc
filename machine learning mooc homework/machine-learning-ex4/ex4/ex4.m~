@@ -197,8 +197,8 @@ costFunction = @(p) nnCostFunction(p, ...
 % Now, costFunction is a function that takes in only one argument (the
 % neural network parameters)
 
-size(X)
-size(y)
+shape(X)
+shape(y)
 lambda
 [nn_params, cost] = fmincg(costFunction, initial_nn_params, options);
 
