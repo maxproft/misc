@@ -1,5 +1,3 @@
-﻿sudo ln -s /etc/opt/chrome /etc/chromium
-
 2 screens - go to displays, sticky edges, change to off.
 4 desktops - appearance -> behaviour -> Enable workspaces
 
@@ -17,16 +15,22 @@ UUID=690f1cf2-b5f6-4230-9cf2-58d99448624d	/home	ext4	defaults	0	2
 UUID=58fd507a-9a64-4c80-9c1a-0ffe680262c7	/home/max/Videos	ext3	defaults	0	2
 Add a # in front of the floppy disk line
 
-
-NOT:movie player (to watch lectures)
-remove: rhythmbox, amazon, 
+BASH SCRIPT:
+remove amazon: sudo apt-get remove unity-webapps-common #amazon
 Envelope: sudo apt-get remove indicator-messages.
+vlc, liferea, wine, cowsay, audacity, Geogebra, Stellarium
+chromium-browser, stellarium, geogebra, youtube-dl, gummi, ubuntu-restricted-extras gtk-recordmydesktop gimp kolourpaint4 openshot pdfshuffler vim git anki synaptic vnstat openssh-client openssh-server
 
-Install from ubuntu software centre: audacity, RecordMyDesktop, VLC, Geogebra, Stellarium, Idle (python), 
-wine, gummi, GIMP,liferea RSS reader, Kolourpaint, openshot, pdf-shuffler, adobe flash plugin (for mozilla), 
-chromium, vim, git, anki, synaptic package manager, vnstat, arduino ide, 
-Install from internet: mathematica
+
+SOFTWARE CENTRE:
+Idle (python) - this is so I can get the appropriate (newest) version
+adobe flash plugin (for mozilla)
+
 Kdenlive for video editing
+arduino ide, chrome
+
+Other:
+mathematica
 
 Install Java: http://ubuntuhandbook.org/index.php/2014/02/install-oracle-java-6-7-or-8-ubuntu-14-04/
 
@@ -104,7 +108,7 @@ remove floppy from automatically mounting by editing: sudo gedit /etc/fstab
 delete line with floppy.
 
 
-Python libraries: 
+Python libraries: (installed in bash script)
 PIL:
 sudo apt-get install python-imaging
 scipy:
@@ -130,7 +134,7 @@ delete contents of downloads folder.
 To get rid of auto showing hidden files Edit-Preferences
 
 
-.ssh:
+.ssh:(installed in bash script
 sudo apt-get install openssh-client openssh-server
 on chromebook - add Secure Shell
 get ip address from desired computer (Connection Information -> Wired connection -> IP Address)
@@ -170,7 +174,7 @@ skype - change settings so it works with camera, choose microphone in ubuntu sou
 make python automatically start in idle - it will depend on the version of idle
 gedit ~/.local/share/applications/mimeapps.list
 Search for text/x-python, and make sure it is like this:
-text/x-python=idle-python2.7.desktop
+text/x-python=idle-python3.5.desktop
 
 
 play native flash files in chrome:
@@ -184,5 +188,11 @@ sudo update-mime-database /usr/share/mime
 
 If chrome does not search automatically, go to settings->search->manage search engines, and make a new search engine with "https://www.google.com.au/search?q=%s" as the key.
 
+
+run file at specific time:
+at -m 2^C24 -f '/home/max/file.sh' 
+file must begin with the shebang - #!/bin/bash
+OR
+echo python3 '/home/max/p.py' | at 12:23
 
 
