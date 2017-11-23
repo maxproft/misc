@@ -195,4 +195,7 @@ file must begin with the shebang - #!/bin/bash
 OR
 echo python3 '/home/max/p.py' | at 12:23
 
+This is where to find .desktop files:  /usr/share/applications
+change these files to change the command that runs a file (e.g. run chromium in a temporary profile everytime)
+add %f at the end of the exec command if you want a program to appear in the "open with ..." list
 
