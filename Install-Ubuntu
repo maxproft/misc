@@ -199,3 +199,6 @@ This is where to find .desktop files:  /usr/share/applications
 change these files to change the command that runs a file (e.g. run chromium in a temporary profile everytime)
 add %f at the end of the exec command if you want a program to appear in the "open with ..." list
 
+Add my github account:
+git config --global user.email “email@address”
+git config --global user.name “maxproft”
